@@ -64,7 +64,7 @@ namespace Content.Server.Flash
             args.Handled = true;
             foreach (var e in args.HitEntities)
             {
-                Flash(e, args.User, uid, comp.FlashDuration, comp.SlowTo, melee: true, stunDuration: comp.MeleeStunDuration);
+                Flash(e, args.User, uid, comp.FlashDuration * comp.DurationMultiplier, comp.SlowTo, melee: true, stunDuration: comp.MeleeStunDuration);
             }
         }
 
@@ -74,7 +74,7 @@ namespace Content.Server.Flash
                 return;
 
             args.Handled = true;
-            FlashArea(uid, args.User, comp.Range, comp.AoeFlashDuration, comp.SlowTo, true, comp.Probability);
+            FlashArea(uid, args.User, comp.Range, comp.AoeFlashDuration * comp.DurationMultiplier, comp.SlowTo, true, comp.Probability);
         }
 
         private bool UseFlash(EntityUid uid, FlashComponent comp, EntityUid user)

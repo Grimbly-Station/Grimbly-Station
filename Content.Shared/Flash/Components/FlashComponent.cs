@@ -42,6 +42,11 @@ namespace Content.Shared.Flash.Components
 
         [DataField]
         public float Probability = 1f;
+
+        // <summary>
+        //   How much to modify the duration of flashes against this entity.
+        // </summary>
+        public float DurationMultiplier { get; } = 1f;
     }
 
     [Serializable, NetSerializable]
