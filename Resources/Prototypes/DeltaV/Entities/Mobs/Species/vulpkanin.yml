@@ -99,6 +99,19 @@
       Female: FemaleVulpkanin
       Unsexed: MaleVulpkanin
   - type: DogVision
+  - type: ScentTracker
+  - type: Flashable
+    eyeDamageChance: 0.3
+    eyeDamage: 1
+    durationMultiplier: 1.5
+  - type: Wagging
+  - type: LanguageKnowledge
+    speaks:
+    - GalacticCommon
+    - Canilunzt
+    understands:
+    - GalacticCommon
+    - Canilunzt
   - type: ConsumeDelayModifier
     foodDelayMultiplier: 0.5
     drinkDelayMultiplier: 0.5
