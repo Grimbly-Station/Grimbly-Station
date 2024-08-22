@@ -160,6 +160,11 @@
     Telecrystal: 25
   categories:
   - UplinkWeaponry
+  conditions: # Grimbly - Restrict to nuke ops
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - NukeOpsUplink
 
 - type: listing
   id: UplinkL6SawBundle
@@ -397,7 +402,7 @@
   icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/Magazine/Pistol/smg_mag.rsi, state: red-icon }
   productEntity: MagazinePistolSubMachineGun
   cost:
-    Telecrystal: 2
+    Telecrystal: 1
   categories:
   - UplinkAmmo
 
@@ -421,7 +426,7 @@
   icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/SpeedLoaders/Magnum/magnum_speed_loader.rsi, state: icon }
   productEntity: SpeedLoaderMagnumAP
   cost:
-    Telecrystal: 3
+    Telecrystal: 2 # Grimbly - Make python ammo cost 2 TC, was 3
   categories:
   - UplinkAmmo
 
@@ -508,7 +513,7 @@
   icon: { sprite: /Textures/Structures/Wallmounts/signs.rsi, state: bio }
   productEntity: ClothingBackpackDuffelZombieBundle
   cost:
-    Telecrystal: 40
+    Telecrystal: 60 # Grimbly - Make zombie bundle cost 60 TC, was 40 TC
   categories:
   - UplinkChemicals
   conditions:
@@ -527,7 +532,7 @@
   description: uplink-nocturine-chemistry-bottle-desc
   productEntity: NocturineChemistryBottle
   cost:
-    Telecrystal: 6
+    Telecrystal: 10 # Grimbly - Make nocturine cost more due to syndie TC buff
   categories:
   - UplinkChemicals
 
@@ -661,7 +666,7 @@
   description: uplink-cyberpen-desc
   productEntity: CyberPen
   cost:
-    Telecrystal: 1
+    Telecrystal: 2 # Grimbly - Increase the cost of the cybersun pen, total TC count is upped
   categories:
   - UplinkDeception
 
