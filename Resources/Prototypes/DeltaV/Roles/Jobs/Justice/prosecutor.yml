@@ -5,7 +5,7 @@
   playTimeTracker: JobProsecutor
   requirements:
     - !type:OverallPlaytimeRequirement
-      time: 40000 # 11 hrs, simply for testing
+      time: 36000 # 10 hrs
     - !type:DepartmentTimeRequirement # DeltaV - Security dept time requirement
       department: Security
       time: 21600 # 6 hours
