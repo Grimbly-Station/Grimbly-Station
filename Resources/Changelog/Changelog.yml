@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: BombasterDS
-  changes:
-  - message: Added craftable mannequin that you can hang clothing on!
-    type: Add
-  id: 6749
-  time: '2024-06-15T17:50:55.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/29004
 - author: notafet
   changes:
   - message: The TEG must now be operated at higher temperatures to generate power.
@@ -3837,5 +3830,12 @@
   - message: Re-added game-breaking bug
     type: Fix
   id: 7252
+  time: '2024-09-04T21:12:32.0000000+00:00'
+  url: https://github.com/Grimbly-Station/Grimbly-Station/pull/12
+- author: flyingkarii
+  changes:
+  - message: Re-added game-breaking bug
+    type: Fix
+  id: 7253
   time: '2024-09-04T21:12:32.0000000+00:00'
   url: https://github.com/Grimbly-Station/Grimbly-Station/pull/12
