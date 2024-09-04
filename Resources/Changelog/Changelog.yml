@@ -3804,38 +3804,3 @@
   id: 7248
   time: '2024-08-30T01:43:34.0000000+00:00'
   url: https://github.com/space-wizards/space-station-14/pull/31619
-- author: sleepyapril
-  changes:
-  - message: Buffed the spawn rates of iron, coal, gold, and diamond.
-    type: Tweak
-  id: 7249
-  time: '2024-09-04T20:49:25.0000000+00:00'
-  url: https://github.com/Grimbly-Station/Grimbly-Station/pull/10
-- author: sleepyapril
-  changes:
-  - message: Game-breaking bug removed.
-    type: Fix
-  id: 7250
-  time: '2024-09-04T21:04:41.0000000+00:00'
-  url: https://github.com/Grimbly-Station/Grimbly-Station/pull/11
-- author: sleepyapril
-  changes:
-  - message: Buffed the spawn rates of iron, coal, gold, and diamond.
-    type: Tweak
-  id: 7251
-  time: '2024-09-04T20:49:25.0000000+00:00'
-  url: https://github.com/Grimbly-Station/Grimbly-Station/pull/10
-- author: flyingkarii
-  changes:
-  - message: Re-added game-breaking bug
-    type: Fix
-  id: 7252
-  time: '2024-09-04T21:12:32.0000000+00:00'
-  url: https://github.com/Grimbly-Station/Grimbly-Station/pull/12
-- author: flyingkarii
-  changes:
-  - message: Re-added game-breaking bug
-    type: Fix
-  id: 7253
-  time: '2024-09-04T21:12:32.0000000+00:00'
-  url: https://github.com/Grimbly-Station/Grimbly-Station/pull/12
