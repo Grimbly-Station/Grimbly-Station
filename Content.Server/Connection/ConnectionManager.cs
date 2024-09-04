@@ -319,7 +319,9 @@ namespace Content.Server.Connection
 
                 var slots = 25;
 
-                var noSlotsOpen = slots > 0 && slots < connectedPlayers - connectedWhitelist;
+                // Delta-V please stop hardcoding
+                // TODO: CVar minimum players to begin whitelist
+                var noSlotsOpen = true; // Grimbly - slots > 0 && slots < connectedPlayers - connectedWhitelist
 
                 if (noSlotsOpen && await _db.GetWhitelistStatusAsync(userId) == false
                                      && adminData is null)
