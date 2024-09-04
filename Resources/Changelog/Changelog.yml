@@ -3818,3 +3818,17 @@
   id: 7249
   time: '2024-09-04T20:49:25.0000000+00:00'
   url: https://github.com/Grimbly-Station/Grimbly-Station/pull/10
+- author: sleepyapril
+  changes:
+  - message: Game-breaking bug removed.
+    type: Fix
+  id: 7250
+  time: '2024-09-04T21:04:41.0000000+00:00'
+  url: https://github.com/Grimbly-Station/Grimbly-Station/pull/11
+- author: sleepyapril
+  changes:
+  - message: Buffed the spawn rates of iron, coal, gold, and diamond.
+    type: Tweak
+  id: 7251
+  time: '2024-09-04T20:49:25.0000000+00:00'
+  url: https://github.com/Grimbly-Station/Grimbly-Station/pull/10
