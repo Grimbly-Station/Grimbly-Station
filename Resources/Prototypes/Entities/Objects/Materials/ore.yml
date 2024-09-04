@@ -68,7 +68,7 @@
   - type: Material
   - type: PhysicalComposition
     materialComposition:
-      RawDiamond: 100
+      RawDiamond: 200 # Grimbly - was 100
   - type: Extractable
     grindableSolutionName: diamondore
   - type: SolutionContainerManager
@@ -99,7 +99,7 @@
   - type: Material
   - type: PhysicalComposition
     materialComposition:
-      RawIron: 200 # DeltaV - was 100
+      RawIron: 300 # DeltaV - was 100 - Grimbly - was 200
   - type: Extractable
     grindableSolutionName: ironore
   - type: SolutionContainerManager
@@ -323,7 +323,7 @@
           Quantity: 0.1
   - type: PhysicalComposition
     materialComposition:
-      Coal: 200 # DeltaV
+      Coal: 300 # Grimbly - was 200
 
 - type: entity
   parent: Coal
