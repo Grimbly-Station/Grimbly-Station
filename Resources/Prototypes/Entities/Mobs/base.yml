@@ -70,7 +70,7 @@
     - trigger:                       #DeltaV- We don't like round removing people for being in the same room as a plasma trapped crate. Grimbly - wear your damn PPE, atmos.
         !type:DamageTypeTrigger
         damageType: Heat
-        damage: 1500
+        damage: 2500
       behaviors:
       - !type:SpawnEntitiesBehavior
         spawnInContainer: true
