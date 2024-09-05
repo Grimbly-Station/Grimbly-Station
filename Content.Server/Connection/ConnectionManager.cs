@@ -326,7 +326,7 @@ namespace Content.Server.Connection
                 if (noSlotsOpen && await _db.GetWhitelistStatusAsync(userId) == false
                                      && adminData is null)
                 {
-                    var msg = Loc.GetString("whitelist-not-whitelisted-peri");
+                    var msg = Loc.GetString("whitelist-not-whitelisted-grimbly");
                     return (ConnectionDenyReason.Whitelist, msg, null);
                 }
             }
