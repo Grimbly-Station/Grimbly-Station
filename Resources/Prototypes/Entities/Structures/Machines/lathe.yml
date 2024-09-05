@@ -712,6 +712,9 @@
     - BorgModuleSecurityEscalate
     - JetpackVoid
   # DeltaV End
+  #Grimbles Start
+    -BorgModuleJetpack
+    -BorgModulePka
   - type: MaterialStorage
     whitelist:
       tags:
