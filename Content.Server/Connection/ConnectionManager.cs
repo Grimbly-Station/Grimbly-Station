@@ -327,10 +327,6 @@ namespace Content.Server.Connection
                                      && adminData is null)
                 {
                     var msg = Loc.GetString("whitelist-not-whitelisted-peri");
-
-                    if (slots > 0)
-                        msg += "\n" + Loc.GetString("whitelist-playercount-invalid", ("min", slots), ("max", _cfg.GetCVar(CCVars.SoftMaxPlayers)));
-
                     return (ConnectionDenyReason.Whitelist, msg, null);
                 }
             }
