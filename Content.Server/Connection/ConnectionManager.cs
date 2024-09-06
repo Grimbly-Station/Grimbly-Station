@@ -326,11 +326,7 @@ namespace Content.Server.Connection
                 if (noSlotsOpen && await _db.GetWhitelistStatusAsync(userId) == false
                                      && adminData is null)
                 {
-                    var msg = Loc.GetString("whitelist-not-whitelisted-peri");
-
-                    if (slots > 0)
-                        msg += "\n" + Loc.GetString("whitelist-playercount-invalid", ("min", slots), ("max", _cfg.GetCVar(CCVars.SoftMaxPlayers)));
-
+                    var msg = Loc.GetString("whitelist-not-whitelisted-grimbly");
                     return (ConnectionDenyReason.Whitelist, msg, null);
                 }
             }

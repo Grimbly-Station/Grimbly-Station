@@ -53,8 +53,8 @@
       Unsexed: MaleSlime
   - type: Damageable
     damageContainer: Biological
-  - type: Geras #grimblo change
     damageModifierSet: Slime
+  - type: Geras #grimblo change
   - type: PassiveDamage # Around 8 damage a minute healed
     allowedStates:
     - Alive
