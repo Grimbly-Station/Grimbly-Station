@@ -676,4 +676,4 @@
   - type: SpawnArtifact
     maxSpawns: 1
     spawns:
-    - id: Tesla # Grimbles - YES teslaloose
+    - id: TeslaEnergyBall # Grimbles - YES teslaloose
