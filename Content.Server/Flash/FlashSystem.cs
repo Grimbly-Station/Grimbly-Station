@@ -144,7 +144,10 @@ namespace Content.Server.Flash
                 && !blindable.IsBlind
                 && modifier != null
                 && _random.Prob(modifier.EyeDamageChance))
+            {
+                Logger.Debug("Introducing eye damage for the entity");
                 _blindingSystem.AdjustEyeDamage((target, blindable), modifier.EyeDamage);
+            }
 
             if (displayPopup && user != null && target != user && Exists(user.Value))
             {
