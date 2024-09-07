@@ -86,7 +86,7 @@ namespace Content.Server.Atmos.Components
         /// <summary>
         ///     How stronger will firestack increases be?
         /// </summary>
-        [DataField]
+        [DataField("fireStackIncreaseMultiplier")]
         public float FireStackIncreaseMultiplier = 1f;
     }
 }

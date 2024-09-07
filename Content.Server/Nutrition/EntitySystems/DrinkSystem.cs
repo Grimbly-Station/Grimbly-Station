@@ -6,6 +6,7 @@ using Content.Server.Fluids.EntitySystems;
 using Content.Server.Forensics;
 using Content.Server.Inventory;
 using Content.Server.Popups;
+using Content.Server.Traits.Assorted.Components;
 using Content.Shared.Administration.Logs;
 using Content.Shared.Body.Components;
 using Content.Shared.Chemistry;
@@ -203,9 +204,13 @@ public sealed class DrinkSystem : SharedDrinkSystem
 
         var flavors = _flavorProfile.GetLocalizedFlavorsMessage(user, drinkSolution);
 
+        var drinkDelay = drink.Delay;
+        if (TryComp<ConsumeDelayModifierComponent>(target, out var delayModifier))
+            drinkDelay *= delayModifier.DrinkDelayMultiplier;
+
         var doAfterEventArgs = new DoAfterArgs(EntityManager,
             user,
-            forceDrink ? drink.ForceFeedDelay : drink.Delay,
+            forceDrink ? drink.ForceFeedDelay : drinkDelay,
             new ConsumeDoAfterEvent(drink.Solution, flavors),
             eventTarget: item,
             target: target,

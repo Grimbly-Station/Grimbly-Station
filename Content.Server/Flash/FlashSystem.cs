@@ -21,6 +21,7 @@ using Robust.Server.GameObjects;
 using Robust.Shared.Audio;
 using Robust.Shared.Random;
 using InventoryComponent = Content.Shared.Inventory.InventoryComponent;
+using Content.Server.Traits.Assorted.Components;
 
 namespace Content.Server.Flash
 {
@@ -64,7 +65,10 @@ namespace Content.Server.Flash
             args.Handled = true;
             foreach (var e in args.HitEntities)
             {
-                Flash(e, args.User, uid, comp.FlashDuration * comp.DurationMultiplier, comp.SlowTo, melee: true, stunDuration: comp.MeleeStunDuration);
+                var flashDuration = (float)comp.FlashDuration;
+                if (TryComp<FlashDurationModifierComponent>(e, out var modifier))
+                    flashDuration *= modifier.DurationMultiplier;
+                Flash(e, args.User, uid, flashDuration, comp.SlowTo, melee: true, stunDuration: comp.MeleeStunDuration);
             }
         }
 
@@ -74,7 +78,7 @@ namespace Content.Server.Flash
                 return;
 
             args.Handled = true;
-            FlashArea(uid, args.User, comp.Range, comp.AoeFlashDuration * comp.DurationMultiplier, comp.SlowTo, true, comp.Probability);
+            FlashArea(uid, args.User, comp.Range, comp.AoeFlashDuration, comp.SlowTo, true, comp.Probability);
         }
 
         private bool UseFlash(EntityUid uid, FlashComponent comp, EntityUid user)
@@ -174,7 +178,10 @@ namespace Content.Server.Flash
                     continue;
 
                 // They shouldn't have flash removed in between right?
-                Flash(entity, user, source, duration, slowTo, displayPopup);
+                var flashDuration = duration;
+                if(TryComp<FlashDurationModifierComponent>(entity, out var modifier))
+                    flashDuration *= modifier.DurationMultiplier;
+                Flash(entity, user, source, flashDuration, slowTo, displayPopup);
             }
 
             _audio.PlayPvs(sound, source, AudioParams.Default.WithVolume(1f).WithMaxDistance(3f));
