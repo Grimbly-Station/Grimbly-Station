@@ -39,6 +39,7 @@
     id: CentcomPDA
     ears: ClothingHeadsetCentCom
     pocket1: CaneSheathFilledNanotrasen
+    pocket2: WeaponDisabler
   storage:
     back:
     - RubberStampCentcom
