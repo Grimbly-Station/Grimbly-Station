@@ -33,6 +33,7 @@
     ears: ClothingHeadsetCentCom
     pocket1: WeaponPistolN1984
     pocket2: CaneSheathFilledNanotrasen
+    outerClothing: ClothingOuterWinterCCWarden
   storage:
     back:
     - RubberStampCentcom
