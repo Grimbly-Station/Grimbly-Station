@@ -55626,7 +55626,7 @@ entities:
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
-- proto: FoodDonutBlumpkin
+- proto: FoodDonutBluePumpkin
   entities:
   - uid: 7540
     components:
@@ -55671,7 +55671,7 @@ entities:
     - type: Transform
       pos: 35.364956,43.57506
       parent: 2
-- proto: FoodDonutJellyBlumpkin
+- proto: FoodDonutJellyBluePumpkin
   entities:
   - uid: 7545
     components:
@@ -76056,20 +76056,6 @@ entities:
     components:
     - type: Transform
       pos: 30.691406,24.566776
-      parent: 2
-- proto: MaterialReclaimer
-  entities:
-  - uid: 10320
-    components:
-    - type: Transform
-      pos: 37.5,-0.5
-      parent: 2
-- proto: MaterialReclaimerMachineCircuitboard
-  entities:
-  - uid: 10321
-    components:
-    - type: Transform
-      pos: 11.469202,54.61479
       parent: 2
 - proto: MaterialWoodPlank1
   entities:
@@ -97690,6 +97676,13 @@ entities:
     components:
     - type: Transform
       pos: 55.5,41.5
+      parent: 2
+- proto: SpawnPointNanotrasenRepresentative
+  entities:
+  - uid: 6189
+    components:
+    - type: Transform
+      pos: 30.5,41.5
       parent: 2
 - proto: SpawnPointObserver
   entities:

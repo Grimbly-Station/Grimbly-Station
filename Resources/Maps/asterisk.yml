@@ -33406,13 +33406,6 @@ entities:
     - type: Transform
       pos: -12.527652,-12.407237
       parent: 2
-- proto: FoodMealSoftTaco
-  entities:
-  - uid: 11916
-    components:
-    - type: Transform
-      pos: 33.4271,-36.553722
-      parent: 2
 - proto: FoodMeat
   entities:
   - uid: 829
@@ -33513,19 +33506,22 @@ entities:
     - type: Transform
       pos: -9.699375,-21.57564
       parent: 2
-- proto: FoodTacoBeefSupreme
-  entities:
-  - uid: 11914
-    components:
-    - type: Transform
-      pos: 33.39585,-36.366093
-      parent: 2
-- proto: FoodTacoRat
+- proto: FoodTacoShell
   entities:
   - uid: 11099
     components:
     - type: Transform
       pos: 10.58681,-32.5766
+      parent: 2
+  - uid: 11914
+    components:
+    - type: Transform
+      pos: 33.39585,-36.366093
+      parent: 2
+  - uid: 11916
+    components:
+    - type: Transform
+      pos: 33.4271,-36.553722
       parent: 2
 - proto: FoodTartMime
   entities:
@@ -53363,13 +53359,6 @@ entities:
     - type: Transform
       pos: 44.742798,-4.6113973
       parent: 2
-- proto: MaterialReclaimer
-  entities:
-  - uid: 8977
-    components:
-    - type: Transform
-      pos: -11.5,0.5
-      parent: 2
 - proto: MaterialWoodPlank
   entities:
   - uid: 11777
@@ -56670,7 +56659,9 @@ entities:
       pos: -41.5,19.5
       parent: 2
     - type: RandomSpawner
-      chance: 1
+      prototypes: []
+      rarePrototypes: []
+      gameRules: []
 - proto: RandomItem
   entities:
   - uid: 10321
@@ -57159,7 +57150,9 @@ entities:
       pos: 10.5,-18.5
       parent: 2
     - type: RandomSpawner
-      chance: 1
+      prototypes: []
+      rarePrototypes: []
+      gameRules: []
   - uid: 7104
     components:
     - type: Transform
@@ -59148,14 +59141,18 @@ entities:
       pos: -39.5,-21.5
       parent: 2
     - type: RandomSpawner
-      chance: 1
+      prototypes: []
+      rarePrototypes: []
+      gameRules: []
   - uid: 10208
     components:
     - type: Transform
       pos: 5.5,-29.5
       parent: 2
     - type: RandomSpawner
-      chance: 1
+      prototypes: []
+      rarePrototypes: []
+      gameRules: []
   - uid: 11944
     components:
     - type: Transform
@@ -61339,6 +61336,13 @@ entities:
     components:
     - type: Transform
       pos: 2.5,-28.5
+      parent: 2
+- proto: SpawnPointNanotrasenRepresentative
+  entities:
+  - uid: 8977
+    components:
+    - type: Transform
+      pos: 49.5,-12.5
       parent: 2
 - proto: SpawnPointObserver
   entities:

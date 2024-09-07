@@ -57653,6 +57653,18 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 22.390984,-1.5549555
       parent: 6747
+- proto: ClothingNeckShockCollar
+  entities:
+  - uid: 523
+    components:
+    - type: Transform
+      pos: -23.563156,-7.468089
+      parent: 6747
+  - uid: 21853
+    components:
+    - type: Transform
+      pos: -1.4720845,-87.62819
+      parent: 6747
 - proto: ClothingNeckStethoscope
   entities:
   - uid: 3749
@@ -77621,6 +77633,11 @@ entities:
     - type: Transform
       pos: 0.63343143,-28.369678
       parent: 6747
+  - uid: 21851
+    components:
+    - type: Transform
+      pos: -32.628227,-73.3529
+      parent: 6747
   - uid: 22528
     components:
     - type: Transform
@@ -77753,13 +77770,6 @@ entities:
     components:
     - type: Transform
       pos: -2.3555942,-22.542295
-      parent: 6747
-- proto: FoodMeatRatdoubleKebab
-  entities:
-  - uid: 21851
-    components:
-    - type: Transform
-      pos: -32.628227,-73.3529
       parent: 6747
 - proto: FoodMeatSpiderLeg
   entities:
@@ -123150,13 +123160,6 @@ entities:
     - type: Transform
       pos: 43.244225,-35.446682
       parent: 6747
-- proto: MaterialReclaimer
-  entities:
-  - uid: 6757
-    components:
-    - type: Transform
-      pos: 36.5,2.5
-      parent: 6747
 - proto: MaterialWoodPlank
   entities:
   - uid: 9140
@@ -149455,18 +149458,6 @@ entities:
     - type: Transform
       pos: 28.667908,-95.48592
       parent: 6747
-- proto: ShockCollar
-  entities:
-  - uid: 523
-    components:
-    - type: Transform
-      pos: -23.563156,-7.468089
-      parent: 6747
-  - uid: 21853
-    components:
-    - type: Transform
-      pos: -1.4720845,-87.62819
-      parent: 6747
 - proto: Shovel
   entities:
   - uid: 4693
@@ -154178,6 +154169,13 @@ entities:
     components:
     - type: Transform
       pos: 35.5,-6.5
+      parent: 6747
+- proto: SpawnPointNanotrasenRepresentative
+  entities:
+  - uid: 6757
+    components:
+    - type: Transform
+      pos: -26.5,-51.5
       parent: 6747
 - proto: SpawnPointObserver
   entities:

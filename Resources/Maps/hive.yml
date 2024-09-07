@@ -60977,6 +60977,14 @@ entities:
       rot: -1.5707963267948966 rad
       pos: -7.9991593,-34.16382
       parent: 1
+- proto: ClothingNeckShockCollar
+  entities:
+  - uid: 3797
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 64.49539,19.696146
+      parent: 1
 - proto: ClothingNeckStethoscope
   entities:
   - uid: 7360
@@ -81801,6 +81809,13 @@ entities:
       rot: 3.141592653589793 rad
       pos: 50.361702,35.768944
       parent: 1
+- proto: FoodKebabSkewer
+  entities:
+  - uid: 22779
+    components:
+    - type: Transform
+      pos: -24.100885,16.586544
+      parent: 1
 - proto: FoodLollipop
   entities:
   - uid: 7633
@@ -82158,13 +82173,6 @@ entities:
       parent: 28448
     - type: Physics
       canCollide: False
-- proto: FoodMeatRatKebab
-  entities:
-  - uid: 22779
-    components:
-    - type: Transform
-      pos: -24.100885,16.586544
-      parent: 1
 - proto: FoodMothBakedCheesePlatter
   entities:
   - uid: 6613
@@ -131572,21 +131580,6 @@ entities:
     - type: Transform
       pos: -27.56744,-29.258795
       parent: 1
-- proto: MaterialReclaimer
-  entities:
-  - uid: 4115
-    components:
-    - type: Transform
-      pos: -19.5,16.5
-      parent: 1
-- proto: MaterialReclaimerMachineCircuitboard
-  entities:
-  - uid: 26575
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 74.434875,37.72442
-      parent: 1
 - proto: MaterialWoodPlank
   entities:
   - uid: 1973
@@ -148900,14 +148893,6 @@ entities:
       rot: 3.141592653589793 rad
       pos: 29.332079,26.503263
       parent: 1
-- proto: ShockCollar
-  entities:
-  - uid: 3797
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 64.49539,19.696146
-      parent: 1
 - proto: Shovel
   entities:
   - uid: 1203
@@ -154038,6 +154023,13 @@ entities:
     components:
     - type: Transform
       pos: -3.5,-49.5
+      parent: 1
+- proto: SpawnPointNanotrasenRepresentative
+  entities:
+  - uid: 4115
+    components:
+    - type: Transform
+      pos: 113.5,-7.5
       parent: 1
 - proto: SpawnPointObserver
   entities:
@@ -182319,7 +182311,7 @@ entities:
       lastSignals:
         DoorStatus: True
     - type: Door
-      secondsUntilStateChange: -12887.691
+      secondsUntilStateChange: -12921.695
       state: Opening
   - uid: 5096
     components:
@@ -182341,7 +182333,7 @@ entities:
       lastSignals:
         DoorStatus: True
     - type: Door
-      secondsUntilStateChange: -12887.691
+      secondsUntilStateChange: -12921.695
       state: Opening
   - uid: 5498
     components:
@@ -182357,7 +182349,7 @@ entities:
       lastSignals:
         DoorStatus: True
     - type: Door
-      secondsUntilStateChange: -12611.309
+      secondsUntilStateChange: -12645.3125
       state: Opening
   - uid: 8696
     components:
@@ -182390,7 +182382,7 @@ entities:
       lastSignals:
         DoorStatus: True
     - type: Door
-      secondsUntilStateChange: -12609.425
+      secondsUntilStateChange: -12643.429
       state: Opening
   - uid: 18835
     components:
@@ -182402,7 +182394,7 @@ entities:
       lastSignals:
         DoorStatus: True
     - type: Door
-      secondsUntilStateChange: -12606.426
+      secondsUntilStateChange: -12640.43
       state: Opening
   - uid: 23917
     components:

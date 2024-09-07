@@ -5130,8 +5130,6 @@ entities:
       parent: 34
     - type: DeviceLinkSink
       invokeCounter: 1
-      links:
-      - 1429
     - type: DeviceLinkSource
       linkedPorts:
         1429:
@@ -5143,8 +5141,6 @@ entities:
       parent: 34
     - type: DeviceLinkSink
       invokeCounter: 1
-      links:
-      - 124
     - type: DeviceLinkSource
       linkedPorts:
         124:
@@ -5156,8 +5152,6 @@ entities:
       parent: 34
     - type: DeviceLinkSink
       invokeCounter: 1
-      links:
-      - 102
     - type: DeviceLinkSource
       linkedPorts:
         102:
@@ -5169,8 +5163,6 @@ entities:
       parent: 34
     - type: DeviceLinkSink
       invokeCounter: 1
-      links:
-      - 94
     - type: DeviceLinkSource
       linkedPorts:
         94:
@@ -5182,8 +5174,6 @@ entities:
       parent: 34
     - type: DeviceLinkSink
       invokeCounter: 1
-      links:
-      - 3561
     - type: DeviceLinkSource
       linkedPorts:
         3561:
@@ -5195,8 +5185,6 @@ entities:
       parent: 34
     - type: DeviceLinkSink
       invokeCounter: 1
-      links:
-      - 1438
     - type: DeviceLinkSource
       linkedPorts:
         1438:
@@ -5208,8 +5196,6 @@ entities:
       parent: 34
     - type: DeviceLinkSink
       invokeCounter: 1
-      links:
-      - 11454
     - type: DeviceLinkSource
       linkedPorts:
         11454:
@@ -5221,8 +5207,6 @@ entities:
       parent: 34
     - type: DeviceLinkSink
       invokeCounter: 1
-      links:
-      - 11035
     - type: DeviceLinkSource
       linkedPorts:
         11035:
@@ -5236,8 +5220,6 @@ entities:
       parent: 34
     - type: DeviceLinkSink
       invokeCounter: 1
-      links:
-      - 13832
     - type: DeviceLinkSource
       linkedPorts:
         13833:
@@ -5249,8 +5231,6 @@ entities:
       parent: 34
     - type: DeviceLinkSink
       invokeCounter: 1
-      links:
-      - 13833
     - type: DeviceLinkSource
       linkedPorts:
         13832:
@@ -5262,8 +5242,6 @@ entities:
       parent: 34
     - type: DeviceLinkSink
       invokeCounter: 1
-      links:
-      - 13833
     - type: DeviceLinkSource
       linkedPorts:
         13832:
@@ -5275,8 +5253,6 @@ entities:
       parent: 34
     - type: DeviceLinkSink
       invokeCounter: 1
-      links:
-      - 13832
     - type: DeviceLinkSource
       linkedPorts:
         13833:
@@ -5290,8 +5266,6 @@ entities:
       parent: 34
     - type: DeviceLinkSink
       invokeCounter: 1
-      links:
-      - 5531
     - type: DeviceLinkSource
       linkedPorts:
         5531:
@@ -5303,8 +5277,6 @@ entities:
       parent: 34
     - type: DeviceLinkSink
       invokeCounter: 1
-      links:
-      - 5530
     - type: DeviceLinkSource
       linkedPorts:
         5530:
@@ -5314,10 +5286,6 @@ entities:
     - type: Transform
       pos: -25.5,6.5
       parent: 34
-    - type: DeviceLinkSink
-      links:
-      - 7072
-      - 7071
     - type: DeviceLinkSource
       linkedPorts:
         7071:
@@ -5329,9 +5297,6 @@ entities:
     - type: Transform
       pos: -24.5,8.5
       parent: 34
-    - type: DeviceLinkSink
-      links:
-      - 7070
     - type: DeviceLinkSource
       linkedPorts:
         7070:
@@ -5341,9 +5306,6 @@ entities:
     - type: Transform
       pos: -27.5,8.5
       parent: 34
-    - type: DeviceLinkSink
-      links:
-      - 7070
     - type: DeviceLinkSource
       linkedPorts:
         7070:
@@ -5358,9 +5320,6 @@ entities:
     - type: Transform
       pos: 34.5,-43.5
       parent: 34
-    - type: DeviceLinkSink
-      links:
-      - 9348
     - type: DeviceLinkSource
       linkedPorts:
         9348:
@@ -5370,9 +5329,6 @@ entities:
     - type: Transform
       pos: 36.5,-46.5
       parent: 34
-    - type: DeviceLinkSink
-      links:
-      - 9347
     - type: DeviceLinkSource
       linkedPorts:
         9347:
@@ -6033,9 +5989,6 @@ entities:
     - type: Transform
       pos: 1.5,-33.5
       parent: 34
-    - type: DeviceLinkSink
-      links:
-      - 13840
   - uid: 2982
     components:
     - type: Transform
@@ -6330,7 +6283,7 @@ entities:
       pos: 18.5,-7.5
       parent: 34
     - type: Door
-      secondsUntilStateChange: -22738.076
+      secondsUntilStateChange: -22775.746
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -6382,9 +6335,6 @@ entities:
       parent: 34
     - type: DeviceLinkSink
       invokeCounter: 2
-      links:
-      - 12927
-      - 4532
     - type: DeviceLinkSource
       linkedPorts:
         4532:
@@ -6405,8 +6355,6 @@ entities:
       parent: 34
     - type: DeviceLinkSink
       invokeCounter: 2
-      links:
-      - 3582
     - type: DeviceLinkSource
       linkedPorts:
         3582:
@@ -6807,8 +6755,6 @@ entities:
       parent: 34
     - type: Apc
       hasAccess: True
-      lastExternalState: Good
-      lastChargeState: Full
   - uid: 7427
     components:
     - type: MetaData
@@ -8028,58 +7974,36 @@ entities:
     - type: Transform
       pos: -26.5,-6.5
       parent: 34
-    - type: DeviceLinkSink
-      links:
-      - 1163
   - uid: 1484
     components:
     - type: Transform
       pos: -51.5,-47.5
       parent: 34
-    - type: DeviceLinkSink
-      links:
-      - 678
-      - 679
   - uid: 7707
     components:
     - type: Transform
       pos: -17.5,-43.5
       parent: 34
-    - type: DeviceLinkSink
-      links:
-      - 1054
   - uid: 11806
     components:
     - type: Transform
       pos: -21.5,-43.5
       parent: 34
-    - type: DeviceLinkSink
-      links:
-      - 1054
   - uid: 12295
     components:
     - type: Transform
       pos: -60.5,-40.5
       parent: 34
-    - type: DeviceLinkSink
-      links:
-      - 234
   - uid: 12300
     components:
     - type: Transform
       pos: -60.5,-39.5
       parent: 34
-    - type: DeviceLinkSink
-      links:
-      - 234
   - uid: 12306
     components:
     - type: Transform
       pos: -60.5,-38.5
       parent: 34
-    - type: DeviceLinkSink
-      links:
-      - 234
 - proto: Bloodpack
   entities:
   - uid: 618
@@ -8113,18 +8037,6 @@ entities:
     - type: Transform
       pos: 3.541511,-3.4283895
       parent: 34
-- proto: BookChefGaming
-  entities:
-  - uid: 1107
-    components:
-    - type: Transform
-      pos: -7.497657,-4.2298393
-      parent: 34
-  - uid: 4686
-    components:
-    - type: Transform
-      pos: 40.427826,3.5490375
-      parent: 34
 - proto: BookEngineersHandbook
   entities:
   - uid: 11040
@@ -8136,6 +8048,18 @@ entities:
     components:
     - type: Transform
       pos: -28.716812,-29.284609
+      parent: 34
+- proto: BookHowToCookForFortySpaceman
+  entities:
+  - uid: 1107
+    components:
+    - type: Transform
+      pos: -7.497657,-4.2298393
+      parent: 34
+  - uid: 4686
+    components:
+    - type: Transform
+      pos: 40.427826,3.5490375
       parent: 34
 - proto: BookLeafLoversSecret
   entities:
@@ -32199,311 +32123,206 @@ entities:
       rot: 3.141592653589793 rad
       pos: -17.5,-43.5
       parent: 34
-    - type: DeviceLinkSink
-      links:
-      - 1054
   - uid: 1307
     components:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: -17.5,-42.5
       parent: 34
-    - type: DeviceLinkSink
-      links:
-      - 1054
   - uid: 3211
     components:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: -31.5,-53.5
       parent: 34
-    - type: DeviceLinkSink
-      links:
-      - 13754
   - uid: 3212
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -31.5,-54.5
       parent: 34
-    - type: DeviceLinkSink
-      links:
-      - 13754
   - uid: 3213
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -31.5,-55.5
       parent: 34
-    - type: DeviceLinkSink
-      links:
-      - 13754
   - uid: 3214
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -31.5,-56.5
       parent: 34
-    - type: DeviceLinkSink
-      links:
-      - 13754
   - uid: 3215
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -31.5,-57.5
       parent: 34
-    - type: DeviceLinkSink
-      links:
-      - 13754
   - uid: 8449
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -21.5,-43.5
       parent: 34
-    - type: DeviceLinkSink
-      links:
-      - 1054
   - uid: 10119
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -30.5,-46.5
       parent: 34
-    - type: DeviceLinkSink
-      links:
-      - 13754
   - uid: 10282
     components:
     - type: Transform
       pos: -38.5,7.5
       parent: 34
-    - type: DeviceLinkSink
-      links:
-      - 11254
   - uid: 10283
     components:
     - type: Transform
       pos: -38.5,8.5
       parent: 34
-    - type: DeviceLinkSink
-      links:
-      - 11254
   - uid: 10284
     components:
     - type: Transform
       pos: -38.5,9.5
       parent: 34
-    - type: DeviceLinkSink
-      links:
-      - 11254
   - uid: 10285
     components:
     - type: Transform
       pos: -38.5,10.5
       parent: 34
-    - type: DeviceLinkSink
-      links:
-      - 11254
   - uid: 12085
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -30.5,-44.5
       parent: 34
-    - type: DeviceLinkSink
-      links:
-      - 13754
   - uid: 12354
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -30.5,-45.5
       parent: 34
-    - type: DeviceLinkSink
-      links:
-      - 13754
   - uid: 12691
     components:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: -16.5,-42.5
       parent: 34
-    - type: DeviceLinkSink
-      links:
-      - 1054
   - uid: 12692
     components:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: -15.5,-42.5
       parent: 34
-    - type: DeviceLinkSink
-      links:
-      - 1054
   - uid: 12693
     components:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: -14.5,-42.5
       parent: 34
-    - type: DeviceLinkSink
-      links:
-      - 1054
   - uid: 12697
     components:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: -13.5,-42.5
       parent: 34
-    - type: DeviceLinkSink
-      links:
-      - 1054
   - uid: 12698
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -12.5,-42.5
       parent: 34
-    - type: DeviceLinkSink
-      links:
-      - 1054
   - uid: 12699
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -12.5,-41.5
       parent: 34
-    - type: DeviceLinkSink
-      links:
-      - 1054
   - uid: 13724
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -30.5,-47.5
       parent: 34
-    - type: DeviceLinkSink
-      links:
-      - 13754
   - uid: 13727
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -30.5,-48.5
       parent: 34
-    - type: DeviceLinkSink
-      links:
-      - 13754
   - uid: 13737
     components:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: -32.5,-58.5
       parent: 34
-    - type: DeviceLinkSink
-      links:
-      - 13754
   - uid: 13738
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -32.5,-59.5
       parent: 34
-    - type: DeviceLinkSink
-      links:
-      - 13754
   - uid: 13739
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -32.5,-60.5
       parent: 34
-    - type: DeviceLinkSink
-      links:
-      - 13754
   - uid: 13740
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -32.5,-61.5
       parent: 34
-    - type: DeviceLinkSink
-      links:
-      - 13754
   - uid: 13741
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -32.5,-62.5
       parent: 34
-    - type: DeviceLinkSink
-      links:
-      - 13754
   - uid: 13742
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -32.5,-63.5
       parent: 34
-    - type: DeviceLinkSink
-      links:
-      - 13754
   - uid: 13745
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -31.5,-58.5
       parent: 34
-    - type: DeviceLinkSink
-      links:
-      - 13754
   - uid: 13748
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -30.5,-49.5
       parent: 34
-    - type: DeviceLinkSink
-      links:
-      - 13754
   - uid: 13750
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -30.5,-50.5
       parent: 34
-    - type: DeviceLinkSink
-      links:
-      - 13754
   - uid: 13751
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -30.5,-51.5
       parent: 34
-    - type: DeviceLinkSink
-      links:
-      - 13754
   - uid: 13752
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -30.5,-52.5
       parent: 34
-    - type: DeviceLinkSink
-      links:
-      - 13754
   - uid: 13753
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -30.5,-53.5
       parent: 34
-    - type: DeviceLinkSink
-      links:
-      - 13754
 - proto: CowToolboxFilled
   entities:
   - uid: 11086
@@ -39802,6 +39621,13 @@ entities:
     - type: Transform
       pos: -5.632206,7.240454
       parent: 34
+- proto: FoodKebabSkewer
+  entities:
+  - uid: 6033
+    components:
+    - type: Transform
+      pos: 39.471836,-44.454052
+      parent: 34
 - proto: FoodMealNachos
   entities:
   - uid: 12198
@@ -39823,13 +39649,6 @@ entities:
     components:
     - type: Transform
       pos: 38.530884,-31.460299
-      parent: 34
-- proto: FoodMeatRatdoubleKebab
-  entities:
-  - uid: 6033
-    components:
-    - type: Transform
-      pos: 39.471836,-44.454052
       parent: 34
 - proto: FoodOnion
   entities:
@@ -63793,9 +63612,6 @@ entities:
     - type: Transform
       pos: -55.819836,-37.60099
       parent: 34
-    - type: DeviceLinkSink
-      links:
-      - 8430
 - proto: IngotGold
   entities:
   - uid: 11679
@@ -64030,9 +63846,6 @@ entities:
       rot: 3.141592653589793 rad
       pos: -12.5,-22.5
       parent: 34
-    - type: DeviceLinkSink
-      links:
-      - 1922
   - uid: 10492
     components:
     - type: Transform
@@ -64047,8 +63860,6 @@ entities:
       parent: 34
     - type: DeviceLinkSink
       invokeCounter: 1
-      links:
-      - 11428
   - uid: 11133
     components:
     - type: Transform
@@ -64057,8 +63868,6 @@ entities:
       parent: 34
     - type: DeviceLinkSink
       invokeCounter: 1
-      links:
-      - 13442
   - uid: 11134
     components:
     - type: Transform
@@ -64067,16 +63876,11 @@ entities:
       parent: 34
     - type: DeviceLinkSink
       invokeCounter: 1
-      links:
-      - 11513
   - uid: 12371
     components:
     - type: Transform
       pos: -30.5,-21.5
       parent: 34
-    - type: DeviceLinkSink
-      links:
-      - 10413
   - uid: 13679
     components:
     - type: Transform
@@ -64085,8 +63889,6 @@ entities:
       parent: 34
     - type: DeviceLinkSink
       invokeCounter: 3
-      links:
-      - 13678
 - proto: JetpackMini
   entities:
   - uid: 2485
@@ -64731,7 +64533,7 @@ entities:
     - type: Transform
       pos: -18.5,-14.5
       parent: 34
-- proto: LogicGate
+- proto: LogicGateOr
   entities:
   - uid: 13832
     components:
@@ -64741,9 +64543,6 @@ entities:
       parent: 34
     - type: DeviceLinkSink
       invokeCounter: 2
-      links:
-      - 11768
-      - 11682
     - type: DeviceLinkSource
       linkedPorts:
         1802:
@@ -64762,9 +64561,6 @@ entities:
       parent: 34
     - type: DeviceLinkSink
       invokeCounter: 2
-      links:
-      - 1802
-      - 11911
     - type: DeviceLinkSource
       linkedPorts:
         11768:
@@ -64828,9 +64624,6 @@ entities:
     - type: Transform
       pos: -25.5,-5.5
       parent: 34
-    - type: DeviceLinkSink
-      links:
-      - 404
 - proto: MachineCentrifuge
   entities:
   - uid: 3919
@@ -65098,7 +64891,10 @@ entities:
       pos: -42.5,10.5
       parent: 34
     - type: RandomSpawner
+      prototypes: []
       rareChance: 0.1
+      rarePrototypes: []
+      gameRules: []
   - uid: 12902
     components:
     - type: Transform
@@ -65212,15 +65008,15 @@ entities:
       parent: 34
 - proto: MaterialDiamond1
   entities:
-  - uid: 11689
-    components:
-    - type: Transform
-      pos: 37.34658,-33.291496
-      parent: 34
   - uid: 11184
     components:
     - type: Transform
       pos: -50.257698,12.299719
+      parent: 34
+  - uid: 11689
+    components:
+    - type: Transform
+      pos: 37.34658,-33.291496
       parent: 34
 - proto: MaterialDurathread
   entities:
@@ -65228,18 +65024,6 @@ entities:
     components:
     - type: Transform
       pos: -18.35807,-16.56062
-      parent: 34
-- proto: MaterialReclaimer
-  entities:
-  - uid: 4433
-    components:
-    - type: Transform
-      pos: -39.5,10.5
-      parent: 34
-  - uid: 8092
-    components:
-    - type: Transform
-      pos: 6.5,-19.5
       parent: 34
 - proto: MaterialWoodPlank1
   entities:
@@ -65298,9 +65082,6 @@ entities:
     - type: Transform
       pos: 7.5,-42.5
       parent: 34
-    - type: DeviceLinkSink
-      links:
-      - 12440
 - proto: MedicalTechFab
   entities:
   - uid: 8094
@@ -65404,9 +65185,6 @@ entities:
     - type: Transform
       pos: 7.5,-39.5
       parent: 34
-    - type: DeviceLinkSink
-      links:
-      - 12440
 - proto: MicrophoneInstrument
   entities:
   - uid: 4684
@@ -70674,9 +70452,6 @@ entities:
     - type: Transform
       pos: -38.5,7.5
       parent: 34
-    - type: DeviceLinkSink
-      links:
-      - 11254
 - proto: ReinforcedGirder
   entities:
   - uid: 165
@@ -73346,130 +73121,82 @@ entities:
     - type: Transform
       pos: -11.5,-10.5
       parent: 34
-    - type: DeviceLinkSink
-      links:
-      - 246
   - uid: 844
     components:
     - type: Transform
       pos: -10.5,-10.5
       parent: 34
-    - type: DeviceLinkSink
-      links:
-      - 246
   - uid: 845
     components:
     - type: Transform
       pos: -9.5,-10.5
       parent: 34
-    - type: DeviceLinkSink
-      links:
-      - 246
   - uid: 846
     components:
     - type: Transform
       pos: -8.5,-10.5
       parent: 34
-    - type: DeviceLinkSink
-      links:
-      - 246
   - uid: 3622
     components:
     - type: Transform
       pos: 32.5,-12.5
       parent: 34
-    - type: DeviceLinkSink
-      links:
-      - 4633
   - uid: 3623
     components:
     - type: Transform
       pos: 32.5,-13.5
       parent: 34
-    - type: DeviceLinkSink
-      links:
-      - 4633
   - uid: 3658
     components:
     - type: Transform
       pos: 15.5,-3.5
       parent: 34
-    - type: DeviceLinkSink
-      links:
-      - 3492
   - uid: 3690
     components:
     - type: Transform
       pos: 15.5,-4.5
       parent: 34
-    - type: DeviceLinkSink
-      links:
-      - 3492
   - uid: 3711
     components:
     - type: Transform
       pos: 15.5,-10.5
       parent: 34
-    - type: DeviceLinkSink
-      links:
-      - 3523
   - uid: 4077
     components:
     - type: Transform
       pos: 15.5,-6.5
       parent: 34
-    - type: DeviceLinkSink
-      links:
-      - 3631
   - uid: 4157
     components:
     - type: Transform
       pos: 15.5,-7.5
       parent: 34
-    - type: DeviceLinkSink
-      links:
-      - 3631
   - uid: 4415
     components:
     - type: Transform
       pos: 34.5,-1.5
       parent: 34
-    - type: DeviceLinkSink
-      links:
-      - 2543
   - uid: 4511
     components:
     - type: Transform
       pos: 15.5,-9.5
       parent: 34
-    - type: DeviceLinkSink
-      links:
-      - 3523
   - uid: 4709
     components:
     - type: Transform
       pos: 35.5,-1.5
       parent: 34
-    - type: DeviceLinkSink
-      links:
-      - 2543
   - uid: 4934
     components:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: 11.5,6.5
       parent: 34
-    - type: DeviceLinkSink
-      links:
-      - 2159
   - uid: 4958
     components:
     - type: Transform
       pos: 32.5,-14.5
       parent: 34
-    - type: DeviceLinkSink
-      links:
-      - 4633
   - uid: 5006
     components:
     - type: Transform
@@ -73478,16 +73205,11 @@ entities:
       parent: 34
     - type: DeviceLinkSink
       invokeCounter: 1
-      links:
-      - 9989
   - uid: 5268
     components:
     - type: Transform
       pos: 35.5,-15.5
       parent: 34
-    - type: DeviceLinkSink
-      links:
-      - 4633
   - uid: 5312
     components:
     - type: Transform
@@ -73495,16 +73217,11 @@ entities:
       parent: 34
     - type: DeviceLinkSink
       invokeCounter: 1
-      links:
-      - 12938
   - uid: 5352
     components:
     - type: Transform
       pos: 33.5,-15.5
       parent: 34
-    - type: DeviceLinkSink
-      links:
-      - 4633
   - uid: 5541
     components:
     - type: Transform
@@ -73512,8 +73229,6 @@ entities:
       parent: 34
     - type: DeviceLinkSink
       invokeCounter: 1
-      links:
-      - 12938
   - uid: 6093
     components:
     - type: Transform
@@ -73521,104 +73236,69 @@ entities:
       parent: 34
     - type: DeviceLinkSink
       invokeCounter: 2
-      links:
-      - 12938
   - uid: 7097
     components:
     - type: Transform
       pos: -35.5,0.5
       parent: 34
-    - type: DeviceLinkSink
-      links:
-      - 2278
   - uid: 7098
     components:
     - type: Transform
       pos: -34.5,0.5
       parent: 34
-    - type: DeviceLinkSink
-      links:
-      - 2278
   - uid: 12328
     components:
     - type: Transform
       pos: -15.5,-39.5
       parent: 34
-    - type: DeviceLinkSink
-      links:
-      - 7459
   - uid: 12351
     components:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: -14.5,-38.5
       parent: 34
-    - type: DeviceLinkSink
-      links:
-      - 7459
   - uid: 12540
     components:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: -40.5,-13.5
       parent: 34
-    - type: DeviceLinkSink
-      links:
-      - 12999
   - uid: 12542
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -44.5,-11.5
       parent: 34
-    - type: DeviceLinkSink
-      links:
-      - 12999
   - uid: 12716
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -45.5,-11.5
       parent: 34
-    - type: DeviceLinkSink
-      links:
-      - 12999
   - uid: 12738
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -46.5,-11.5
       parent: 34
-    - type: DeviceLinkSink
-      links:
-      - 12999
   - uid: 12758
     components:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: -41.5,-18.5
       parent: 34
-    - type: DeviceLinkSink
-      links:
-      - 10439
   - uid: 12900
     components:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: 11.5,8.5
       parent: 34
-    - type: DeviceLinkSink
-      links:
-      - 2159
   - uid: 12901
     components:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: 11.5,7.5
       parent: 34
-    - type: DeviceLinkSink
-      links:
-      - 2159
   - uid: 12903
     components:
     - type: Transform
@@ -73626,8 +73306,6 @@ entities:
       parent: 34
     - type: DeviceLinkSink
       invokeCounter: 1
-      links:
-      - 2159
   - uid: 12904
     components:
     - type: Transform
@@ -73635,8 +73313,6 @@ entities:
       parent: 34
     - type: DeviceLinkSink
       invokeCounter: 1
-      links:
-      - 2159
   - uid: 12905
     components:
     - type: Transform
@@ -73644,59 +73320,39 @@ entities:
       parent: 34
     - type: DeviceLinkSink
       invokeCounter: 1
-      links:
-      - 2159
   - uid: 12946
     components:
     - type: Transform
       pos: -16.5,-39.5
       parent: 34
-    - type: DeviceLinkSink
-      links:
-      - 7459
   - uid: 12947
     components:
     - type: Transform
       pos: -17.5,-39.5
       parent: 34
-    - type: DeviceLinkSink
-      links:
-      - 7459
   - uid: 12948
     components:
     - type: Transform
       pos: -18.5,-39.5
       parent: 34
-    - type: DeviceLinkSink
-      links:
-      - 7459
   - uid: 12951
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -18.5,-36.5
       parent: 34
-    - type: DeviceLinkSink
-      links:
-      - 7459
   - uid: 12952
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -17.5,-36.5
       parent: 34
-    - type: DeviceLinkSink
-      links:
-      - 7459
   - uid: 12971
     components:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: -41.5,-19.5
       parent: 34
-    - type: DeviceLinkSink
-      links:
-      - 10439
   - uid: 13544
     components:
     - type: Transform
@@ -73705,25 +73361,17 @@ entities:
       parent: 34
     - type: DeviceLinkSink
       invokeCounter: 1
-      links:
-      - 9989
   - uid: 13659
     components:
     - type: Transform
       pos: 34.5,-15.5
       parent: 34
-    - type: DeviceLinkSink
-      links:
-      - 4633
   - uid: 14291
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 71.5,-23.5
       parent: 34
-    - type: DeviceLinkSink
-      links:
-      - 14269
 - proto: ShuttersWindowOpen
   entities:
   - uid: 1287
@@ -73731,10 +73379,7 @@ entities:
     - type: Transform
       pos: -26.5,-9.5
       parent: 34
-    - type: DeviceLinkSink
-      links:
-      - 1163
-- proto: shuttle_manipulator
+- proto: ShuttleManipulator
   entities:
   - uid: 13019
     components:
@@ -74293,14 +73938,6 @@ entities:
       rot: 1.5707963267948966 rad
       pos: 34.5,3.5
       parent: 34
-- proto: SignCourt
-  entities:
-  - uid: 13463
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 29.5,-25.5
-      parent: 34
 - proto: SignCryogenicsMed
   entities:
   - uid: 1313
@@ -74799,15 +74436,13 @@ entities:
     - type: Transform
       pos: -15.5,-20.5
       parent: 34
-- proto: SignHydro2
+- proto: SignHydro1
   entities:
   - uid: 1273
     components:
     - type: Transform
       pos: -14.5,-9.5
       parent: 34
-- proto: SignHydro3
-  entities:
   - uid: 10372
     components:
     - type: Transform
@@ -74843,6 +74478,12 @@ entities:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 11.5,7.5
+      parent: 34
+  - uid: 13463
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 29.5,-25.5
       parent: 34
   - uid: 14190
     components:
@@ -76196,6 +75837,13 @@ entities:
     components:
     - type: Transform
       pos: 8.5,-8.5
+      parent: 34
+- proto: SpawnPointNanotrasenRepresentative
+  entities:
+  - uid: 1701
+    components:
+    - type: Transform
+      pos: 55.5,-32.5
       parent: 34
 - proto: SpawnPointObserver
   entities:

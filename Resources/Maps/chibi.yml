@@ -21646,13 +21646,6 @@ entities:
     - type: Transform
       pos: 20.5,19.5
       parent: 2
-- proto: MaterialReclaimer
-  entities:
-  - uid: 1409
-    components:
-    - type: Transform
-      pos: -6.5,-2.5
-      parent: 2
 - proto: MedalCase
   entities:
   - uid: 1429
@@ -22890,8 +22883,9 @@ entities:
       pos: 2.5,0.5
       parent: 2
     - type: RandomSpawner
-      chance: 1
-      rareChance: 0.05
+      prototypes: []
+      rarePrototypes: []
+      gameRules: []
 - proto: RandomSnacks
   entities:
   - uid: 613
@@ -24652,6 +24646,13 @@ entities:
     components:
     - type: Transform
       pos: 13.5,-6.5
+      parent: 2
+- proto: SpawnPointNanotrasenRepresentative
+  entities:
+  - uid: 1409
+    components:
+    - type: Transform
+      pos: 16.5,16.5
       parent: 2
 - proto: SpawnPointObserver
   entities:

@@ -56558,13 +56558,6 @@ entities:
     - type: Transform
       pos: -9.307849,-10.559241
       parent: 2
-- proto: MaterialReclaimer
-  entities:
-  - uid: 193
-    components:
-    - type: Transform
-      pos: -9.5,0.5
-      parent: 2
 - proto: MaterialWoodPlank10
   entities:
   - uid: 4181
@@ -62380,6 +62373,9 @@ entities:
       parent: 2
     - type: RandomSpawner
       chance: 0.5
+      prototypes: []
+      rarePrototypes: []
+      gameRules: []
 - proto: SalvageMagnet
   entities:
   - uid: 12319
@@ -64658,6 +64654,13 @@ entities:
     components:
     - type: Transform
       pos: 18.5,-13.5
+      parent: 2
+- proto: SpawnPointNanotrasenRepresentative
+  entities:
+  - uid: 193
+    components:
+    - type: Transform
+      pos: 2.5,-1.5
       parent: 2
 - proto: SpawnPointObserver
   entities:
