@@ -1,3 +1,4 @@
+# Used by the Vulcan, L6SAW, Mark 1, Ceremonial, and the AKMS. Unsure if there's more.
 - type: entity
   id: BulletLightRifle
   name: bullet (.20 rifle)
@@ -7,7 +8,7 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 19
+        Piercing: 24
 
 - type: entity
   id: BulletLightRiflePractice
@@ -29,8 +30,8 @@
   - type: Projectile
     damage:
       types:
-        Blunt: 3
-        Heat: 16
+        Blunt: 5
+        Heat: 19
 
 - type: entity
   id: BulletLightRifleUranium
@@ -41,5 +42,6 @@
   - type: Projectile
     damage:
       types:
-        Radiation: 9
-        Piercing: 10
+        Radiation: 10
+        Piercing: 5
+    ignoreResistances: true
