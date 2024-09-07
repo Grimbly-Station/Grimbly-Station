@@ -74,7 +74,7 @@ def get_past_runs(sess: requests.Session, current_run: Any) -> Any:
     Get all successful workflow runs before our current one.
     """
     params = {
-        "status": "success",
+        # "status": "success",
         "created": f"<={current_run['created_at']}"
     }
     resp = sess.get(f"{current_run['workflow_url']}/runs", params=params)
