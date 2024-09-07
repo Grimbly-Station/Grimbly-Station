@@ -34,3 +34,6 @@
     containers:
       item:
       - CaneBladeNanotrasen
+  - type: Clothing
+    slots:
+    - pocket1
