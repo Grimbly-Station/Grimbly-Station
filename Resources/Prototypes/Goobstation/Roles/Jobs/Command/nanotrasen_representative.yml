@@ -16,16 +16,9 @@
   joinNotifyCrew: true
   supervisors: job-supervisors-centcom
   canBeAntag: false
+  whitelisted: true
   access:
-  - CentralCommand
-  - Brig
-  - External
-  - Cryogenics
-  - Maintenance
-  - Engineering
-  - Medical
-  - Research
-  - Command
+  - AllAccess
   special:
   - !type:AddImplantSpecial
     implants: [ MindShieldImplant ]
@@ -38,8 +31,9 @@
   equipment:
     id: CentcomPDA
     ears: ClothingHeadsetCentCom
-    pocket1: CaneSheathFilledNanotrasen
-    pocket2: WeaponDisabler
+    pocket1: WeaponPistolN1984
+    pocket2: CaneSheathFilledNanotrasen
   storage:
     back:
     - RubberStampCentcom
+    - BaseMagazineMagnum
