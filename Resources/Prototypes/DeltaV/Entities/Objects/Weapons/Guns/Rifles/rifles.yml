@@ -13,17 +13,17 @@
         map: ["enum.GunVisualLayers.Mag"]
   - type: GunWieldBonus
     minAngle: -20
-    maxAngle: -30
+    maxAngle: -50
   - type: Gun
     minAngle: 21
     maxAngle: 54
     angleIncrease: 6
     angleDecay: 24
-    fireRate: 5
+    fireRate: 6
     selectedMode: SemiAuto
     availableModes:
     - SemiAuto
-    - FullAuto
+    - Burst
   - type: ChamberMagazineAmmoProvider
   - type: ItemSlots
     slots:
@@ -191,7 +191,7 @@
   components:
   - type: BallisticAmmoProvider
     whitelist:
-      tags: 
+      tags:
       - CartridgeMusket
     capacity: 1
     proto: CartridgeMusket
