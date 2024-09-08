@@ -52,6 +52,7 @@
   - ResearchDirector
   - Quartermaster
   - ChiefJustice # DeltaV - chief justice is in command staff
+  - NanotrasenRepresentative #Goobstation
   primary: false
   weight: 100
 
