@@ -1,4 +1,4 @@
-﻿using System.Linq;
+using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 using Content.Server.Database;
@@ -71,8 +71,9 @@ public sealed class JobWhitelistManager : IPostInjectInit
         }
 
         // DeltaV: Blanket player whitelist allows all roles
-        if (session.ContentData()?.Whitelisted ?? false)
-            return true;
+        // Grimbly: Not suitable for our purposes
+        // if (session.ContentData()?.Whitelisted ?? false)
+            // return true;
 
         return IsWhitelisted(session.UserId, job);
     }
