@@ -5,12 +5,10 @@ Grimbly Station is a fork of [Space Station 14](https://github.com/space-wizards
 
 Space Station 14 is a remake of SS13 that runs on [Robust Toolbox](https://github.com/space-wizards/RobustToolbox), a homegrown engine written in C#.
 
-### Grimbly Station is a continuation of the [Nyanotrasen](https://www.nyanotrasen.moe/) fork. Any work done in a non-base namespace may contain incorrect attributes due to rewrites and recommitting.
-
 ## Links
 
 #### Grimbly
-<!--[Website](https://delta-v.org/) | [Wiki](https://wiki.delta-v.org/view/Main_Page) --> | [Discord](https://discord.gg/T5VNY8wd)
+[Discord](https://discord.gg/sbxtvuUkn7) | [Wiki](https://wiki.grimbly.net)
 
 #### Space Station 14
 
