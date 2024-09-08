@@ -114,6 +114,7 @@ public sealed class WieldableSystem : EntitySystem
             args.MaxAngle += bonus.Comp.MaxAngle;
             args.AngleDecay += bonus.Comp.AngleDecay;
             args.AngleIncrease += bonus.Comp.AngleIncrease;
+            args.FireRate += bonus.Comp.FireRate; /// might move this to a new component or some shit once i figure out how to make it work with fire modes
         }
     }
 
@@ -125,7 +126,7 @@ public sealed class WieldableSystem : EntitySystem
 
     private void OnExamine(EntityUid uid, GunWieldBonusComponent component, ref ExaminedEvent args)
     {
-        if (HasComp<GunRequiresWieldComponent>(uid)) 
+        if (HasComp<GunRequiresWieldComponent>(uid))
             return;
 
         if (component.WieldBonusExamineMessage != null)
