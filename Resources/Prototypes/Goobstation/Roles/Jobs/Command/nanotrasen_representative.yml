@@ -11,7 +11,7 @@
       requiredAge: 21
   weight: 20
   startingGear: NanotrasenRepresentativeGear
-  icon: "JobIconNanotrasenRepresentative"
+  icon: "JobIconNanotrasen"
   requireAdminNotify: true
   joinNotifyCrew: true
   supervisors: job-supervisors-centcom
@@ -31,6 +31,7 @@
   equipment:
     id: CentcomPDA
     ears: ClothingHeadsetCentCom
+    belt: BoxFolderCentComClipboard
     pocket1: WeaponPistolN1984
     pocket2: CaneSheathFilledNanotrasen
     outerClothing: ClothingOuterWinterCCWarden
