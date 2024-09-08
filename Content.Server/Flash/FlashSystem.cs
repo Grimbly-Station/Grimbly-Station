@@ -4,9 +4,11 @@ using Content.Shared.Flash.Components;
 using Content.Server.Light.EntitySystems;
 using Content.Server.Popups;
 using Content.Server.Stunnable;
+using Content.Server.Traits.Assorted.Components;
 using Content.Shared.Charges.Components;
 using Content.Shared.Charges.Systems;
 using Content.Shared.Eye.Blinding.Components;
+using Content.Shared.Eye.Blinding.Systems;
 using Content.Shared.Flash;
 using Content.Shared.IdentityManagement;
 using Content.Shared.Interaction.Events;
@@ -38,6 +40,7 @@ namespace Content.Server.Flash
         [Dependency] private readonly TagSystem _tag = default!;
         [Dependency] private readonly IRobustRandom _random = default!;
         [Dependency] private readonly StatusEffectsSystem _statusEffectsSystem = default!;
+        [Dependency] private readonly BlindableSystem _blindingSystem = default!;
 
         public override void Initialize()
         {
@@ -118,22 +121,32 @@ namespace Content.Server.Flash
         {
             var attempt = new FlashAttemptEvent(target, user, used);
             RaiseLocalEvent(target, attempt, true);
-
+            var modifierValue = TryComp<FlashPropertyModifierComponent>(target, out var modifier) ? modifier.DurationMultiplier : 1f;
+            Logger.Debug($"Modifier Value {modifierValue}");
             if (attempt.Cancelled)
                 return;
 
             // don't paralyze, slowdown or convert to rev if the target is immune to flashes
-            if (!_statusEffectsSystem.TryAddStatusEffect<FlashedComponent>(target, FlashedKey, TimeSpan.FromSeconds(flashDuration / 1000f), true))
+            if (!_statusEffectsSystem.TryAddStatusEffect<FlashedComponent>(target, FlashedKey, TimeSpan.FromSeconds(flashDuration * modifierValue / 1000f), true))
                 return;
 
             if (stunDuration != null)
             {
-                _stun.TryParalyze(target, stunDuration.Value, true);
+                _stun.TryParalyze(target, stunDuration.Value * modifierValue, true);
             }
             else
             {
-                _stun.TrySlowdown(target, TimeSpan.FromSeconds(flashDuration / 1000f), true,
+                _stun.TrySlowdown(target, TimeSpan.FromSeconds(flashDuration * modifierValue / 1000f), true,
                 slowTo, slowTo);
+            }
+
+            if (TryComp<BlindableComponent>(target, out var blindable)
+                && !blindable.IsBlind
+                && modifier != null
+                && _random.Prob(modifier.EyeDamageChance))
+            {
+                Logger.Debug("Introducing eye damage for the entity");
+                _blindingSystem.AdjustEyeDamage((target, blindable), modifier.EyeDamage);
             }
 
             if (displayPopup && user != null && target != user && Exists(user.Value))

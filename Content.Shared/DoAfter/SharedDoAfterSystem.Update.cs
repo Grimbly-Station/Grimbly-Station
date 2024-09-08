@@ -184,6 +184,17 @@ public abstract partial class SharedDoAfterSystem : EntitySystem
             }
         }
 
+        if (args.BreakOnTargetMove)
+        {
+            DebugTools.Assert(targetXform != null, "Break on move is true, but no target specified?");
+            if (targetXform != null && targetXform.Coordinates.TryDistance(EntityManager, userXform.Coordinates, out var distance))
+            {
+                // once the target moves too far from you the do after breaks
+                if (Math.Abs(distance - doAfter.TargetDistance) > args.MovementThreshold)
+                    return true;
+            }
+        }
+
         // Whether the user and the target are too far apart.
         if (args.Target != null)
         {

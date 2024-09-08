@@ -82,5 +82,11 @@ namespace Content.Server.Atmos.Components
 
         [DataField]
         public ProtoId<AlertPrototype> FireAlert = "Fire";
+
+        /// <summary>
+        ///     How stronger will firestack increases be?
+        /// </summary>
+        [DataField("fireStackIncreaseMultiplier")]
+        public float FireStackIncreaseMultiplier = 1f;
     }
 }

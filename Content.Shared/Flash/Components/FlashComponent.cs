@@ -42,6 +42,7 @@ namespace Content.Shared.Flash.Components
 
         [DataField]
         public float Probability = 1f;
+
     }
 
     [Serializable, NetSerializable]
