@@ -74,7 +74,6 @@
     transferHumanoidAppearance: true
     inventory: Transfer
     revertOnDeath: true
-
 #grunglo change
 - type: polymorph
   id: SlimeMorphGeras
