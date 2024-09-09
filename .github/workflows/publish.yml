@@ -55,6 +55,7 @@ jobs:
         host: ${{ secrets.PUBLISH_HOST }}
         username: ${{ secrets.PUBLISH_USER }}
         key: ${{ secrets.PUBLISH_KEY }}
+        passphrase: ${{ secrets.PUBLISH_PASSPHRASE }}
         port: ${{ secrets.PUBLISH_PORT }}
         source: "release/${{ github.sha }}"
         target: "/var/www/builds-cdn/builds/"
@@ -66,6 +67,7 @@ jobs:
         host: ${{ secrets.PUBLISH_HOST }}
         username: ${{ secrets.PUBLISH_USER }}
         key: ${{ secrets.PUBLISH_KEY }}
+        passphraae: ${{ secrets.PUBLISH_PASSPHRASE }}
         port: ${{ secrets.PUBLISH_PORT }}
         script: /home/deltav/publish/push.ps1 ${{ github.sha }}
 
