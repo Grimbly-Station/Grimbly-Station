@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { titleCase } from 'title-case';
 
-if (process.env.GITHUB_TOKEN) axios.defaults.headers.common['Authorization'] = `token ${process.env.GITHUB_TOKEN}`;
+if (process.env.GITHUB_TOKEN) axios.defaults.headers.common['Authorization'] = `token ${process.env.BOT_TOKEN}`;
 else throw new Error('BOT_TOKEN was not provided in repository secrets or GITHUB_TOKEN was not set correctly.');
 
 
