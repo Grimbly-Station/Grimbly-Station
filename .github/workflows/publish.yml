@@ -57,7 +57,7 @@ jobs:
         key: ${{ secrets.PUBLISH_KEY }}
         port: ${{ secrets.PUBLISH_PORT }}
         source: "release/${{ github.sha }}"
-        target: "/var/www/builds.delta-v.org/delta-v/builds/"
+        target: "/var/www/builds-cdn/builds/"
         strip_components: 1
 
     - name: Update manifest JSON
