@@ -67,7 +67,7 @@ jobs:
         host: ${{ secrets.PUBLISH_HOST }}
         username: ${{ secrets.PUBLISH_USER }}
         key: ${{ secrets.PUBLISH_KEY }}
-        passphraae: ${{ secrets.PUBLISH_PASSPHRASE }}
+        passphrase: ${{ secrets.PUBLISH_PASSPHRASE }}
         port: ${{ secrets.PUBLISH_PORT }}
         script: /home/deltav/publish/push.ps1 ${{ github.sha }}
 
