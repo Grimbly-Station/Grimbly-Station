@@ -16,10 +16,10 @@
       - id: ClothingOuterWinterCap
 # Socks Have 50/50 for just which stripe is first
       - id: ClothingUnderSocksStripedCaptainBlueandGold
-        orGroup: StripedSocks
+        orGroup: CapStripedSocks
         prob: 0.50
       - id: ClothingUnderSocksStripedCaptainGoldandBlue
-        orGroup: StripedSocks
+        orGroup: CapStripedSocks
         prob: 0.50
 
 - type: entity
@@ -90,10 +90,10 @@
       - id: ClothingOuterWinterHoS
 # 20% chance for basic socks 80% for actual jack boot varrient, Both can be bought in one crate for the people who want the other
       - id: ClothingUnderSocksStripedSecurityHos
-        orGroup: StripedSocks
+        orGroup: HosStripedSocks
         prob: 0.20
       - id: ClothingUnderSocksStripedSecurityHosJackboot
-        orGroup: StrippedSocks
+        orGroup: HosStrippedSocks
         prob: 0.80
 
 
@@ -142,8 +142,8 @@
       - id: ClothingHeadHatBeretWarden
 # same idea as with Hos but they are in favor for full socks
       - id: ClothingUnderSocksStripedSecurityHosJackboot
-        orGroup: StripedSocks
+        orGroup: HosStripedSocks
         prob: 0.30
       - id: ClothingUnderSocksStripedSecurityHos
-        orGroup: StripedSocks
+        orGroup: HosStripedSocks
         prob: 0.70

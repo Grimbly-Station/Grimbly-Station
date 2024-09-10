@@ -85,7 +85,7 @@
       - id: ClothingUniformJumpskirtColorBlue
       - id: ClothingShoesColorBrown
         amount: 2
-# Reminder to Nep to fix blue socks when spawnin in locker
+# Reminder to Nep to fix blue and pink socks for locker spawn
 
 - type: entity
   id: WardrobePinkFilled
@@ -98,7 +98,8 @@
       - id: ClothingUniformJumpskirtColorPink
       - id: ClothingShoesColorBrown
         amount: 2
-      - id: ClothingUnderSocksCoder
+#      - id: ClothingUnderSocksCoder
+# breaks lockers to not spawn at all even with adminbus
 
 - type: entity
   id: WardrobeBlackFilled
