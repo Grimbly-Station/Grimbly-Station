@@ -28,6 +28,7 @@
   - type: Damageable
     damageContainer: Biological
     damageModifierSet: Slime
+  - type: Geras #grimblo change
   - type: DamageVisuals
     damageOverlayGroups:
       Brute:

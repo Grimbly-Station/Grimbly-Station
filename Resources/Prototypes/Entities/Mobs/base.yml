@@ -68,7 +68,7 @@
     - trigger:
         !type:DamageTypeTrigger
         damageType: Heat
-        damage: 1500
+        damage: 2500 #Grimbly, wear your PPE!
       behaviors:
       - !type:SpawnEntitiesBehavior
         spawnInContainer: true

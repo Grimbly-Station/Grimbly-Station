@@ -58,7 +58,7 @@ jobs:
         passphrase: ${{ secrets.PUBLISH_PASSPHRASE }}
         port: ${{ secrets.PUBLISH_PORT }}
         source: "release/${{ github.sha }}"
-        target: "/var/www/builds-cdn/builds/"
+        target: "/home/april/Robust.Cdn/builds"
         strip_components: 1
 
     - name: Update manifest JSON
@@ -67,9 +67,9 @@ jobs:
         host: ${{ secrets.PUBLISH_HOST }}
         username: ${{ secrets.PUBLISH_USER }}
         key: ${{ secrets.PUBLISH_KEY }}
-        passphraae: ${{ secrets.PUBLISH_PASSPHRASE }}
+        passphrase: ${{ secrets.PUBLISH_PASSPHRASE }}
         port: ${{ secrets.PUBLISH_PORT }}
-        script: /home/deltav/publish/push.ps1 ${{ github.sha }}
+        script: /home/april/publish-scripts/push.ps1 ${{ github.sha }}
 
     - name: Publish changelog (Discord)
       run: Tools/actions_changelogs_since_last_run.py

@@ -11,8 +11,9 @@
     sprite: Objects/Weapons/Melee/pickaxe.rsi
     state: pickaxe
   - type: MeleeWeapon
-    attackRate: 0.75
-    range: 1.75
+    # Grimbly #47, Reverting The Nyanocombat 2 Rework On Drills
+    attackRate: 0.7
+    range: 1.25
     wideAnimationRotation: -135
     soundHit:
       path: "/Audio/Weapons/smash.ogg"
@@ -20,18 +21,17 @@
         volume: -3
     damage:
       types:
-        Blunt: 6
+        Blunt: 2
         Pierce: 3
-    bluntStaminaDamageFactor: 2.0
-    heavyDamageBaseModifier: 1.75
-    heavyStaminaCost: 5
-    maxTargets: 2
-    angle: 60
+    bluntStaminaDamageFactor: 1.0
+    heavyDamageBaseModifier: 1
+    heavyStaminaCost: 0
+    maxTargets: 3
+    angle: 100
   - type: Wieldable
   - type: IncreaseDamageOnWield
     damage:
       types:
-        Blunt: 5
         Structural: 30
   - type: Item
     size: Normal
@@ -61,18 +61,19 @@
     wideAnimationRotation: -90
     soundHit:
       path: "/Audio/Items/drill_hit.ogg"
-    attackRate: 0.5
+    # Grimbly #47, Reverting The Nyanocombat 2 Rework On Drills
+    attackRate: 3.5
     range: 1.4
     damage:
       types:
-        Blunt: 9
-        Slash: 3
-        Structural: 12
-    bluntStaminaDamageFactor: 4.0
+        Blunt: 1
+        Slash: 2
+        Structural: 15
+    bluntStaminaDamageFactor: 1.0
     heavyRateModifier: 1
-    heavyRangeModifier: 2
+    heavyRangeModifier: 1
     heavyDamageBaseModifier: 1
-    heavyStaminaCost: 10
+    heavyStaminaCost: 0
     maxTargets: 3
     angle: 20
 

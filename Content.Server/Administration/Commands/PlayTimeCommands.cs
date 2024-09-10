@@ -3,7 +3,6 @@ using Content.Shared.Administration;
 using Content.Shared.Players.PlayTimeTracking;
 using Robust.Server.Player;
 using Robust.Shared.Console;
-using System.Text.RegularExpressions;
 
 namespace Content.Server.Administration.Commands;
 
@@ -108,7 +107,11 @@ public sealed class PlayTimeAddOverallCommand : IConsoleCommand
             return;
         }
 
-        var minutes = PlayTimeCommandUtilities.CountMinutes(args[1]);
+        if (!int.TryParse(args[1], out var minutes))
+        {
+            shell.WriteError(Loc.GetString("parse-minutes-fail", ("minutes", args[1])));
+            return;
+        }
 
         if (!_playerManager.TryGetSessionByUsername(args[0], out var player))
         {
@@ -165,10 +168,15 @@ public sealed class PlayTimeAddRoleCommand : IConsoleCommand
 
         var role = args[1];
 
-        var m = PlayTimeCommandUtilities.CountMinutes(args[2]);
+        var m = args[2];
+        if (!int.TryParse(m, out var minutes))
+        {
+            shell.WriteError(Loc.GetString("parse-minutes-fail", ("minutes", minutes)));
+            return;
+        }
 
-        _playTimeTracking.AddTimeToTracker(player, role, TimeSpan.FromMinutes(m));
-        var time = _playTimeTracking.GetPlayTimeForTracker(player, role);
+        _playTimeTracking.AddTimeToTracker(player, role, TimeSpan.FromMinutes(minutes));
+        var time = _playTimeTracking.GetOverallPlaytime(player);
         shell.WriteLine(Loc.GetString("cmd-playtime_addrole-succeed",
             ("username", userName),
             ("role", role),
@@ -197,6 +205,7 @@ public sealed class PlayTimeAddRoleCommand : IConsoleCommand
         return CompletionResult.Empty;
     }
 }
+
 
 [AdminCommand(AdminFlags.Fun)]
 public sealed class PlayTimeGetOverallCommand : IConsoleCommand
@@ -242,6 +251,7 @@ public sealed class PlayTimeGetOverallCommand : IConsoleCommand
         return CompletionResult.Empty;
     }
 }
+
 
 [AdminCommand(AdminFlags.Fun)]
 public sealed class PlayTimeGetRoleCommand : IConsoleCommand
