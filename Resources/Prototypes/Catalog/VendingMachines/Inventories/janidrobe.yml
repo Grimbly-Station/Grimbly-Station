@@ -13,8 +13,13 @@
     ClothingShoesBootsWinterJani: 2 #Delta V: Add departmental winter boots
     ClothingUniformJumpskirtJanimaid: 2 # Delta V: the maiden outfits no longer require emagging.
     ClothingUniformJumpskirtJanimaidmini: 1
+    ClothingUnderSocksStripedJanitor: 2 # Neptune Made Socks
+# Here mostly incase is accepted in the balance, also planning on making socks own slot to remove need for Shoe socks
+#    ClothingUnderSocksStripedJanitorGalosh: 1
   
   emaggedInventory: # Delta V: tactical maid outfit set is now the emagg reward.
     ClothingHandsTacticalMaidGloves: 1
     ClothingUniformJumpskirtTacticalMaid: 1
     ClothingHeadHatTacticalMaidHeadband: 1
+    ClothingUniformJumpskirtJanimaid: 2
+    ClothingUniformJumpskirtJanimaidmini: 1 # Didnt get why these were removed for the tac maid when we can have both

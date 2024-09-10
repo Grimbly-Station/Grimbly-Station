@@ -1228,3 +1228,24 @@
       - state: winterbits-equipped-OUTERCLOTHING
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHatHoodWinterColorYellow
+
+# Neptune's Parka
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: Parka_Nep
+  name: N Parka
+  description: A white and purple parka with blue accents made for a contributor to the sector.
+  components:
+  - type: Sprite
+    sprite: Clothing/OuterClothing/WinterCoats/Parka_Nep.rsi
+  - type: Clothing
+    sprite: Clothing/OuterClothing/WinterCoats/Parka_Nep.rsi
+  - type: TemperatureProtection
+    coefficient: 0.1
+  - type: Item
+    size: Normal
+  - type: Armor
+    modifiers:
+      coefficients:
+        Slash: 0.95
+        Heat: 0.90

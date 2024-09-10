@@ -102,6 +102,9 @@
     state: icon
   content:
   - InvisibleCrate
+  - ClothingNeckCloakVoid
+# Neptune makes bad ideas
+  - ClothingUnderSocksStripedVoidGreen
   - FultonBeacon
   - Fulton
   - SmokeGrenade

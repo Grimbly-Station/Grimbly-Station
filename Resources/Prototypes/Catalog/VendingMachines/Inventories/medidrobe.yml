@@ -22,8 +22,10 @@
     ClothingHeadHatSurgcapBlue: 4
     ClothingHeadHatSurgcapPurple: 4
     ClothingShoesBootsWinterMed: 2
+    ClothingUnderSocksStripedWhiteandLightBlue: 4 # Neptune Made Socks
   contrabandInventory: #DeltaV
     UniformScrubsColorCybersun: 1 #DeltaV
     ClothingHeadHatSurgcapCybersun: 1 #DeltaV
     ClothingOuterCoatCybersunWindbreaker: 1 #DeltaV
     ClothingShoesBootsWinterMed: 2
+

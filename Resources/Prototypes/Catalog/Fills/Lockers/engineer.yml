@@ -98,6 +98,7 @@
       - id: RCDAmmo
       - id: LunchboxEngineeringFilledRandom # Delta-V Lunchboxes!
         prob: 0.3
+      - id: ClothingUnderSocksStripedEngineeringAtmos # Neptune Made socks, also some people only map the hardsuit lockers so this is why its here
 
 - type: entity
   id: LockerAtmosphericsFilled
@@ -116,6 +117,7 @@
       - id: RCDAmmo
       - id: LunchboxEngineeringFilledRandom # Delta-V Lunchboxes!
         prob: 0.3
+      - id: ClothingUnderSocksStripedEngineeringAtmos # Neptune Made socks
 
 - type: entity
   id: LockerEngineerFilledHardsuit
@@ -147,6 +149,7 @@
       - id: RCDAmmo
       - id: LunchboxEngineeringFilledRandom # Delta-V Lunchboxes!
         prob: 0.3
+      - id: ClothingUnderSocksStripedEngineering # Neptune Made socks
 
 - type: entity
   id: ClosetRadiationSuitFilled

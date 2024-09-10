@@ -23,6 +23,7 @@
         amount: 2
       - id: LunchboxServiceFilledRandom # Delta-V Lunchboxes!
         prob: 0.3
+      - id: ClothingUnderSocksStripedGreyDark # Neptune made Socks
 
 #- type: entity
 #  id: LockerFormalFilled
@@ -56,6 +57,7 @@
       - id: DrinkSoyMilkCarton
       - id: LunchboxServiceFilledRandom # Delta-V Lunchboxes!
         prob: 0.3
+      - id: ClothingUnderSocksStripedGrey # Neptune Made Socks
 
 - type: entity
   id: ClosetJanitorFilled
@@ -94,6 +96,7 @@
       - id: BriefcaseBrownFilled
         prob: 0.80
       - id: ClothingOuterRobesJudge
+      - id: ClothingUnderSocksStripedGreyDark # Neptune Made Socks
 
 - type: entity
   id: LockerBotanistFilled
@@ -117,6 +120,7 @@
         prob: 0.1
       - id: LunchboxServiceFilledRandom # Delta-V Lunchboxes!
         prob: 0.3
+      - id: ClothingUnderSocksStripedBotany # Neptune Made Socks
 
 - type: entity
   id: LockerBotanistLoot

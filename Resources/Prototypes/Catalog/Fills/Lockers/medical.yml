@@ -112,6 +112,7 @@
       - id: ClothingMaskSterile
       - id: LunchboxMedicalFilledRandom # Delta-V Lunchboxes!
         prob: 0.3 
+      - id: ClothingUnderSocksStripedWhiteandLightBlue
 
 - type: entity
   parent: LockerWallMedical
@@ -148,6 +149,7 @@
       - id: ClothingMaskSterile
       - id: LunchboxMedicalFilledRandom # Delta-V Lunchboxes!
         prob: 0.3 
+      - id: ClothingUnderSocksStripedWhiteandLightBlue
 
 - type: entity
   id: LockerChemistryFilled
@@ -214,3 +216,4 @@
         prob: 0.3
       - id: LunchboxMedicalFilledRandom # Delta-V Lunchboxes!
         prob: 0.3 
+      - id: ClothingUnderSocksStripedWhiteandLightBlue
