@@ -112,6 +112,12 @@
         prob: 0.5
       - id: LunchboxSecurityFilledRandom # Delta-v Lunchboxes!
         prob: 0.3
+      - id: ClothingUnderSocksStripedSecurityJackboots # Neptune Made Socks
+        prob: 0.8
+        orGroup: SecSocks
+      - id: ClothingUnderSocksStripedSecurity
+        prob: 0.2
+        orGroup: SecSocks
 
 - type: entity
   id: LockerBrigmedicFilled
@@ -211,6 +217,7 @@
       - id: HandLabeler
       - id: LunchboxSecurityFilledRandom # Delta-v Lunchboxes!
         prob: 0.3
+      -   id: ClothingUnderSocksStripedDetective # Neptune Made Socks
 
 - type: entity
   id: ClosetBombFilled

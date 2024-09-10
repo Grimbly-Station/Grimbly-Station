@@ -18,8 +18,27 @@
     ClothingOuterCoatBomber: 3
     ClothingHeadHatSantahat: 2
     ClothingHeadHatXmasCrown: 2
-
+# Neptune's Many socks
+    ClothingUnderSocksBase: 3
+    ClothingUnderSocksCoder: 3
+    ClothingUnderSocksStripedWhiteandGreen: 3
+    ClothingUnderSocksStripedWhiteandOrange: 3
+    ClothingUnderSocksStripedWhiteandPurple: 3
+    ClothingUnderSocksStripedWhiteandLightBlue: 3
+    ClothingUnderSocksStripedWhiteandRed: 3
+    ClothingUnderSocksStripedWhiteandYellow: 3
+    ClothingUnderSocksStripedYellowandPurple: 3
+    ClothingUnderSocksStripedGrey: 6
+    ClothingUnderSocksStripedGreyDark: 3
+    ClothingUnderSocksStripedMime: 3
+    ClothingUnderSocksStripedSherbert: 1
+# Neptune's Parka 
+    Parka_Nep: 1
   emaggedInventory:
     ClothingNeckScarfStripedSyndieGreen: 3
     ClothingNeckScarfStripedSyndieRed: 3
     ClothingNeckScarfStripedCentcom: 3
+# Emag SOCKS??
+    ClothingUnderSocksStripedVoidGreen: 3
+    ClothingUnderSocksStripedHotpinkBlack: 3
+    ClothingUnderSocksStripedHotpinkLight: 3

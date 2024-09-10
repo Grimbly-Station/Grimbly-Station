@@ -16,6 +16,7 @@
         prob: 0.5
       - id: ClothingOuterCoatBomber
         prob: 0.3
+      - id: ClothingUnderSocksStripedGrey
 
 - type: entity
   id: WardrobeMixedFilled
@@ -57,7 +58,7 @@
       - id: ClothingShoesColorOrange
         amount: 2
       - id: ClothingHeadBandGold
-
+      - id: ClothingUnderSocksStripedWhiteandYellow
 
 - type: entity
   id: WardrobeWhiteFilled
@@ -71,6 +72,7 @@
       - id: ClothingShoesColorWhite
         amount: 2
       - id: ClothingHeadHatMimesoft
+      - id: ClothingUnderSocksBase
 
 - type: entity
   id: WardrobeBlueFilled
@@ -83,6 +85,7 @@
       - id: ClothingUniformJumpskirtColorBlue
       - id: ClothingShoesColorBrown
         amount: 2
+# Reminder to Nep to fix blue socks when spawnin in locker
 
 - type: entity
   id: WardrobePinkFilled
@@ -95,6 +98,7 @@
       - id: ClothingUniformJumpskirtColorPink
       - id: ClothingShoesColorBrown
         amount: 2
+      - id: ClothingUnderSocksCoder
 
 - type: entity
   id: WardrobeBlackFilled
@@ -110,6 +114,7 @@
       - id: ClothingHeadBandBlack
       - id: ClothingHeadBandSkull
         prob: 0.4
+      - id: ClothingUnderSocksStripedGreyDark
 
 - type: entity
   id: WardrobeGreenFilled
@@ -123,3 +128,4 @@
       - id: ClothingShoesColorBlack
         amount: 2
       - id: ClothingHeadBandGreen
+      - id: ClothingUnderSocksStripedWhiteandGreen

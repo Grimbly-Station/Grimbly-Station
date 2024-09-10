@@ -14,6 +14,8 @@
          amount: 2
        - id: ClothingMaskMuzzle
        - id: ClothingHeadsetPrison #DV - Added prisoner headsets
+       - id: ClothingUnderSocksStripedMime # Neptune Made Socks
+         amount: 2
 
 #- type: entity
 #  id: WardrobePajamaFilled
@@ -37,6 +39,7 @@
        amount: 2
      - id: ClothingHandsGlovesFingerless
        amount: 2
+     - id: ClothingUnderSocksStripedScience # Again Reminder to Nep to Make robotics socks
 
  - type: entity
    id: WardrobeChemistryFilled
@@ -51,6 +54,7 @@
        - id: ClothingShoesColorWhite
        - id: ClothingOuterCoatLabChem
        - id: ClothingUniformJumpskirtChemistry
+       - id: ClothingUnderSocksStripedWhiteandOrange # Neptune Made Socks
 
  - type: entity
    id: WardrobeGeneticsFilled
@@ -65,6 +69,7 @@
        - id: ClothingShoesColorWhite
        - id: ClothingOuterCoatLabGene
        - id: ClothingUniformJumpskirtGenetics
+       - id: ClothingUnderSocksStripedWhiteandLightBlue
 
  - type: entity
    id: WardrobeVirologyFilled
@@ -79,6 +84,7 @@
        - id: ClothingShoesColorWhite
        - id: ClothingOuterCoatLabViro
        - id: ClothingUniformJumpskirtVirology
+       - id: ClothingUnderSocksStripedWhiteandGreen
 
  - type: entity
    id: WardrobeScienceFilled
@@ -97,6 +103,7 @@
          prob: 0.5
        - id: CrowbarRed #The jojoke - hit video game Half-Life
          prob: 0.1
+       - id: ClothingUnderSocksStripedScience
 
 
  - type: entity
@@ -117,6 +124,7 @@
          prob: 0.15
        - id: ClothingHandsGlovesLeather
          prob: 0.5
+       - id: ClothingUnderSocksStripedBotany
 
  - type: entity
    id: WardrobeMedicalDoctorFilled
@@ -135,6 +143,7 @@
          prob: 0.4
        - id: ClothingEyesGlasses
          prob: 0.3
+       - id: ClothingUnderSocksStripedWhiteandLightBlue
 
  - type: entity
    id: WardrobeChapelFilled
@@ -147,6 +156,7 @@
        - id: ClothingUniformJumpsuitChaplain
        - id: ClothingShoesColorBlack
        - id: ClothingUniformJumpskirtChaplain
+       - id: ClothingUnderSocksStripedGreyDark
 
  - type: entity
    id: WardrobeSecurityFilled
@@ -164,6 +174,13 @@
        - id: ClothingOuterArmorPlateCarrier # DeltaV - ClothingOuterArmorBasic replaced in favour of plate carrier and stabproof vest
        - id: ClothingOuterArmorDuraVest
        - id: ClothingUniformJumpskirtSec
+       - id: ClothingUnderSocksStripedSecurityJackboots
+         orGroup: StripedSocks
+         prob: 0.50
+       - id: ClothingUnderSocksStripedSecurity
+         orGroup: StripedSocks
+         prob: 0.50
+
 
  - type: entity
    id: WardrobeCargoFilled
@@ -180,6 +197,7 @@
        - id: ClothingUniformJumpskirtCargo
        - id: ClothingHandsGlovesFingerless
        - id: AppraisalTool
+       - id: ClothingUnderSocksStripedCargo
 
  - type: entity
    id: WardrobeSalvageFilled
@@ -193,6 +211,7 @@
          amount: 2
        - id: ClothingUniformJumpsuitSalvageSpecialist
          amount: 2
+       - id: ClothingUnderSocksStripedCargo
 
  - type: entity
    id: WardrobeAtmosphericsFilled
@@ -206,6 +225,7 @@
        - id: ClothingBackpackEngineering
        - id: ClothingShoesColorWhite
        - id: ClothingUniformJumpskirtAtmos
+       - id: ClothingUnderSocksStripedEngineeringAtmos
 
  - type: entity
    id: WardrobeEngineeringFilled
@@ -221,3 +241,4 @@
        - id: ClothingShoesBootsWork
        - id: ClothingOuterVestHazard
        - id: ClothingUniformJumpskirtEngineering
+       - id: ClothingUnderSocksStripedEngineering

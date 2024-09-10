@@ -14,6 +14,13 @@
       - id: ClothingHandsGlovesInspection # DeltaV - ClothingHandsGlovesCaptain replaced in favour of inspection gloves
       - id: ClothingNeckMantleCap
       - id: ClothingOuterWinterCap
+# Socks Have 50/50 for just which stripe is first
+      - id: ClothingUnderSocksStripedCaptainBlueandGold
+        orGroup: StripedSocks
+        prob: 0.50
+      - id: ClothingUnderSocksStripedCaptainGoldandBlue
+        orGroup: StripedSocks
+        prob: 0.50
 
 - type: entity
   id: DresserChiefEngineerFilled
@@ -28,6 +35,7 @@
       - id: ClothingNeckCloakCe
       - id: ClothingHeadHatBeretEngineering
       - id: ClothingOuterWinterCE
+      - id: ClothingUnderSocksStripedEngineeringCE
 
 - type: entity
   id: DresserChiefMedicalOfficerFilled
@@ -42,9 +50,11 @@
       - id: ClothingUniformJumpsuitCMOTurtle
       - id: ClothingUniformJumpskirtCMOTurtle
       - id: ClothingHeadHatBeretCmo
-      - id: ClothingHeadMirror
-      - id: ClothingEyesGlasses
+# these items feel like filler that are already gotten else where
+#      - id: ClothingHeadMirror
+#      - id: ClothingEyesGlasses
       - id: ClothingOuterWinterCMO
+      - id: ClothingUnderSocksStripedWhiteandLightBlueBunnySlipper
 
 - type: entity
   id: DresserHeadOfPersonnelFilled
@@ -58,6 +68,8 @@
       - id: ClothingHeadHatHopcap
       - id: ClothingOuterWinterHoP
       - id: ClothingEyesGlasses
+# Yes these are named Captain shut up
+      - id: ClothingUnderSocksStripedCaptainBlueandWhite 
 
 - type: entity
   id: DresserHeadOfSecurityFilled
@@ -70,11 +82,20 @@
       - id: ClothingHeadHatBeretHoS
       - id: ClothingHeadHatHoshat
       - id: ClothingNeckCloakHos
-      - id: ClothingUniformJumpskirtHoSAlt
-      - id: ClothingUniformJumpsuitHoSAlt
+# Disabled because accessable from both lathe and loadouts, makes more consistant with other dressers
+#      - id: ClothingUniformJumpskirtHoSAlt
+#      - id: ClothingUniformJumpsuitHoSAlt
       - id: ClothingUniformJumpskirtHosFormal
       - id: ClothingUniformJumpsuitHosFormal
       - id: ClothingOuterWinterHoS
+# 20% chance for basic socks 80% for actual jack boot varrient, Both can be bought in one crate for the people who want the other
+      - id: ClothingUnderSocksStripedSecurityHos
+        orGroup: StripedSocks
+        prob: 0.20
+      - id: ClothingUnderSocksStripedSecurityHosJackboot
+        orGroup: StrippedSocks
+        prob: 0.80
+
 
 - type: entity
   id: DresserQuarterMasterFilled
@@ -91,6 +112,7 @@
       - id: ClothingHandsGlovesColorBrown
       - id: ClothingNeckMantleQM
       - id: ClothingOuterWinterQM
+      - id: ClothingUnderSocksStripedCargoQm
 
 - type: entity
   id: DresserResearchDirectorFilled
@@ -101,11 +123,13 @@
     contents:
       - id: ClothingNeckMantleRD
       - id: ClothingNeckCloakMystagogue # DeltaV - ClothingNeckCloakRd replaced in favour of Delta variant
+      - id: ClothingNeckCloakRd #Fuck you we get both
       - id: ClothingHeadHatBeretRND
       - id: ClothingHandsGlovesColorPurple
       - id: ClothingEyesGlasses
       - id: ClothingOuterWinterRD
       - id: ClothingOuterCoatRD
+      - id: ClothingUnderSocksStripedScienceRD
 
 - type: entity
   id: DresserWardenFilled
@@ -116,3 +140,10 @@
     contents:
       - id: ClothingHeadHatWarden
       - id: ClothingHeadHatBeretWarden
+# same idea as with Hos but they are in favor for full socks
+      - id: ClothingUnderSocksStripedSecurityHosJackboot
+        orGroup: StripedSocks
+        prob: 0.30
+      - id: ClothingUnderSocksStripedSecurityHos
+        orGroup: StripedSocks
+        prob: 0.70
