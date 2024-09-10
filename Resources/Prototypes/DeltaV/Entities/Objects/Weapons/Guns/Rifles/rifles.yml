@@ -17,7 +17,7 @@
   - type: Gun
     minAngle: 21
     maxAngle: 54
-    angleIncrase: 6
+    angleIncrease: 6
     angleDecay: 24
     fireRate: 6
     selectedMode: SemiAuto
