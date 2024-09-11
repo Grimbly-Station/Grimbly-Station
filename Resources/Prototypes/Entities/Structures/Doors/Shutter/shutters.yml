@@ -7,6 +7,7 @@
   placement:
     mode: SnapgridCenter
   components:
+  - type: StationAiWhitelist
   - type: Sprite
     sprite: Structures/Doors/Shutters/shutters.rsi
     drawdepth: BlastDoors
@@ -56,14 +57,14 @@
   - type: Appearance
   - type: UserInterface
     interfaces:
-    - key: enum.WiresUiKey.Key
-      type: WiresBoundUserInterface
+      enum.WiresUiKey.Key:
+        type: WiresBoundUserInterface
   - type: Airtight
   - type: RadiationBlocker
-    resistance: 1
+    resistance: 2
   - type: Damageable
     damageContainer: StructuralInorganic
-    damageModifierSet: StrongMetallic
+    damageModifierSet: StructuralMetallic
   - type: Destructible
     thresholds:
     - trigger:
@@ -72,6 +73,9 @@
       behaviors:
       - !type:DoActsBehavior
         acts: ["Destruction"]
+  - type: IconSmooth
+    key: walls
+    mode: NoSprite
   - type: DoorSignalControl
   - type: DeviceNetwork
     deviceNetId: Wireless
@@ -88,11 +92,12 @@
     - DoorStatus
     lastSignals:
       DoorStatus: false
+  - type: InteractionPopup
+    interactSuccessString: comp-window-knock
+    messagePerceivedByOthers: comp-window-knock
+    interactSuccessSound:
+      path: /Audio/Effects/glass_knock.ogg
   - type: BlockWeather
-  - type: InteractionVerbs
-    allowedVerbs:
-    - KnockOn
-
 
 - type: entity
   id: ShuttersNormal
@@ -125,7 +130,7 @@
   id: ShuttersRadiation
   parent: BaseShutter
   name: radiation shutters
-  description: A relatively fragile set of shutters, made of radiation blocking lead plates.
+  description: Why did they make these shutters radioactive?
   components:
   - type: Sprite
     sprite: Structures/Doors/Shutters/shutters_radiation.rsi
@@ -139,15 +144,7 @@
     containers:
     - board
   - type: RadiationBlocker
-    resistance: 10
-  - type: Destructible
-    thresholds:
-    - trigger:
-        !type:DamageTrigger
-        damage: 100
-      behaviors:
-      - !type:DoActsBehavior
-        acts: ["Destruction"]
+    resistance: 4
 
 - type: entity
   id: ShuttersRadiationOpen
@@ -215,7 +212,7 @@
     - board
   - type: InteractionOutline
   - type: Damageable
-    damageContainer: Inorganic
+    damageContainer: StructuralInorganic
     damageModifierSet: Metallic
   - type: Destructible
     thresholds:
