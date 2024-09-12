@@ -78,9 +78,6 @@
     layoutId: HighSec
     alwaysRandomize: true
   - type: UserInterface
-    interfaces:
-      enum.AiUi.Key:
-        type: StationAiBoundUserInterface
       enum.WiresUiKey.Key:
         type: WiresBoundUserInterface
   - type: Airtight
