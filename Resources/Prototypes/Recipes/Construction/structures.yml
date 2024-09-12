@@ -573,7 +573,7 @@
     - !type:EmptyOrWindowValidInTile
     - !type:NoWindowsInTile
   icon:
-    sprite: DeltaV/Structures/Windows/directional.rsi
+    sprite: Structures/Windows/directional.rsi
     state: clock_window
   objectType: Structure
   placementMode: SnapgridCenter
