@@ -424,7 +424,7 @@
 
 - type: marking
   id: RodentiaLegRightCountershade
-  markingCategory:
+  markingCategory: RightLeg
   bodyPart: RLeg
   speciesRestriction: [Rodentia]
   sprites:
@@ -503,7 +503,7 @@
 
 - type: marking
   id: RodentiaArmLeftBasic
-  markingCategory: Arms
+  markingCategory: LeftArm
   bodyPart: LArm
   speciesRestriction: [Rodentia]
   sprites:
@@ -512,7 +512,7 @@
 
 - type: marking
   id: RodentiaArmRightBasic
-  markingCategory: Arms
+  markingCategory: RightArm
   bodyPart: RArm
   speciesRestriction: [Rodentia]
   sprites:
@@ -543,7 +543,7 @@
 
 - type: marking
   id: RodentiaHandLeftBasic
-  markingCategory: Arms
+  markingCategory: LeftArm
   bodyPart: LHand
   speciesRestriction: [Rodentia]
   sprites:
@@ -552,7 +552,7 @@
 
 - type: marking
   id: RodentiaHandRightBasic
-  markingCategory: Arms
+  markingCategory: RightArm
   bodyPart: RHand
   speciesRestriction: [Rodentia]
   sprites:
