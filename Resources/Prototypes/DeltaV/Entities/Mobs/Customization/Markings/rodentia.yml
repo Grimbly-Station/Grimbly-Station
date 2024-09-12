@@ -3,31 +3,31 @@
 ## DEFAULTS
 
 
-# - type: marking
-#   id: RodentiaHeadTopEarDefault
-#   markingCategory: HeadTop
-#   bodyPart: HeadTop
-#   speciesRestriction: []
-#   coloring:
-#     default:
-#       type: !type:TattooColoring
-#   sprites:
-#     - sprite: DeltaV/Mobs/Customization/Rodentia/ear_markings.rsi
-#       state: mouse
-#     - sprite: DeltaV/Mobs/Customization/Rodentia/ear_markings.rsi
-#       state: mouse_overlay
+- type: marking
+  id: RodentiaHeadTopEarDefault
+  markingCategory: HeadTop
+  bodyPart: HeadTop
+  speciesRestriction: []
+  coloring:
+    default:
+      type: !type:TattooColoring
+  sprites:
+    - sprite: DeltaV/Mobs/Customization/Rodentia/ear_markings.rsi
+      state: mouse
+    - sprite: DeltaV/Mobs/Customization/Rodentia/ear_markings.rsi
+      state: mouse_overlay
 
-# - type: marking
-#   id: RodentiaTailDefault
-#   markingCategory: Tail
-#   bodyPart: Tail
-#   speciesRestriction: []
-#   coloring:
-#     default:
-#       type: !type:TattooColoring
-#   sprites:
-#     - sprite: DeltaV/Mobs/Customization/Rodentia/tail_markings.rsi
-#       state: mouse
+- type: marking
+  id: RodentiaTailDefault
+  markingCategory: Tail
+  bodyPart: Tail
+  speciesRestriction: []
+  coloring:
+    default:
+      type: !type:TattooColoring
+  sprites:
+    - sprite: DeltaV/Mobs/Customization/Rodentia/tail_markings.rsi
+      state: mouse
 
 ## EARS
 
