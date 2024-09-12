@@ -78,8 +78,8 @@
     layoutId: HighSec
     alwaysRandomize: true
   - type: UserInterface
-      enum.WiresUiKey.Key:
-        type: WiresBoundUserInterface
+    - key: enum.WiresUiKey.Key:
+      type: WiresBoundUserInterface
   - type: Airtight
   - type: Occluder
   - type: Damageable
