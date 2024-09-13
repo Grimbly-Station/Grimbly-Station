@@ -10,6 +10,8 @@ using Content.Shared.Pinpointer;
 using Robust.Server.GameObjects;
 using Robust.Shared.Map.Components;
 using Robust.Shared.Player;
+using Robust.Shared.ContentPack;
+using Robust.Shared.Prototypes;
 using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 
