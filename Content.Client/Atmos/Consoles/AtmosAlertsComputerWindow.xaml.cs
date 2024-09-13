@@ -70,7 +70,7 @@ public sealed partial class AtmosAlertsComputerWindow : FancyWindow
                 stationName = stationMetaData.EntityName;
 
             var msg = new FormattedMessage();
-            msg.TryAddMarkup(Loc.GetString("atmos-alerts-window-station-name", ("stationName", stationName)), out _);
+            msg.AddMarkup(Loc.GetString("atmos-alerts-window-station-name", ("stationName", stationName)));
 
             StationName.SetMessage(msg);
         }
