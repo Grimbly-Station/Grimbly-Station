@@ -17,11 +17,16 @@
         orGroup: LightingItem
       - id: GlowstickBase
         orGroup: LightingItem
+      # Grimbly - Oxygen
+      - id: ClothingMaskBreath
+      - id: ClothingMaskBreath
+      - id: EmergencyOxygenTankFilled
+      - id: EmergencyOxygenTankFilled
       # Low-chance items
       - id: FoodSnackChocolate
         prob: 0.15
       - id: HarmonicaInstrument
-        prob: 0.15
+        prob: 0.10
  
 - type: entity
   id: ToolboxElectricalFilled
