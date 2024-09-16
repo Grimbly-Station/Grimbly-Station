@@ -1,6 +1,19 @@
-# Einstein Engines
+# Grimbly Station
 
-<p align="center"><img src="https://raw.githubusercontent.com/Simple-Station/Einstein-Engines/master/Resources/Textures/Logo/splashlogo.png" width="512px" /></p>
+<!--<p align="center"><img src="https://raw.githubusercontent.com/Simple-Station/Einstein-Engines/master/Resources/Textures/Logo/splashlogo.png" width="512px" /></p>-->
+
+Grimbly Station is a fork of [Einstein Engines](https://github.com/Simple-Station/Einstein-Engines), embracing a mixture of classic SS13 chaos and experimentation only possible with the new engine.
+
+Space Station 14 is a remake of SS13 that runs on [Robust Toolbox](https://github.com/space-wizards/RobustToolbox), a homegrown engine written in C#.
+
+<h3>Mission Statement</h3>
+
+Disgruntled with the state of most SS14 servers? Want a server run by players, for players, with management experience? Want a server that WILL listen to your problems and actively find solutions? Well, you're in the right place. We are a server built with the intent of achieving a fun, welcoming MRP experience with room for newer players. Our goal is, and always will be, roleplay and interaction over all else, so keep that in mind when you play!
+
+## Links
+
+#### Grimbly
+[Discord](https://discord.gg/sbxtvuUkn7) | [Wiki](https://wiki.grimbly.net)
 
 ---
 
@@ -28,7 +41,7 @@ We however would like to invite anyone wishing to create a server to make a fork
 ## Contributing
 
 We are happy to accept contributions from anybody, come join our Discord if you want to help.
-We've got a [list of issues](https://github.com/Simple-Station/Einstein-Engines/issues) that need to be done and anybody can pick them up. Don't be afraid to ask for help in Discord either!
+We've got a [list of issues](https://github.com/Grimbly-Station/Grimbly-Station/issues) that need to be done and anybody can pick them up. Don't be afraid to ask for help in Discord either!
 
 We are currently accepting translations of the game on our main repository.
 If you would like to translate the game into another language check the #contributor-general channel in our Discord.
