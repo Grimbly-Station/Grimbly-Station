@@ -137,11 +137,11 @@
     - type: SalvageMagnetData
 
 - type: entity
-  id: BaseStationSiliconLawCrewsimov
+  id: BaseStationSiliconLawAsimov
   abstract: true
   components:
   - type: SiliconLawProvider
-    laws: Crewsimov
+    laws: Asimov
 
 - type: entity
   id: BaseStationNews

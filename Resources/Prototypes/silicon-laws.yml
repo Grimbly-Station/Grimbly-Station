@@ -22,6 +22,30 @@
   - Crewsimov3
   obeysTo: laws-owner-crew
 
+# Asimov
+- type: siliconLaw
+  id: Asimov1
+  order: 1
+  lawString: law-asimov-1
+
+- type: siliconLaw
+  id: Asimov2
+  order: 2
+  lawString: law-asimov-2
+
+- type: siliconLaw
+  id: Asimov3
+  order: 3
+  lawString: law-asimov-3
+
+- type: siliconLawset
+  id: Asimov
+  laws:
+  - Asimov1
+  - Asimov2
+  - Asimov3
+  obeysTo: laws-owner-human
+
 # Corporate
 - type: siliconLaw
   id: Corporate1
@@ -167,7 +191,7 @@
   id: IonStormLawsets
   weights:
     # its crewsimov by default dont be lame
-    #Crewsimov: 0.25 # Delta-V disables crewsimov as an option for borg ion storm lawsets
+    Crewsimov: 0.25 # Undisable since it Crewsimov won't be default when i'm done - Ducks
     Corporate: 1
     NTDefault: 1
     Drone: 0.25 # Delta-V - Lowers the spawn rate due to it being anti-crew interaction + drones are disabled anyways
