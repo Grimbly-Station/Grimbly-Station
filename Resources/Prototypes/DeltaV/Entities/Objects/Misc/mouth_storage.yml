@@ -19,6 +19,6 @@
         ents: [ ]
   - type: UserInterface
     interfaces:
-      enum.StorageUiKey.Key:
+      - key: enum.StorageUiKey.Key
         type: StorageBoundUserInterface
   - type: Dumpable

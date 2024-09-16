@@ -98,6 +98,13 @@
       Male: MaleRodentia
       Female: FemaleRodentia
       Unsexed: MaleRodentia
+  - type: LanguageKnowledge
+    speaks:
+      - GalacticCommon
+      - Mouse
+    understands:
+      - GalacticCommon
+      - Mouse
   - type: Rummager
   - type: AlwaysTriggerMousetrap
   - type: PseudoItem
@@ -105,14 +112,12 @@
     shape:
       - 0, 0, 3, 2
       - 0, 2, 5, 4
-  ## can't get this component working so commented out for now because i'm exhausted
-  # - type: MouthStorage
-  #   mouthProto: CheekStorage
-  #   openStorageAction: ActionOpenMouthStorage
-  #   spitDamageThreshold: 3
+  - type: MouthStorage
+    mouthProto: CheekStorage
+    openStorageAction: ActionOpenMouthStorage
+    spitDamageThreshold: 3
   - type: CrawlUnderObjects
     actionProto: ActionToggleSneakMode
-
 - type: entity
   save: false
   name: Rodentia Dummy
