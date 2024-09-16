@@ -191,7 +191,7 @@
   id: IonStormLawsets
   weights:
     # its crewsimov by default dont be lame
-    Crewsimov: 0.25 # Reenable since it Crewsimov isn't default anymore. - Ducks
+    Crewsimov: 0.25 # Reenable since Crewsimov isn't default anymore. - Ducks
     Corporate: 1
     NTDefault: 1
     Drone: 0.25 # Delta-V - Lowers the spawn rate due to it being anti-crew interaction + drones are disabled anyways
