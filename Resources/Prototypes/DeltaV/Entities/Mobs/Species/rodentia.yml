@@ -80,11 +80,12 @@
     soundHit:
       path: /Audio/Weapons/pierce.ogg
     angle: 30
-    animation: WeaponArcClaw
+    animation: WeaponArcBite
     damage:
       types:
         Blunt: 2
         Slash: 3
+        Structural: 1
   - type: Damageable
     damageModifierSet: Rodentia
   - type: Butcherable
@@ -116,8 +117,10 @@
     mouthProto: CheekStorage
     openStorageAction: ActionOpenMouthStorage
     spitDamageThreshold: 3
-  - type: CrawlUnderObjects
+  - type: CrawlUnderObjects # Remove this once crawling goes under tables
     actionProto: ActionToggleSneakMode
+  - type: LayingDownModifier
+    downedSpeedMultiplierMultiplier: 4.6 # makes them crawl at the same speed sneak mode moves. for when crawling goes under tables, they can crawl instead of sneak
 - type: entity
   save: false
   name: Rodentia Dummy
