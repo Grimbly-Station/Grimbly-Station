@@ -141,7 +141,7 @@
     - FullBodyOuter
   - type: Clothing
     equipDelay: 1.25 # Hardsuits are heavy and take a while to put on/off.
-   unequipDelay: 1.25
+    unequipDelay: 1.25
   - type: Geiger
     attachedToSuit: true
     localSoundOnly: true
