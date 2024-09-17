@@ -169,8 +169,8 @@
     tags:
     - HidesHarpyWings #DeltaV: Used by harpies to help render their hardsuit sprites
   - type: Clothing
-    equipDelay: .75 # Softsuits are easier to put on and off
-    unequipDelay: .5
+    equipDelay: 0.75 # Softsuits are easier to put on and off
+    unequipDelay: 0.5
 
 - type: entity
   parent: ClothingOuterBase
