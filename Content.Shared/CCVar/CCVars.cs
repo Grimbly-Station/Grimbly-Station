@@ -396,7 +396,7 @@ namespace Content.Shared.CCVar
         ///     Whether to repeat eating doafters after completion
         /// </summary>
         public static readonly CVarDef<bool> GameAutoEatFood =
-            CVarDef.Create("game.auto_eat_food", false, CVar.REPLICATED);
+            CVarDef.Create("game.auto_eat_food", true, CVar.REPLICATED);
 
         /// <summary>
         ///     Whether to repeat drinking doafters after completion
