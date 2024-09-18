@@ -402,7 +402,7 @@ namespace Content.Shared.CCVar
         ///     Whether to repeat drinking doafters after completion
         /// </summary>
         public static readonly CVarDef<bool> GameAutoEatDrinks =
-            CVarDef.Create("game.auto_eat_drinks", false, CVar.REPLICATED);
+            CVarDef.Create("game.auto_eat_drinks", true, CVar.REPLICATED);
 
         /// <summary>
         ///     Whether item slots, such as power cell slots or AME fuel cell slots, should support quick swap if it is not otherwise specified in their YAML prototype.
