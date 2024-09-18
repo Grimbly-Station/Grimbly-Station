@@ -238,7 +238,7 @@ namespace Content.Server.Connection
 
                 var slots = _cfg.GetCVar(CCVars.WhitelistMinPlayers);
 
-                var noSlotsOpen = slots > 0 && slots < connectedPlayers - connectedWhitelist;
+                var noSlotsOpen = true;
 
                 if (noSlotsOpen && await _db.GetWhitelistStatusAsync(userId) == false
                                      && adminData is null)

@@ -26,8 +26,8 @@
     enabled: false
   - type: Clothing # To allow equipping translators on the neck slot
     slots: [neck]
-    equipDelay: 0.3
-    unequipDelay: 0.3
+    equipDelay: 0
+    unequipDelay: 0
     quickEquip: false # Would conflict
 
 # Base translator that uses a power cell. Starts with an empty slot.

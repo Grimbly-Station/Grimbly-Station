@@ -140,8 +140,8 @@
     - HidesHarpyWings #DeltaV: Used by harpies to help render their hardsuit sprites
     - FullBodyOuter
   - type: Clothing
-    equipDelay: 2.5 # Hardsuits are heavy and take a while to put on/off.
-    unequipDelay: 2.5
+    equipDelay: 1.25 # Hardsuits are heavy and take a while to put on/off.
+    unequipDelay: 1.25
   - type: Geiger
     attachedToSuit: true
     localSoundOnly: true
@@ -169,8 +169,8 @@
     tags:
     - HidesHarpyWings #DeltaV: Used by harpies to help render their hardsuit sprites
   - type: Clothing
-    equipDelay: 1.25 # Softsuits are easier to put on and off
-    unequipDelay: 1
+    equipDelay: 0.75 # Softsuits are easier to put on and off
+    unequipDelay: 0.5
 
 - type: entity
   parent: ClothingOuterBase
