@@ -27,6 +27,8 @@
         prob: 0.15
       - id: HarmonicaInstrument
         prob: 0.10
+      - id: FoodTinMRE
+        prob: 0.20
  
 - type: entity
   id: ToolboxElectricalFilled
