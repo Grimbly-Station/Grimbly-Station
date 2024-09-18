@@ -2003,7 +2003,7 @@ namespace Content.Shared.CCVar
         /// Whether the player mob is walking by default instead of running.
         /// </summary>
         public static readonly CVarDef<bool> DefaultWalk =
-            CVarDef.Create("control.default_walk", true, CVar.CLIENT | CVar.REPLICATED | CVar.ARCHIVE);
+            CVarDef.Create("control.default_walk", false, CVar.CLIENT | CVar.REPLICATED | CVar.ARCHIVE);
 
         /*
          * STORAGE
