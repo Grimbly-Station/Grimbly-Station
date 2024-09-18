@@ -126,6 +126,16 @@
   - type: BasicStationEventScheduler
 
 - type: entity
+  id: SurvivalStationEventScheduler
+  parent: BaseGameRule
+  noSpawn: true
+  components:
+  - type: RampingStationEventScheduler
+    chaosModifier: 0.75 # By default, one event each 30-10 seconds after two hours. Changing CVars will cause this to deviate.
+    startingChaosRatio: 0.025 # Starts as slow as survival, but quickly ramps up
+    shiftLengthModifier: 1.5
+
+- type: entity
   id: RampingStationEventScheduler
   parent: BaseGameRule
   noSpawn: true

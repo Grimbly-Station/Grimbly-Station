@@ -6,7 +6,7 @@
   showInVote: true # secret # DeltaV - Me when the survival. Used for periapsis.
   description: survival-description
   rules:
-    - RampingStationEventScheduler
+    - SurvivalRampingStationEventScheduler
     - BasicRoundstartVariation
     - SubGamemodesRule
 
