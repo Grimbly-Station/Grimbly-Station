@@ -1,7 +1,7 @@
 - type: entity
   name: Rat King
   id: MobRatKing
-  parent: [ SimpleMobBase, MobCombat ]
+  parent: [ SimpleMobBase, MobCombat, StripableInventoryBase ] #Grimbly - ratking ID and headset
   description: He's da rat king. He make da roolz.
   components:
   - type: CombatMode
@@ -42,16 +42,13 @@
         - SmallMobMask
         layer:
         - SmallMobLayer
-  - type: Hands
+  - type: ComplexInteraction #Grimbly - ratking ID and headset
   - type: Inventory
     speciesId: ratking
     templateId: ratking
   - type: InventorySlots
   - type: Strippable
   - type: UserInterface
-    interfaces:
-    - key: enum.StrippingUiKey.Key
-      type: StrippableBoundUserInterface
   - type: Puller
     needsHands: false
   - type: IdExaminable
