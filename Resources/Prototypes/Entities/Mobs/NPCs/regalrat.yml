@@ -42,7 +42,7 @@
         - SmallMobMask
         layer:
         - SmallMobLayer
-  - type: ComplexInteraction #Grimbly - ratking ID and headset
+  - type: Hands #Grimbly - ratking ID and headset
   - type: Inventory
     speciesId: ratking
     templateId: ratking
