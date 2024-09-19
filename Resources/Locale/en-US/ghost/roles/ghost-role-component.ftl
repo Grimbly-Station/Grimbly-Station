@@ -65,7 +65,8 @@ ghost-role-information-kobold-name = Kobold
 ghost-role-information-kobold-description = Be the little gremlin you are, yell at people and beg for meat!
 
 ghost-role-information-rat-king-name = Rat King
-ghost-role-information-rat-king-description = You are da Rat King, you make da roolz. You have no allegiance, scavenge, attack, and grow your hoard or learn to live in peace with the crew.
+ghost-role-information-rat-king-description = You are da Rat King, you make da roolz.
+ghost-role-information-rat-king-rules =  You have no allegiance, so scavenge, attack, and grow your hoard or learn to live in peace with the crew. 
 
 ghost-role-information-rat-servant-name = Rat Servant
 ghost-role-information-rat-servant-description = You are a Rat Servant. You must follow your king's orders.
