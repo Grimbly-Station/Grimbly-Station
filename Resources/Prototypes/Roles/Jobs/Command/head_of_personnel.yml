@@ -62,7 +62,7 @@
     head: ClothingHeadHatHopcap
     id: HoPPDA
     gloves: ClothingHandsGlovesHop
-    ears: ClothingHeadsetHoP # DeltaV - HoP is now a service role, replaces their all channels headset.
+    ears: ClothingHeadsetHoP # Grimbly - give HoP all comms
     belt: BoxFolderClipboard
   innerClothingSkirt: ClothingUniformJumpskirtHoP
   satchel: ClothingBackpackSatchelHOPFilled
