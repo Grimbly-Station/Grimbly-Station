@@ -85,6 +85,7 @@
       - id: ClothingOuterSuitAtmosFire
       - id: ClothingHeadHelmetAtmosFire
       - id: GasAnalyzer
+      - id: FireExtinguisherMini
       - id: MedkitOxygenFilled
       - id: HolofanProjector
       - id: DoorRemoteFirefight
@@ -104,6 +105,7 @@
       - id: ClothingOuterSuitAtmosFire
       - id: ClothingHeadHelmetAtmosFire
       - id: GasAnalyzer
+      - id: FireExtinguisherMini
       - id: MedkitOxygenFilled
       - id: HolofanProjector
       - id: DoorRemoteFirefight
