@@ -1,0 +1,8 @@
+Name: Grimbly Station
+Order: 0
+Entries:
+- author: sleepyapril
+  changes:
+  - {message: 'Created the admin changelog.', type: Add}
+  id: 1
+  time: '2024-09-18T04:26:00.0000000+00:00'

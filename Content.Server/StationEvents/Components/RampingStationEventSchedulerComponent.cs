@@ -7,7 +7,7 @@ public sealed partial class RampingStationEventSchedulerComponent : Component
     ///     The maximum number by which the event rate will be multiplied when shift time reaches the end time.
     /// </summary>
     [DataField]
-    public float ChaosModifier = 3f;
+    public float ChaosModifier = 1f;
 
     /// <summary>
     ///     The minimum number by which the event rate will be multiplied when the shift has just begun.
@@ -24,7 +24,7 @@ public sealed partial class RampingStationEventSchedulerComponent : Component
     /// <summary>
     ///     The number by which average expected shift length is multiplied. Higher values lead to slower chaos growth.
     /// </summary>
-    public float ShiftLengthModifier = 1f;
+    public float ShiftLengthModifier = 1.5f;
 
     // Everything below is overridden in the RampingStationEventSchedulerSystem based on CVars
     [DataField("endTime"), ViewVariables(VVAccess.ReadWrite)]
