@@ -7,9 +7,7 @@
   - type: ContainerFill
     containers:
       key_slots:
-      - EncryptionKeyService
-      - EncryptionKeyCommand
-      - EncryptionKeyCommon
+      - EncryptionKeyStationMaster # Grimbly - give HoP all comms
 
 - type: entity
   parent: ClothingHeadsetAlt
@@ -19,9 +17,7 @@
   - type: ContainerFill
     containers:
       key_slots:
-      - EncryptionKeyService
-      - EncryptionKeyCommand
-      - EncryptionKeyCommon
+      - EncryptionKeyStationMaster # Grimbly - give HoP all comms
   - type: Sprite
     sprite: DeltaV/Clothing/Ears/Headsets/service.rsi
   - type: Clothing
