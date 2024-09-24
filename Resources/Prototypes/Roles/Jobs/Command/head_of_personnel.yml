@@ -28,16 +28,17 @@
   # Head level access that isn't their own was deliberately left out, get AA from the captain instead.
   # Delta V - fuck all of this HoP is a service role
 #  - Chemistry
-#  - Engineering
-#  - Research
+  - Engineering #Grimbly - HoP Access Change
+  - Research #Grimbly - HoP Access Change
 #  - Detective
 #  - Salvage
 #  - Security # NoooOoOo!! My HoPcurity!1
 #  - Brig
   - Lawyer
   - Cargo
+  - Orders #Grimbly - HoP Access Change
 #  - Atmospherics
-#  - Medical
+  - Medical #Grimbly - HoP Access Change
   - Boxer # DeltaV - Add Boxer access
   - Clown # DeltaV - Add Clown access
   - Library # DeltaV - Add Library access
