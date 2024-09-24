@@ -46,8 +46,9 @@ public sealed class AHelpUIController: UIController, IOnSystemChanged<BwoinkSyst
     private bool _discordRelayActive;
     private bool _hasUnreadAHelp;
 
-    public const string AHelpErrorSound = "/Audio/Admin/ahelp_error.ogg";
-    public const string AHelpReceiveSound = "/Audio/Admin/ahelp_receive.ogg";
+    // Grimbly Station - change to old bwoink
+    public const string AHelpErrorSound = "/Audio/Admin/adminhelp_old.ogg";
+    public const string AHelpReceiveSound = "/Audio/Admin/adminhelp_old.ogg";
     public const string AHelpSendSound = "/Audio/Admin/ahelp_send.ogg";
 
 
