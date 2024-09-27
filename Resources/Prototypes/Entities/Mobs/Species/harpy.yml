@@ -117,12 +117,17 @@
     - ShoesRequiredStepTriggerImmune
   - type: LanguageKnowledge
     speaks:
-    - GalacticCommon
-    - SolCommon
+    - TauCetiBasic
+    - Tradeband
     understands:
-    - GalacticCommon
-    - SolCommon
+    - TauCetiBasic
+    - Tradeband
   - type: StepTriggerImmune
+    whitelist:
+      types:
+      - Shard
+      - Landmine
+      - Mousetrap
 
 - type: entity
   save: false
