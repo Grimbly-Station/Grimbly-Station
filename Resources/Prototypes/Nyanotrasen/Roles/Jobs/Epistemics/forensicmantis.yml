@@ -3,7 +3,7 @@
   name: job-name-mantis
   description: job-description-mantis
   playTimeTracker: JobForensicMantis
-  #requirements:
+  requirements:
   #  - !type:CharacterOverallTimeRequirement
   #    min: 18000
   #  - !type:DepartmentTimeRequirement
