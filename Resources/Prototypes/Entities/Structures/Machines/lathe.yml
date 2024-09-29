@@ -1096,6 +1096,7 @@
       - ClothingOuterWinterCMO
       - ClothingOuterWinterHoP
       - ClothingOuterWinterHoS
+      - ClothingOuterWinterHoSBlue #Grimbly bluesec
       - ClothingOuterWinterQM
       - ClothingOuterWinterRD
       - ClothingNeckMantleCap
@@ -1126,6 +1127,7 @@
       - ClothingOuterWinterSci
       - ClothingOuterWinterRobo
       - ClothingOuterWinterSec
+      - ClothingOuterWinterSecBluie #Grimbly Bluesec
       # Ties
       - ClothingNeckTieRed
       - ClothingNeckTieDet
