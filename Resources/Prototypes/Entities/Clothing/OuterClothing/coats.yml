@@ -307,6 +307,26 @@
 
 - type: entity
   parent: ClothingOuterStorageBase
+  id: ClothingOuterCoatWardenBlue #Grimbly Bluesec
+  name: warden's blue armored jacket
+  description: A sturdy, blue, utilitarian jacket designed to protect a warden from any brig-bound threats.
+  components:
+  - type: Sprite
+    sprite: Clothing/OuterClothing/Coats/wardenblue.rsi
+  - type: Clothing
+    sprite: Clothing/OuterClothing/Coats/wardenblue.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.70
+        Slash: 0.70
+        Piercing: 0.70
+        Heat: 0.70
+  - type: ExplosionResistance
+    damageCoefficient: 0.90
+
+- type: entity
+  parent: ClothingOuterStorageBase
   id: ClothingOuterDameDane
   name: yakuza coat
   description: Friday...
