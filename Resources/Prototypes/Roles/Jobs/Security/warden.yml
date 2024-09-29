@@ -28,7 +28,7 @@
     back: ClothingBackpackSecurityFilled
     shoes: ClothingShoesBootsCombatFilled
     eyes: ClothingEyesGlassesSunglasses
-    outerClothing: ClothingOuterArmorPlateCarrier #Grimbly Bluesec - temporary untill resprite of Warden's coat
+    outerClothing: ClothingOuterCoatWardenBlue #Grimbly Bluesec 
     id: WardenPDA
     ears: ClothingHeadsetSecurity
     belt: ClothingBeltSecurityFilled
