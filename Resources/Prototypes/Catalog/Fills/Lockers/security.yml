@@ -14,7 +14,7 @@
       - id: ClothingHeadsetAltSecurity
       - id: ClothingHandsGlovesCombat
       - id: ClothingShoesBootsJack
-      - id: ClothingOuterCoatWarden
+      - id: ClothingOuterCoatWardenBlue #Grimbly Bluesec
       - id: ClothingOuterWinterWarden
       - id: RubberStampWarden
       - id: DoorRemoteArmory
@@ -43,7 +43,7 @@
       - id: ClothingHeadsetAltSecurity
       - id: ClothingHandsGlovesCombat
       - id: ClothingShoesBootsJack
-      - id: ClothingOuterCoatWarden
+      - id: ClothingOuterCoatWardenBlue #Grimbly Bluesec
       - id: ClothingOuterWinterWarden
       - id: RubberStampWarden
       - id: DoorRemoteArmory
