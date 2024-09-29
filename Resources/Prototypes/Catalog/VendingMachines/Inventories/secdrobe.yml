@@ -8,7 +8,8 @@
     ClothingShoesBootsJack: 3
     ClothingHeadHatBeretSecurity: 3
 ##    ClothingHeadHatSecsoft: 3 # DeltaV - removed from SecDrobe due to inconsistency with art direction
-    ClothingHeadBandRed: 3
+    ClothingHeadHatBluesoft: 3 # Grimbly - we got an art direction, and it's called BLOO-SEC!
+    ClothingHeadBandBlue: 3 # Grimbly Bluesec
     ClothingHandsGlovesColorBlack: 3
     ClothingHandsGlovesFingerless: 3
     ClothingUniformJumpskirtSec: 3
