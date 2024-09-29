@@ -30,6 +30,6 @@
     belt: ClothingBeltSecurityFilled
 #    pocket1: WeaponPistolMk58Nonlethal # DeltaV - Security Cadet doesn't spawn with a gun
     pocket2: BookSecurity
-  innerClothingSkirt: ClothingUniformJumpskirtColorRed
+  innerClothingSkirt: ClothingUniformJumpskirtColorBlue #Grimbly Bluesec
   satchel: ClothingBackpackSatchelSecurityFilled
   duffelbag: ClothingBackpackDuffelSecurityFilled

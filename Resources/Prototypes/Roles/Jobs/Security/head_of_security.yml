@@ -40,6 +40,6 @@
     ears: ClothingHeadsetAltSecurity
     belt: ClothingBeltSecurityFilled
     pocket1: WeaponPistolMk58Nonlethal
-  innerClothingSkirt: ClothingUniformJumpskirtHoS
+  innerClothingSkirt: ClothingUniformJumpskirtHoSBlue #Grimbly Bluesec
   satchel: ClothingBackpackSatchelHOSFilled
   duffelbag: ClothingBackpackDuffelHOSFilled
