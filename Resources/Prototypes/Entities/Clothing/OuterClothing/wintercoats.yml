@@ -250,7 +250,7 @@
         Heat: 0.75
         Caustic: 0.75 #not the full 90% from ss13 because of the head
 
-- type: entity
+- type: entity # Grimbly Bluesec
   parent: ClothingOuterWinterCoatToggleable
   id: ClothingOuterWinterHoSBlue
   name: head of security's blue winter coat
@@ -504,7 +504,7 @@
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHatHoodWinterWarden
 
-- type: entity
+- type: entity #Grimbly Bluesec
   parent: ClothingOuterWinterCoatToggleable
   id: ClothingOuterWinterWardenBlue
   name: warden's blue armored winter coat
