@@ -118,8 +118,6 @@
     spitDamageThreshold: 3
   - type: CrawlUnderObjects # Remove this once crawling goes under tables
     actionProto: ActionToggleSneakMode
-  - type: LayingDownModifier
-    downedSpeedMultiplierMultiplier: 4.6 # makes them crawl at the same speed sneak mode moves. for when crawling goes under tables, they can crawl instead of sneak
 - type: entity
   save: false
   name: Rodentia Dummy
