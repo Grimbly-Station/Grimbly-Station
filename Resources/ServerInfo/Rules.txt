@@ -106,7 +106,7 @@ Space Station 14 is not like most games. Many rules are designed to require role
     - By picking prisoner, you have chosen to RP as a prisoner.[/color]
         [color=#ffe59d]* You are still subject to the same rules regarding escalation. You should only seek to escape from the brig with good reasoning (e.g. abusive security personnel, badly damaged permanent brig, lack of parole consideration DESPITE good behavior, etc.) OR after a 30 minute grace period.
         * Escaping for no reason OR before the 30 minute grace period is considered a self-antagonistic activity.
-        * If you are unsure whether your escape reason is valid, feel free to AHelp it first.[/color] [color=#ff0000]Lack of administrator response does not constitute approval[/color].
+        * If you are unsure whether your escape reason is valid, feel free to AHelp it first.[/color] [color=#ff0000]Lack of administrator response does not constitute approval.[/color].
 
 [color=#a4885c]9.[/color] [color=#fcff00]Follow Escalation Guidelines[/color]
     [color=#ffffff]- Do not escalate situations needlessly. Very few things are deserving of a fight to the death.[/color]
