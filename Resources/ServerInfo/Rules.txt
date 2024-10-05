@@ -185,8 +185,8 @@ Space Station 14 is not like most games. Many rules are designed to require role
         * A MG should know how to do xenoarcheology, anomaly management, and psionic/glimmer management.
         * A CE should know how to repair, basic atmos distro setup, and setup power.
     [color=#ffffff]- As Command and Security are more RP intensive than other departments, communication is essential to these roles. Failure to communicate with others is liable to result in a job ban.
-    - Uphold the Law & maintain order. Do not engage in lawbreaking activity or troublemaker behavior. Security is expected to intervene into criminal activity where possible. Heads of Staff are at minimum expected to report criminal activity to Security.[/color]
-    - Command members besides the Logistics Officer are not permitted to leave the station on salvage expeditions.
+    - Uphold the Law & maintain order. Do not engage in lawbreaking activity or troublemaker behavior. Security is expected to intervene into criminal activity where possible. Heads of Staff are at minimum expected to report criminal activity to Security.
+    - Command members besides the Logistics Officer are not permitted to leave the station on salvage expeditions.[/color]
 
     [color=#00c5ff]13B. Chronological Considerations[/color]
     [color=#ffffff]- If you don’t have time to play a full round, do not select these roles.
