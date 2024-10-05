@@ -20,7 +20,6 @@ Space Station 14 is not like most games. Many rules are designed to require role
 [color=#a4885c]1.[/color] [color=#fcff00]Erotic Roleplay (ERP), erotic content, or 18+ sexual content is [/color][color=#ff0000]not allowed under any circumstance[/color]. [color=#fcff00]This mainly includes comments not explicitly sexual in nature that contain words, phrases, or ideations that are deemed inappropriate.[/color] [color=#ff0000]If roleplay reaches a point where it has become sexual and/or uncomfortable, immediately stop and contact an administrator.[/color]
 
 [color=#a4885c]2.[/color] [color=#fcff00]Follow the server expectations[/color]
-
     [color=#00c5ff]2A. Gameplay Expectations[/color]
     [color=#ffffff]- Do not cheat.
     - Do not abuse glitches and exploits. [/color][color=#ff0000]We have zero tolerance for abusing exploits/bugs. If you’re not sure, ask an admin.[/color][color=#ffffff] Otherwise, please use the #bug-reports channel on the Discord to report the bug.
@@ -43,7 +42,6 @@ Space Station 14 is not like most games. Many rules are designed to require role
     - If you are playing a departmental role and have to leave for more than 20 minutes, please head to cryo or notify an admin of your absence. This is to prevent role-hogging by AFK players. Failure to do so may result in admin cryo, whereas repeat offenders may receive rolebans or tempbans based on severity.[/color]
 
 [color=#a4885c]3.[/color] [color=#fcff00]Follow Chat Guidelines[/color]
-    
     [color=#00c5ff]3A. Use English and Be respectful[/color]
     [color=#ffffff]- Use English as your primary method of communication within the game and Grimbly Station servers.
     - Do not spam.
@@ -60,7 +58,6 @@ Space Station 14 is not like most games. Many rules are designed to require role
        [color=#ffe59d]* DO NOT use in-character channels to bypass a lack of ability to use OOC/LOOC chats (e.g. "Huh, wonder where captain went? *OOC* He probably left to get dinner lol"). This will result in an immediate dewhitelist.[/color]
 
 [color=#a4885c]4.[/color] [color=#fcff00]Follow Metagaming guidelines[/color]
-
     [color=#00c5ff]4A. Death Rules and New Life Rules[/color]
     [color=#ffffff]- If you die and get revived, do not act on things you saw while you were dead.
     - If a player dies and is brought back by way of cloning or borgification, they forget the last five minutes leading up to their death and cannot describe who or what killed them.
@@ -93,7 +90,6 @@ Space Station 14 is not like most games. Many rules are designed to require role
     [color=#ffffff]- The only exception to the above is that theatrical roles like clown, boxer, and mime are allowed stage names with some freedom, as long as it is not obscene.[/color]
 
 [color=#a4885c]8.[/color] [color=#fcff00]Follow Roleplay Guidelines[/color]
-    
     [color=#00c5ff]8A. Character RP Guidelines[/color]
     [color=#ffffff]- Treat your character as a separate entity from you, the player. Your character's actions, feelings, and knowledge in-game should be based solely on the character's experiences and not your own as the player. Low roleplay actions that have no regard for your character or the setting (Memes, silly copy paste spam IC) are not acceptable.
     - Low roleplay actions that have no regard for your character or little bearing on setting (such as memes, silly copy paste spam IC) are not acceptable. Your character is a worker aboard a space station and will be held accountable.
@@ -114,7 +110,6 @@ Space Station 14 is not like most games. Many rules are designed to require role
     [color=#ffffff]- Antagonistic ghost roles, and pest ghost roles like mice are always fair game for attacking. Don't grief crew-aligned ghost roles like familiars, borgs, drones, or pets without provocation.[/color]
 
 [color=#a4885c]10.[/color] [color=#fcff00]Follow Antagonist Guidelines[/color]
-
     [color=#00c5ff]10A. Antagonist Behavioral Guidelines[/color]
     [color=#ffffff]- The damage antagonists cause should be roughly proportional to their objectives, and contribute towards achieving them in some way.[/color]
         [color=#ffe59d]* Antagonists have leniency in regards to what they can and can’t do.  If you are concerned as to whether or not what you're about to do is allowed, feel free to ahelp and ask an admin. [color=#ff0000]Lack of administrator response does not constitute approval[/color]
@@ -138,7 +133,6 @@ Space Station 14 is not like most games. Many rules are designed to require role
         * Be sure to work with Security accordingly to deal with this.[/color]
 
 [color=#a4885c]12.[/color] [color=#fcff00]Follow Powergaming Guidelines[/color]
-
     [color=#00c5ff]12A. General Powergaming Guidelines[/color]
     [color=#ffffff]- Don't rush for or prepare equipment unrelated to your job for no purpose other than to have it "just in case" (referred to as "Powergaming").[/color]
         [color=#ffe59d]* Finding something laying around without a clear owner is a generally a valid reason, this mainly applies to maintenance items. 
