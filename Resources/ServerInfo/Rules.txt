@@ -142,7 +142,7 @@ Space Station 14 is not like most games. Many rules are designed to require role
     [color=#00c5ff]12A. General Powergaming Guidelines[/color]
     [color=#ffffff]- Don't rush for or prepare equipment unrelated to your job for no purpose other than to have it "just in case" (referred to as "Powergaming").[/color]
         [color=#ffe59d]* Finding something laying around without a clear owner is a generally a valid reason, this mainly applies to maintenance items. 
-        * If you are concerned as to whether or not what you're allowed to go for, feel free to ahelp and ask an admin.[/color] [color=#ff0000]Lack of administrator response does not constitute approval[/color]
+        * If you are concerned as to whether or not what you're allowed to go for, feel free to ahelp and ask an admin.[/color] [color=#ff0000]Lack of administrator response does not constitute approval.[/color]
     [color=#ffffff]- A medical doctor does not need insulated gloves gamestart, and the Head of Personnel does not need to give themselves armory access so they can go grab a gun. Have an actual reason for needing these things.
     - Don't manufacture weapons, bombs, or deadly poisons before you know of any reason you would need them.
     - Don't preemptively hide antagonist objectives or preemptively secure them with higher security than normally required.[/color]
