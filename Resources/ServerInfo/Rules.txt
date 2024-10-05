@@ -148,7 +148,7 @@ Space Station 14 is not like most games. Many rules are designed to require role
     - Don't preemptively hide antagonist objectives or preemptively secure them with higher security than normally required.[/color]
 
     [color=#00c5ff]12B. Role-Specific Powergaming Guidelines[/color]
-    [color=#ffffff] Security of antagonist objective items:[/color]
+    [color=#ffffff]- Security of antagonist objective items:[/color]
         [color=#ffe59d]* Hiding antagonist objective items or preemptively securing them with higher security than usually required or than would make logical sense violates our powergaming and roleplay guidelines.
         * If you acquire an antagonist objective item in a non-Standard approved manner, you should try and return it to its rightful owner. If this is not possible you should try and secure it to the best of your abilities. You may coordinate with other crew to achieve this goal.[/color]
     [color=#ffffff]- Logistics Gameplay Guidelines:[/color]
