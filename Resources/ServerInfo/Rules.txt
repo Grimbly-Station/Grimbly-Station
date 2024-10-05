@@ -73,7 +73,7 @@ Space Station 14 is not like most games. Many rules are designed to require role
     - Antagonists in previous rounds must not be treated differently due to their prior antagonist status. Notwithstanding, confession of crimes committed in a prior shift are still admissible in court.
     - Do not "Antag Roll." This is the act of joining rounds for the purpose of seeing if you joined as an antagonist, and leaving soon after if not. Players who have a history of this behavior will have their whitelist revoked and/or face a ban.
     - Do not place players into cryosleep unless they have given consent to do so, they are fully catatonic, or they have been sentenced to preservative stasis. Always examine a character to double check if they are SSD or catatonic prior to placing them into cryosleep.[/color]
-    - [color=#ff0000]Do not stream the current round to the Grimbly Station Discord.[/color]
+    [color=#ff0000]- Do not stream the current round to the Grimbly Station Discord.[/color]
 
 [color=#ff0000]Please report players who violate this rule.[/color]
 
@@ -169,7 +169,7 @@ Space Station 14 is not like most games. Many rules are designed to require role
 
 
 [color=#ff0000]SECURITY & COMMAND RULES[/color]
-These rules apply to any individual who is promoted or is acting in the place of a Security/Command role (unless they are an antagonist).
+[color=#fcff00]These rules apply to any individual who is promoted or is acting in the place of a Security/Command role (unless they are an antagonist).[/color]
 
 [color=#a4885c]13.[/color] [color=#fcff00]Security and command roles are held to a higher standard and must follow space law.[/color]
     [color=#00c5ff]13A. Command & Security Standards[/color]
