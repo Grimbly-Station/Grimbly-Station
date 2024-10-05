@@ -201,7 +201,7 @@ These rules apply to any individual who is promoted or is acting in the place of
 
 [color=#a4885c]14.[/color] [color=#fcff00]Security (and Command where applicable) should try to remain non-lethal and effect arrests. Security/Command will be expected to answer for use of lethal force. Security/Command will be expected to effect arrests on criminals and prevent them from dying while in custody, even if lethal force is used. [/color]
 
-In the following special circumstances, lethal force may be used by Security:
+[color=#00c5ff]In the following special circumstances, lethal force may be used by Security:[/color]
     [color=#ffffff]- Lethal force is used against you (ex: firearms, lasers, disabling/stunning weapons with intent to kill, deadly melee weapons)
     - Suspect is equipped with dangerous equipment only used by enemy agents/antagonists and is not cuffed nor surrendering (ex: Bloodred Hardsuit, China Lake, C-20R, etc.).
     - You determine that your life or the life of another person is in immediate danger.
