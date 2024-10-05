@@ -12,14 +12,14 @@
 
 Space Station 14 is not like most games. Many rules are designed to require roleplay, and not all rules are intuitive. Please take the time to read and understand the rules before you play so that you aren't surprised. Our community rules specifically are zero-tolerance rules, meaning that a violation will result in an appeal-only ban. Game admins will treat you as if you have read the rules, even if you have not.
 
-[color=#a4885c]0.[/color] Admins can disregard any and all of these rules if they deem it in the best interest of the current round, server, and/or community at large.
+[color=#a4885c]0.[/color] [color=#fcff00]Admins can disregard any and all of these rules if they deem it in the best interest of the current round, server, and/or community at large.[/color]
     - Administrators will be held fully accountable for their actions if they exercise this privilege.
     - All of these rules apply as they are intended. Every example of a rule break cannot be defined as written, therefore, enforcement of the rules is subject to staff interpretation of the rule's intention.
     - Any extended discussion regarding interpretation of the rules should be avoided in the AHelp menu and can be instead pursued within the Grimbly Station Discord in the #help channel.
 
-[color=#a4885c]1.[/color] Erotic Roleplay (ERP), erotic content, or 18+ sexual content is [color=#ff0000]not allowed under any circumstance[/color]. This mainly includes comments not explicitly sexual in nature that contain words, phrases, or ideations that are deemed inappropriate. [color=#ff0000]If roleplay reaches a point where it has become sexual and/or uncomfortable, immediately stop and contact an administrator.[/color]
+[color=#a4885c]1.[/color] [color=#fcff00]Erotic Roleplay (ERP), erotic content, or 18+ sexual content is [/color][color=#ff0000]not allowed under any circumstance[/color]. [color=#fcff00]This mainly includes comments not explicitly sexual in nature that contain words, phrases, or ideations that are deemed inappropriate.[/color] [color=#ff0000]If roleplay reaches a point where it has become sexual and/or uncomfortable, immediately stop and contact an administrator.[/color]
 
-[color=#a4885c]2.[/color] Follow the server expectations
+[color=#a4885c]2.[/color] [color=#fcff00]Follow the server expectations[/color]
 
     2A. Gameplay Expectations
     - Do not cheat.
@@ -43,7 +43,7 @@ Space Station 14 is not like most games. Many rules are designed to require role
     - - If you are playing a departmental role and have to leave for more than 20 minutes, please head to cryo or notify an admin of your absence. This is to prevent role-hogging by AFK players. Failure to do so may result in admin cryo, whereas repeat offenders may receive rolebans or tempbans based on severity.
 
 
-[color=#a4885c]3.[/color] Follow Chat Guidelines
+[color=#a4885c]3.[/color] [color=#fcff00]Follow Chat Guidelines[/color]
     
     3A. Use English and Be respectful
     - Use English as your primary method of communication within the game and Grimbly Station servers.
@@ -60,7 +60,7 @@ Space Station 14 is not like most games. Many rules are designed to require role
     - Use the LOOC and OOC channels properly. Don’t speak of in-character matters in those channels unless you’re asking questions related to in-game concepts.
        * DO NOT use in-character channels to bypass a lack of ability to use OOC/LOOC chats (e.g. "Huh, wonder where captain went? *OOC* He probably left to get dinner lol"). This will result in an immediate dewhitelist.
 
-[color=#a4885c]4.[/color] Follow Metagaming guidelines
+[color=#a4885c]4.[/color] [color=#fcff00]Follow Metagaming guidelines[/color]
 
     4A. Death Rules and New Life Rules
     - If you die and get revived, do not act on things you saw while you were dead.
@@ -78,13 +78,13 @@ Space Station 14 is not like most games. Many rules are designed to require role
 
 [color=#ff0000]Please report players who violate this rule.[/color]
 
-[color=#a4885c]6.[/color] All constructed/summoned beings that have laws are bound by those laws and must abide by them.
+[color=#a4885c]6.[/color] [color=#fcff00]All constructed/summoned beings that have laws are bound by those laws and must abide by them.[/color]
     - If a being has a master, they MUST follow their master's orders.
     - Your master is held accountable if they order you to do something malicious.
         * This does not apply to breaking server rules. If you are ordered to do something that would break a server rule, disregard it and inform an admin.
     - Not having orders, or being given free will by your master does NOT give you permission to self-antag or grief the crew.
 
-[color=#a4885c]7.[/color] Follow Naming Conventions
+[color=#a4885c]7.[/color] [color=#fcff00]Follow Naming Conventions[/color]
     - In-character names must fit the server standards of:
         * Doesn't make obvious references
         * Doesn't disturb roleplay
@@ -93,7 +93,7 @@ Space Station 14 is not like most games. Many rules are designed to require role
         * Is a result of random name generation.
     - The only exception to the above is that theatrical roles like clown, boxer, and mime are allowed stage names with some freedom, as long as it is not obscene.
 
-[color=#a4885c]8.[/color] Follow Roleplay Guidelines
+[color=#a4885c]8.[/color] [color=#fcff00]Follow Roleplay Guidelines[/color]
     
     8A. Character RP Guidelines
     - Treat your character as a separate entity from you, the player. Your character's actions, feelings, and knowledge in-game should be based solely on the character's experiences and not your own as the player. Low roleplay actions that have no regard for your character or the setting (Memes, silly copy paste spam IC) are not acceptable.
@@ -109,12 +109,12 @@ Space Station 14 is not like most games. Many rules are designed to require role
         * Escaping for no reason OR before the 30 minute grace period is considered a self-antagonistic activity.
         * If you are unsure whether your escape reason is valid, feel free to AHelp it first. [color=#ff0000]Lack of administrator response does not constitute approval[/color].
 
-[color=#a4885c]9.[/color] Follow Escalation Guidelines
+[color=#a4885c]9.[/color] [color=#fcff00]Follow Escalation Guidelines[/color]
     - Do not escalate situations needlessly. Very few things are deserving of a fight to the death.
         * If a fight results in someone being critically injured, seek medical help for them. If they die, do not destroy or otherwise hide their body.
     - Antagonistic ghost roles, and pest ghost roles like mice are always fair game for attacking. Don't grief crew-aligned ghost roles like familiars, borgs, drones, or pets without provocation.
 
-[color=#a4885c]10.[/color] Follow Antagonist Guidelines
+[color=#a4885c]10.[/color] [color=#fcff00]Follow Antagonist Guidelines[/color]
 
     10A. Antagonist Behavioral Guidelines
     - The damage antagonists cause should be roughly proportional to their objectives, and contribute towards achieving them in some way. 
@@ -132,13 +132,13 @@ Space Station 14 is not like most games. Many rules are designed to require role
         * Sentient - Your character is nonhumanoid. This applies to Space Dragons, Rat Kings, and other complex non-humanoid ghost-role antagonists. Space-Law & SoP gives you less protections unless specifically stated otherwise.
         * Nonsentient/Partially-sentient - As a non-sentient or partially-sentient antagonist, you are expected to have only a limited understanding of space stations and their mechanics. Slimes, zombies, spiders, etc. Should not be targeting the gravity generator or the AME, nor should they be unnecessarily spacing the station.
 
-[color=#a4885c]11.[/color] Psionics
+[color=#a4885c]11.[/color] [color=#fcff00]Psionics[/color]
     - Players that have psionic powers are allowed to use them at-will to accomplish their roleplay goals. It should be noted that in-character consequences can happen as a result of their use, including being stripped of psionic powers or even death.
     - As a mantis, it is not your goal to hunt down psionics. Do not mindbreak others against their will solely because they have psionic powers.
         * This is given more leniency on Code White or if someone is actively abusing their Psionics.
         * Be sure to work with Security accordingly to deal with this.
 
-[color=#a4885c]12.[/color] Follow Powergaming Guidelines
+[color=#a4885c]12.[/color] [color=#fcff00]Follow Powergaming Guidelines[/color]
 
     12A. General Powergaming Guidelines
     - Don't rush for or prepare equipment unrelated to your job for no purpose other than to have it "just in case" (referred to as "Powergaming").
@@ -172,7 +172,7 @@ Space Station 14 is not like most games. Many rules are designed to require role
 [color=#ff0000]SECURITY & COMMAND RULES[/color]
 These rules apply to any individual who is promoted or is acting in the place of a Security/Command role (unless they are an antagonist).
 
-[color=#a4885c]13.[/color] Security and command roles are held to a higher standard and must follow space law.
+[color=#a4885c]13.[/color] [color=#fcff00]Security and command roles are held to a higher standard and must follow space law.[/color]
     13A. Command & Security Standards
     - Security, Justice, and Command roles are held to a higher standard of roleplay, and are expected to know and perform their jobs to the best of their ability. These roles often heavily impact the round and require more careful and conscientious roleplay; if you cannot meet these requirements do not take these roles.
         * These three departments are required to read and follow Grimbly Station Space Law, Standard Operating Procedure, Alert Procedure, and Company Policy to the best of their ability.
@@ -200,7 +200,7 @@ These rules apply to any individual who is promoted or is acting in the place of
     - Do not hire random crew to be your bodyguards or promote random crewmember to Captain or a Head of Staff at random. If you need bodyguards, talk to your security department. If you need a new Command role, talk to the personnel in that related department.
     - Do not abandon the station during Nuclear Operatives. You are supposed to protect the station, not let operatives kill everyone on it without a fight.
 
-[color=#a4885c]14.[/color] Security (and Command where applicable) should try to remain non-lethal and effect arrests. Security/Command will be expected to answer for use of lethal force. Security/Command will be expected to effect arrests on criminals and prevent them from dying while in custody, even if lethal force is used.
+[color=#a4885c]14.[/color] [color=#fcff00]Security (and Command where applicable) should try to remain non-lethal and effect arrests. Security/Command will be expected to answer for use of lethal force. Security/Command will be expected to effect arrests on criminals and prevent them from dying while in custody, even if lethal force is used. [/color]
 
 In the following special circumstances, lethal force may be used by Security:
     - Lethal force is used against you (ex: firearms, lasers, disabling/stunning weapons with intent to kill, deadly melee weapons)
@@ -209,7 +209,7 @@ In the following special circumstances, lethal force may be used by Security:
     - The suspect is unable to be safely detained by less-lethal means. This includes suspects who continually resist efforts to be cuffed or continuously manage to escape.
     - If no other reasonable options are readily available and allowing the suspect to continue would be an unreasonable danger to the station/crew.
 
-[color=#a4885c]15.[/color] Security/Command are expected to protect detainees in their custody to the best of their ability so as long as it does not come to unreasonable risk to themselves, the crew, or the station at large to do so.
+[color=#a4885c]15.[/color] [color=#fcff00]Security/Command are expected to protect detainees in their custody to the best of their ability so as long as it does not come to unreasonable risk to themselves, the crew, or the station at large to do so.[/color]
     - Brig times should generally not exceed 20 minutes unless the crime is permabriggable.
     - Security may choose to confiscate dangerous items (weapons, firearms) as well as items used to commit crimes or items that prove problematic in possession of the detainee (tools, insulated gloves, etc.).
     - Security may inspect PDAs of detainees and withhold them for the duration of detention, but can only confiscate them if they are obviously contraband. Suspicion alone is NOT sufficient for PDA confiscation by Security.
