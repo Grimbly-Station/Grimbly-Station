@@ -174,7 +174,7 @@ Space Station 14 is not like most games. Many rules are designed to require role
         [color=#ffe59d]* A CMO should know basic chemistry and treatment.
         * An LO should know basic money management, shuttle piloting, mailing, and Salvage procedures.
         * An HoS should know Space Law, Brig timers, considerations of criminal cases, etc.
-        * A Captain should know how to delegate jobs, the basics of each department, and how to handle internal conflicts.
+        * A Captain should know how to delegate jobs, the basics of each department, and how to handle conflicts.
         * An HoP should know how to do basic service roles, job assignment, and ID permission considerations on a case-by-case basis.
         * A MG should know how to do xenoarcheology, anomaly management, and psionic/glimmer management.
         * A CE should know how to repair, basic atmos distro setup, and setup power.[/color]
