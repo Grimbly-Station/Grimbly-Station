@@ -101,10 +101,10 @@
   - type: LanguageKnowledge
     speaks:
       - TauCetiBasic
-      - Mouse
+      - Ratstozkan
     understands:
       - TauCetiBasic
-      - Mouse
+      - Ratstozkan
   - type: Rummager
   - type: AlwaysTriggerMousetrap
   - type: PseudoItem

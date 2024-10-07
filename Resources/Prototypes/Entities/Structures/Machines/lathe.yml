@@ -361,6 +361,8 @@
       - AnimalTranslator
       - MofficTranslatorImplanter
       - MofficTranslator
+      - RatstozkanTranslator
+      - RatstozkanTranslatorImplanter
       - RCDAmmo #DeltaV
       - RCD #EE
   - type: EmagLatheRecipes

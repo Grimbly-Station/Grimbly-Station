@@ -49,6 +49,13 @@ language-Canilunzt-description =
 language-Moffic-name = Moffic
 language-Moffic-description = The language of the mothpeople borders on complete unintelligibility.
 
+language-Ratstozkan-name = Ratstozkan
+language-Ratstozkan-description =
+    After several leaks from the Tau-Ceti Government, it was recently determined that 'Ratstozka' wasn't ever a real empire, and therefore not the legitimate name of this language.
+    Instead, 'Ratstozka' was a deameaning, made up name slapped on to the many rodentia nations to villainize them - ultimately being used to justify the liberation of the Rodentia Homeworld.
+    Nowadays, many rodentia wish to reclaim their independance; and while the false name was originally a tool for oppression, it has been slowly turned into an icon of national pride.
+    GLORY TO RATSTOZKA!
+
 language-RobotTalk-name = RobotTalk
 language-RobotTalk-description = A language consisting of harsh binary chirps, whistles, hisses, and whines. Organic tongues cannot speak it without aid from special translators.
 
