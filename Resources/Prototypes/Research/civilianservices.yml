@@ -248,6 +248,7 @@
   - RootSpeakTranslator
   - BasicGalaticCommonTranslatorImplanter
   - MofficTranslator
+  - RatstozkanTranslator
 
 - type: technology
   id: AdvancedTranslation
@@ -269,3 +270,4 @@
   - RootSpeakTranslatorImplanter
   - AnimalTranslator
   - MofficTranslatorImplanter
+  - RatstozkanTranslatorImplanter

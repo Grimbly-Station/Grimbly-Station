@@ -126,3 +126,18 @@
     - Moffic
     requires:
     - TauCetiBasic
+
+- type: entity
+  parent: BaseSubdermalImplant
+  id: RatstozkanTranslatorImplant
+  name: Ratstozkan translator implant
+  description: An implant that allows you to bring glory to Ratstozka!
+  noSpawn: true
+  components:
+  - type: TranslatorImplant
+    understood:
+    - Ratstozkan
+    spoken:
+    - Ratstozkan
+    requires:
+    - TauCetiBasic

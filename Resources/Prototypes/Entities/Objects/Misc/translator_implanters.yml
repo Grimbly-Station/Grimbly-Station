@@ -75,3 +75,11 @@
   components:
   - type: Implanter
     implant: MofficTranslatorImplant
+
+- type: entity
+  id: RatstozkanTranslatorImplanter
+  parent: [ BaseTranslatorImplanter ]
+  name: Ratstozkan translator implant
+  components:
+  - type: Implanter
+    implant: RatstozkanTranslatorImplant

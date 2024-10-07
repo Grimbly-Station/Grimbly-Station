@@ -179,6 +179,23 @@
     - Moffic
 
 - type: entity
+  id: RatstozkanTranslator
+  parent: [ TranslatorPoweredBase ]
+  name: Ratstozkan translator
+  description: Translates speech between Ratstozkan and Galactic Common, helping you bring glory to Ratstozka!
+  components:
+  - type: HandheldTranslator
+    spoken:
+    - TauCetiBasic
+    - Ratstozkan
+    understood:
+    - TauCetiBasic
+    - Ratstozkan
+    requires:
+    - TauCetiBasic
+    - Ratstozkan
+
+- type: entity
   id: XenoTranslator
   parent: [ TranslatorPoweredBase ]
   name: Xeno translator
