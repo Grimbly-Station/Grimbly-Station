@@ -1,14 +1,8 @@
 [color=#ff0000]YOU MUST BE AT LEAST 18 YEARS OF AGE TO PLAY ON GRIMBLY STATION SERVERS. ANY USERS SUSPECTED OF BEING UNDER 18 YEARS OF AGE WILL BE BANNED UNTIL THEY ARE OF AGE.[/color]
 
-[color=#ff0000]DISCONNECTING FROM OR IGNORING/EVADING ADMIN-HELPS WILL RESULT IN AN APPEAL ONLY BAN.[/color]
-
-[color=#ff0000]THE USAGE OF ANY THIRD-PARTY APPLICATIONS/SCRIPTS/CLIENT MODIFICATIONS TO GAIN AN ADVANTAGE, AVOID INTENDED GAME/SERVER MECHANICS, OR TO HARM SERVER INFRASTRUCTURE IS STRICTLY PROHIBITED. ANY AND ALL INSTANCES OF THIS WILL BE MET WITH AN APPEAL-ONLY BAN.[/color]
-
-[color=#ff0000]If you have any questions about these rules, please use the admin help menu by hitting F1 in-game or clicking the "AHelp" button in the lobby
+[color=#ff0000]If you have any questions about these rules, please use the admin help menu by hitting F1 in-game or clicking the "AHelp" button in the lobby[/color]
 
 [color=#ffff00]Grimbly Station is a Medium Roleplay server. Try to immerse yourself into your character. This includes doing your job, interacting with your fellow crewmates, and using roleplay as the primary vessel to play the game. MRP places less emphasis on “winning” and more on just telling a story.[/color]
-
-[color=#ffff00]If you have any questions about these rules, please use the admin help (ahelp) menu by hitting F1 in-game or clicking the “Ahelp” button in the lobby.[/color]
 
 Space Station 14 is not like most games. Many rules are designed to require roleplay, and not all rules are intuitive. Please take the time to read and understand the rules before you play so that you aren't surprised. Our community rules specifically are zero-tolerance rules, meaning that a violation will result in an appeal-only ban. Game admins will treat you as if you have read the rules, even if you have not.
 
@@ -23,6 +17,7 @@ Space Station 14 is not like most games. Many rules are designed to require role
     [color=#00c5ff]2A. Gameplay Expectations[/color]
     [color=#ffffff]- Do not cheat.
     - Do not abuse glitches and exploits. [/color][color=#ff0000]We have zero tolerance for abusing exploits/bugs. If you’re not sure, ask an admin.[/color][color=#ffffff] Otherwise, please use the #bug-reports channel on the Discord to report the bug.
+    - THE USAGE OF ANY THIRD-PARTY APPLICATIONS/SCRIPTS/CLIENT MODIFICATIONS TO GAIN AN ADVANTAGE, AVOID INTENDED GAME/SERVER MECHANICS, OR TO HARM SERVER INFRASTRUCTURE IS STRICTLY PROHIBITED. ANY AND ALL INSTANCES OF THIS WILL BE MET WITH AN APPEAL-ONLY BAN.
     - If you are banned from a role or department, you may not play that role. This includes seeking or accepting promotions into roles you are banned from.
     - Do not make yourself a major problem/annoyance/disruption for the crew while not being an antagonist (i.e. self-antagging).
     - Do not make yourself a major problem/annoyance/disruption for one specific crew member in a way that would actively detract from the other player's enjoyment of the shift.
@@ -39,6 +34,7 @@ Space Station 14 is not like most games. Many rules are designed to require role
     [color=#ffffff]- Do not ignore the admin help relay or abuse it by flooding it with garbage, checking for admins before stating a problem (ex: "hello?", "any admins?"), using it as a chatroom, or sending messages of no substance. Hostility to administrators in the relay will result in your removal.
     - Intentionally disconnecting, responding with hostility, or refusing to respond when an admin privately messages you in-game will be met with an appeal-only ban.
     - All AHelp messages are relayed to the Grimbly Station Discord. If an admin is not online, aHelp it anyways!
+    - If you have any questions about these rules, please use the admin help (ahelp) menu by hitting F1 in-game or clicking the “Ahelp” button in the lobby.
     - If you are playing a departmental role and have to leave for more than 20 minutes, please head to cryo or notify an admin of your absence. This is to prevent role-hogging by AFK players. Failure to do so may result in admin cryo, whereas repeat offenders may receive rolebans or tempbans based on severity.[/color]
 
 [color=#a4885c]3.[/color] [color=#fcff00]Follow Chat Guidelines[/color]
