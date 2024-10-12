@@ -136,11 +136,11 @@
     speaks:
     - TauCetiBasic
     - Mouse
-    - Ratstozkan
+    - Ratstozkan # Grimbly
     understands:
     - TauCetiBasic
     - Mouse
-    - Ratstozkan
+    - Ratstozkan # Grimbly
 
 - type: entity
   id: MobRatKingBuff
@@ -319,7 +319,7 @@
     understands:
     - TauCetiBasic
     - Mouse
-    - Ratstozkan
+    - Ratstozkan # Grimbly
   - type: FireVisuals
     sprite: Mobs/Effects/onfire.rsi
     normalState: Mouse_burning
