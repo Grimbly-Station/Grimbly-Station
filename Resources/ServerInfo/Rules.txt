@@ -189,7 +189,10 @@ Space Station 14 is not like most games. Many rules are designed to require role
     - Do not hire random crew to be your bodyguards or promote random crewmember to Captain or a Head of Staff at random. If you need bodyguards, talk to your security department. If you need a new Command role, talk to the personnel in that related department.
     - Do not abandon the station during Nuclear Operatives. You are supposed to protect the station, not let operatives kill everyone on it without a fight.[/color]
 
-[color=#a4885c]13.[/color] [color=#fcff00]Security (and Command where applicable) should try to remain non-lethal and effect arrests. Security/Command will be expected to answer for use of lethal force. Security/Command will be expected to effect arrests on criminals and prevent them from dying while in custody, even if lethal force is used. [/color]
+[color=#a4885c]13.[/color] [color=#fcff00]Security Escalation[/color]
+    - [color=#ffffff]Security (and Command where applicable) should try to remain non-lethal and effect arrests. 
+    - Security/Command will be expected to answer for use of lethal force. 
+    - Security/Command will be expected to effect arrests on criminals and prevent them from dying while in custody, even if lethal force is used.[/color]
 
 [color=#00c5ff]In the following special circumstances, lethal force may be used by Security:[/color]
     [color=#ffffff]- Lethal force is used against you (ex: firearms, lasers, disabling/stunning weapons with intent to kill, deadly melee weapons)

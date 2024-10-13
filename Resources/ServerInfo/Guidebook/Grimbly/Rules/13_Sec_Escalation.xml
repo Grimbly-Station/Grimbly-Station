@@ -1,4 +1,8 @@
 <Document>
-  <font color="#fcff00"># Rule : </color>
- 
+  <font color="#fcff00"># Rule 13: Security Escalation</color>
+    - Security (and Command where applicable) should try to remain non-lethal and effect arrests. 
+
+    - Security/Command will be expected to answer for use of lethal force. 
+    
+    - Security/Command will be expected to effect arrests on criminals and prevent them from dying while in custody, even if lethal force is used.
 </Document>
