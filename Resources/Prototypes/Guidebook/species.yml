@@ -12,6 +12,7 @@
     - SlimePerson
     - IPCs
     - Rodentia
+    - Harpy
 
 - type: guideEntry
   id: Arachnid
@@ -57,3 +58,8 @@
   id: Rodentia
   name: species-name-rodentia
   text: "/ServerInfo/Guidebook/Mobs/DeltaV/Rodentia.xml"
+
+- type: guideEntry
+  id: Harpy
+  name: species-name-harpy
+  text: "/ServerInfo/Guidebook/Mobs/Harpy.xml"

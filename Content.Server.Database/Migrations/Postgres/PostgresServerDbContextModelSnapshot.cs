@@ -777,6 +777,11 @@ namespace Content.Server.Database.Migrations.Postgres
                         .HasColumnType("text")
                         .HasColumnName("clothing");
 
+                    b.Property<string>("CustomSpecieName")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("custom_specie_name");
+
                     b.Property<string>("EyeColor")
                         .IsRequired()
                         .HasColumnType("text")
@@ -812,15 +817,9 @@ namespace Content.Server.Database.Migrations.Postgres
                         .HasColumnType("text")
                         .HasColumnName("hair_name");
 
-					// Parkstation-HeightSlider Start
                     b.Property<float>("Height")
                         .HasColumnType("real")
                         .HasColumnName("height");
-
-                    b.Property<float>("Width")
-                        .HasColumnType("real")
-                        .HasColumnName("width");
-                    // Parkstation-HeightSlider End
 
                     b.Property<JsonDocument>("Markings")
                         .HasColumnType("jsonb")
@@ -856,6 +855,10 @@ namespace Content.Server.Database.Migrations.Postgres
                         .IsRequired()
                         .HasColumnType("text")
                         .HasColumnName("species");
+
+                    b.Property<float>("Width")
+                        .HasColumnType("real")
+                        .HasColumnName("width");
 
                     b.HasKey("Id")
                         .HasName("PK_profile");

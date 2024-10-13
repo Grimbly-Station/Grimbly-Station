@@ -61,6 +61,12 @@
                                     ToolTip="{Loc 'humanoid-profile-editor-guidebook-button-tooltip'}"/>
                                 <OptionButton Name="CSpeciesButton" HorizontalAlignment="Right" />
                             </BoxContainer>
+                            <!-- Species -->
+                            <BoxContainer Name="CCustomSpecieName" HorizontalExpand="True">
+                                <Label Text="{Loc 'humanoid-profile-editor-customspeciename-label'}" />
+                                <Control HorizontalExpand="True"/>
+                                    <LineEdit Name="CCustomSpecieNameEdit" MinSize="270 0" HorizontalAlignment="Right" />
+                            </BoxContainer>
                             <!-- Age -->
                             <BoxContainer HorizontalExpand="True">
                                 <Label Text="{Loc 'humanoid-profile-editor-age-label'}" />
@@ -90,18 +96,6 @@
                                 <Label Text="{Loc 'humanoid-profile-editor-loadouts'}" />
                                 <Control HorizontalExpand="True"/>
                                 <Button Name="ShowLoadouts" Pressed="True" ToggleMode="True" Text="{Loc 'Show'}" HorizontalAlignment="Right" />
-                            </BoxContainer>
-                            <!-- Clothing -->
-                            <BoxContainer HorizontalExpand="True">
-                                <Label Text="{Loc 'humanoid-profile-editor-clothing-label'}" />
-                                <Control HorizontalExpand="True"/>
-                                <OptionButton Name="CClothingButton" HorizontalAlignment="Right" />
-                            </BoxContainer>
-                            <!-- Backpack -->
-                            <BoxContainer HorizontalExpand="True">
-                                <Label Text="{Loc 'humanoid-profile-editor-backpack-label'}" />
-                                <Control HorizontalExpand="True"/>
-                                <OptionButton Name="CBackpackButton" HorizontalAlignment="Right" />
                             </BoxContainer>
                             <!-- Spawn Priority -->
                             <BoxContainer HorizontalExpand="True">
@@ -211,8 +205,10 @@
                 <ui:NeoTabContainer Name="CLoadoutsTabs" VerticalExpand="True" SeparatorMargin="0" />
             </BoxContainer>
             <BoxContainer Name="CMarkingsTab" HorizontalExpand="True" Orientation="Vertical" Margin="10">
-                <!-- Markings -->
-                <humanoid:MarkingPicker Name="CMarkings" IgnoreCategories="Hair,FacialHair" />
+                <ScrollContainer HorizontalExpand="True" HScrollEnabled="True" VerticalExpand="True" VScrollEnabled="True">
+                    <!-- Markings -->
+                    <humanoid:MarkingPicker Name="CMarkings" IgnoreCategories="Hair,FacialHair" />
+                </ScrollContainer>
             </BoxContainer>
         </ui:NeoTabContainer>
     </BoxContainer>

@@ -1,5 +1,6 @@
 # This list is sorted Mixed Alphabetically with Generic always being placed first, Departments alphabetically, Items Groups Alphabetically, and Jobs Alphabetically after all Department items
 # Generic - Clothing
+character-item-group-LoadoutBackpacks = Civilian Backpacks
 character-item-group-LoadoutEyes = Civilian Eyewear
 character-item-group-LoadoutGloves = Civilian Gloves
 character-item-group-LoadoutHead = Civilian Headgear
@@ -38,6 +39,7 @@ character-item-group-LoadoutShoesMedical = Medical Shoes
 character-item-group-LoadoutUniformsMedical = Medical Uniforms
 
 # Security
+character-item-group-LoadoutBackSecurity = Security Backpacks
 character-item-group-LoadoutBeltSecurity = Security Belts
 character-item-group-LoadoutEquipmentSecurity = Security Equipment
 character-item-group-LoadoutEyesSecurity = Security Eyewear
@@ -48,6 +50,8 @@ character-item-group-LoadoutNeckSecurity = Security Neckwear
 character-item-group-LoadoutOuterSecurity = Security Outerwear
 character-item-group-LoadoutShoesSecurity = Security Shoes
 character-item-group-LoadoutUniformsSecurity = Security Uniforms
+character-item-group-LoadoutWeaponSecurity = Security Duty Weapon
+character-item-group-LoadoutHoSWeapon = Head of Security's Antique Weapon Collection
 
 # Service
 character-item-group-LoadoutEquipmentService = Service Equipment

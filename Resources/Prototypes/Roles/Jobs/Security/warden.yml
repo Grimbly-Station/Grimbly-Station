@@ -25,14 +25,13 @@
   equipment:
     head: ClothingHeadHatWarden
     jumpsuit: ClothingUniformJumpsuitWardenBlue #Grimbly Bluesec
-    back: ClothingBackpackSecurityFilled
+    back: ClothingBackpackSecurity
     shoes: ClothingShoesBootsCombatFilled
     eyes: ClothingEyesGlassesSunglasses
     outerClothing: ClothingOuterCoatWardenBlue #Grimbly Bluesec 
     id: WardenPDA
     ears: ClothingHeadsetSecurity
     belt: ClothingBeltSecurityFilled
-    pocket1: WeaponPistolMk58Nonlethal
   innerClothingSkirt: ClothingUniformJumpskirtWardenBlue #Grimbly Bluesec
-  satchel: ClothingBackpackSatchelSecurityFilled
-  duffelbag: ClothingBackpackDuffelSecurityFilled
+  satchel: ClothingBackpackSatchelSecurity
+  duffelbag: ClothingBackpackDuffelSecurity
