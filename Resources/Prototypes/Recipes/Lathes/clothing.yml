@@ -713,6 +713,14 @@
     Cloth: 500
     Durathread: 300
 
+- type: latheRecipe #Grimbly bluesec
+  id: ClothingOuterWinterHoSBlue
+  result: ClothingOuterWinterHoSBlue
+  completetime: 3.2
+  materials:
+    Cloth: 500
+    Durathread: 300
+
 - type: latheRecipe
   id: ClothingOuterWinterQM
   result: ClothingOuterWinterQM
@@ -940,6 +948,14 @@
 - type: latheRecipe
   id: ClothingOuterWinterSec
   result: ClothingOuterWinterSec
+  completetime: 3.2
+  materials:
+    Cloth: 500
+    Durathread: 300
+
+- type: latheRecipe #Grimbly Bluesec
+  id: ClothingOuterWinterSecBlue
+  result: ClothingOuterWinterSecBlue
   completetime: 3.2
   materials:
     Cloth: 500

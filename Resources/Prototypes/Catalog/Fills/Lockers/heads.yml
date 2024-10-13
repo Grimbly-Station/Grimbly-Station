@@ -117,7 +117,7 @@
   - type: StorageFill
     contents:
       - id: HoPIDCard
-      - id: ClothingHeadsetAltService # DeltaV - HoP is now a service role, replaces their all channels headset.
+      - id: ClothingHeadsetAltService # Grimbly - give HoP all comms
       - id: BoxPDA
       - id: BoxID
       - id: BoxHeadset

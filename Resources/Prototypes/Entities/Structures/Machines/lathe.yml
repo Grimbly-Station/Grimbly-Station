@@ -361,6 +361,8 @@
       - AnimalTranslator
       - MofficTranslatorImplanter
       - MofficTranslator
+      - RatstozkanTranslator # Grimbly
+      - RatstozkanTranslatorImplanter # Grimbly
       - RCDAmmo #DeltaV
       - RCD #EE
   - type: EmagLatheRecipes
@@ -1096,6 +1098,7 @@
       - ClothingOuterWinterCMO
       - ClothingOuterWinterHoP
       - ClothingOuterWinterHoS
+      - ClothingOuterWinterHoSBlue #Grimbly bluesec
       - ClothingOuterWinterQM
       - ClothingOuterWinterRD
       - ClothingNeckMantleCap
@@ -1126,6 +1129,7 @@
       - ClothingOuterWinterSci
       - ClothingOuterWinterRobo
       - ClothingOuterWinterSec
+      - ClothingOuterWinterSecBlue #Grimbly Bluesec
       # Ties
       - ClothingNeckTieRed
       - ClothingNeckTieDet

@@ -14,8 +14,8 @@
       - id: ClothingHeadsetAltSecurity
       - id: ClothingHandsGlovesCombat
       - id: ClothingShoesBootsJack
-      - id: ClothingOuterCoatWarden
-      - id: ClothingOuterWinterWarden
+      - id: ClothingOuterCoatWardenBlue #Grimbly Bluesec
+      - id: ClothingOuterWinterWardenBlue #Grimbly Bluesec
       - id: RubberStampWarden
       - id: DoorRemoteArmory
       - id: ClothingOuterHardsuitCombatWarden # DeltaV - ClothingOuterHardsuitWarden replaced in favour of warden's riot combat hardsuit.
@@ -43,8 +43,8 @@
       - id: ClothingHeadsetAltSecurity
       - id: ClothingHandsGlovesCombat
       - id: ClothingShoesBootsJack
-      - id: ClothingOuterCoatWarden
-      - id: ClothingOuterWinterWarden
+      - id: ClothingOuterCoatWardenBlue #Grimbly Bluesec
+      - id: ClothingOuterWinterWardenBlue #Grimbly Bluesec
       - id: RubberStampWarden
       - id: DoorRemoteArmory
       - id: HoloprojectorSecurity
@@ -64,18 +64,18 @@
     contents:
       - id: FlashlightSeclite
         prob: 0.8
-      - id: ClothingUniformJumpsuitSecGrey
-        prob: 0.3
+      #- id: ClothingUniformJumpsuitSecGrey # Grimbly bluesec
+      #  prob: 0.3
       - id: ClothingUniformJumpsuitSecBlue # DeltaV - consistency with other sec uniforms
-        prob: 0.3
-      - id: ClothingUniformJumpsuitSec # DeltaV - consistency with other sec uniforms
-        prob: 0.3
-      - id: ClothingUniformJumpskirtSecGrey # DeltaV - consistency with other sec uniforms
-        prob: 0.3
+        prob: 0.5 # Grimbly bluesec
+      #- id: ClothingUniformJumpsuitSec # DeltaV - consistency with other sec uniforms
+      #  prob: 0.3
+      #- id: ClothingUniformJumpskirtSecGrey # DeltaV - consistency with other sec uniforms # Grimbly bluesec
+      #  prob: 0.3 # Grimbly bluesec
       - id: ClothingUniformJumpskirtSecBlue # DeltaV - consistency with other sec uniforms
-        prob: 0.3
-      - id: ClothingUniformJumpskirtSec # DeltaV - consistency with other sec uniforms
-        prob: 0.3
+        prob: 0.5 # Grimbly bluesec
+      #- id: ClothingUniformJumpskirtSec # DeltaV - consistency with other sec uniforms # Grimbly bluesec
+      #  prob: 0.3 # Grimbly bluesec
       - id: ClothingHeadHelmetBasic
       - id: ClothingHeadHelmetInsulated # Nyanotrasen - Insulative headgear
         prob: 0.4

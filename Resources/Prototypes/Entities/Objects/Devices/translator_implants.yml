@@ -127,6 +127,7 @@
     requires:
     - TauCetiBasic
 
+
 - type: entity
   parent: BaseSubdermalImplant
   id: ValyrianStandardTranslatorImplant
@@ -156,3 +157,4 @@
     - Azaziba
     requires:
     - Draconic
+
