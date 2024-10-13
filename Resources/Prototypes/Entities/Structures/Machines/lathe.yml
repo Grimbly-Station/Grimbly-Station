@@ -325,11 +325,11 @@
       - HolofanProjector
       - BluespaceBeaker
       - SyringeBluespace
-      #- WeaponForceGun
+      - WeaponForceGun
       - WeaponLaserSvalinn
       - WeaponProtoKineticAccelerator
-      #- WeaponTetherGun
-      #- WeaponGrapplingGun
+      - WeaponTetherGun
+      - WeaponGrapplingGun
       - ClothingBackpackHolding
       - ClothingBackpackSatchelHolding
       - ClothingBackpackDuffelHolding
@@ -361,6 +361,8 @@
       - AnimalTranslator
       - MofficTranslatorImplanter
       - MofficTranslator
+      - RatstozkanTranslator # Grimbly
+      - RatstozkanTranslatorImplanter # Grimbly
       - RCDAmmo #DeltaV
       - RCD #EE
   - type: EmagLatheRecipes
@@ -599,7 +601,7 @@
     - BorgModuleLightReplacer
     - BorgModuleAdvancedCleaning
     - BorgModuleMining
-    #- BorgModuleGrapplingGun
+    - BorgModuleGrapplingGun
     - BorgModuleAdvancedTool
     - BorgModuleGPS
     - BorgModuleRCD
@@ -1211,7 +1213,8 @@
       idleState: icon
       runningState: building
       staticRecipes:
-        - BluespaceCrystal #Nyano - Summary: Bluespace Crystals can be created here.
+        - BluespaceCrystal
+        - NormalityCrystal
         - SheetSteel30
         - SheetGlass30
         - SheetRGlass30

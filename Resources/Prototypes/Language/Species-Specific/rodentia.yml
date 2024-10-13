@@ -1,0 +1,46 @@
+# Spoken by rodentia
+- type: language
+  id: Ratstozkan
+  speech:
+    color: "#c93a36dd"
+    fontId: AnimalSilence
+  obfuscation:
+    !type:SyllableObfuscation
+    minSyllables: 2
+    maxSyllables: 4
+    replacement:
+    - ky
+    - e'i
+    - aae
+    - bi
+    - eep
+    - pei
+    - kee
+    - ee
+    - mrr
+    - irr
+    - v'i
+    - ss
+    - -trii
+    - blee
+    - iii
+    - zi
+    - wi
+    - je
+    - oo
+    - eel
+    - ehee
+    - x
+    - eee
+    - iii
+    - peei
+    - tch
+    - eep
+    - squ
+    - eak
+    - pi
+    - ep
+    - chuu
+    - ee
+    - fwi
+    - he

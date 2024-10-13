@@ -1,7 +1,7 @@
 - type: entity
   name: Rat King
   id: MobRatKing
-  parent: [ SimpleMobBase, MobCombat ] 
+  parent: [ SimpleMobBase, MobCombat ]
   description: He's da rat king. He make da roolz.
   components:
   - type: CombatMode
@@ -136,9 +136,11 @@
     speaks:
     - TauCetiBasic
     - Mouse
+    - Ratstozkan # Grimbly
     understands:
     - TauCetiBasic
     - Mouse
+    - Ratstozkan # Grimbly
 
 - type: entity
   id: MobRatKingBuff
@@ -317,6 +319,7 @@
     understands:
     - TauCetiBasic
     - Mouse
+    - Ratstozkan # Grimbly
   - type: FireVisuals
     sprite: Mobs/Effects/onfire.rsi
     normalState: Mouse_burning

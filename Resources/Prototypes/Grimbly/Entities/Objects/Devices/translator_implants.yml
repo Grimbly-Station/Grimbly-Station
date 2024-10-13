@@ -1,0 +1,15 @@
+- type: entity
+  parent: BaseSubdermalImplant
+  id: RatstozkanTranslatorImplant
+  name: Ratstozkan translator implant
+  description: An implant that lets you bring glory to Ratstozka!
+  noSpawn: true
+  components:
+  - type: TranslatorImplant
+    understood:
+    - Ratstozkan
+    spoken:
+    - Ratstozkan
+    requires:
+    - TauCetiBasic
+
