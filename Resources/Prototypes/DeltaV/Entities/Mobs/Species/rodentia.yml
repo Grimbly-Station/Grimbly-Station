@@ -83,7 +83,7 @@
     damage:
       types:
         Blunt: 2
-        Slash: 3
+        piercing: 3
         Structural: 1
   - type: Damageable
     damageModifierSet: Rodentia
@@ -116,8 +116,6 @@
     mouthProto: CheekStorage
     openStorageAction: ActionOpenMouthStorage
     spitDamageThreshold: 3
-  - type: CrawlUnderObjects # Remove this once crawling goes under tables
-    actionProto: ActionToggleSneakMode
 - type: entity
   save: false
   name: Rodentia Dummy
