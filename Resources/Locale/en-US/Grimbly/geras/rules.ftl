@@ -1,0 +1,16 @@
+guide-entry-grimbly-rules = Grimbly Station Rules
+guide-entry-grimbly-rule-0 = Rule 0: Admin Discretion
+guide-entry-grimbly-rule-1 = Rule 1: No ERP
+guide-entry-grimbly-rule-2 = Rule 2: Server Expectations
+guide-entry-grimbly-rule-3 = Rule 3: Chat Guidelines
+guide-entry-grimbly-rule-4 = Rule 4: Metagaming Guidelines
+guide-entry-grimbly-rule-5 = Rule 5: Constructs/Summons
+guide-entry-grimbly-rule-6 = Rule 6: Naming Conventions
+guide-entry-grimbly-rule-7 = Rule 7: RP Guidelines
+guide-entry-grimbly-rule-8 = Rule 8: Escalation Guidelines
+guide-entry-grimbly-rule-9 = Rule 9: Antag Guidelines
+guide-entry-grimbly-rule-10 = Rule 10: Psionics
+guide-entry-grimbly-rule-11 = Rule 11: Powergaming Guidelines
+guide-entry-grimbly-rule-12 = Rule 12: Security/Command Standards
+guide-entry-grimbly-rule-13 = Rule 13: Security Escalation
+guide-entry-grimbly-rule-14 = Rule 14: Detainment Guidelines
