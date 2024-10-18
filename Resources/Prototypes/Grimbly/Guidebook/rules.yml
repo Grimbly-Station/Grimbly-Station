@@ -1,16 +1,11 @@
 - type: guideEntry
   id: GrimblyRuleset
-  name: guide-entry-deltav-rules
+  name: guide-entry-grimbly-rules
   text: "/ServerInfo/Guidebook/Grimbly/Rules/GrimblyRuleset.xml"
   priority: -2
   ruleEntry: true
   children:
-    - GrimblyDisclaimer1
-    - GrimblyDisclaimer2
     - GrimblyRule0
-    - GrimblyRuleE1
-    - GrimblyRuleE2
-    - GrimblyRuleE3
     - GrimblyRule1
     - GrimblyRule2
     - GrimblyRule3
@@ -18,102 +13,100 @@
     - GrimblyRule5
     - GrimblyRule6
     - GrimblyRule7
-    - GrimblyRuleC1
-    - GrimblyRuleC2
-    - GrimblyRuleC3
-
-- type: guideEntry
-  id: GrimblyDisclaimer1
-  name: guide-entry-deltav-disclaimer-1
-  text: "/ServerInfo/Guidebook/Grimbly/Rules/CommunityRules/D1_AdminRespect.xml"
-  ruleEntry: true
-
-- type: guideEntry
-  id: GrimblyDisclaimer2
-  name: guide-entry-deltav-disclaimer-2
-  text: "/ServerInfo/Guidebook/Grimbly/Rules/CommunityRules/D2_Exploits.xml"
-  ruleEntry: true
+    - GrimblyRule8
+    - GrimblyRule9
+    - GrimblyRule10
+    - GrimblyRule11
+    - GrimblyRule12
+    - GrimblyRule13
+    - GrimblyRule14
 
 - type: guideEntry
   id: GrimblyRule0
-  name: guide-entry-deltav-rule-0
+  name: guide-entry-grimbly-rule-0
   text: "/ServerInfo/Guidebook/Grimbly/Rules/0_Admin.xml"
   ruleEntry: true
 
 - type: guideEntry
-  id: GrimblyRuleE1
-  name: guide-entry-deltav-rule-e1
-  text: "/ServerInfo/Guidebook/Grimbly/Rules/CommunityRules/E1_ERP.xml"
-  ruleEntry: true
-
-- type: guideEntry
-  id: GrimblyRuleE2
-  name: guide-entry-deltav-rule-e2
-  text: "/ServerInfo/Guidebook/Grimbly/Rules/CommunityRules/E2_Community.xml"
-  ruleEntry: true
-
-- type: guideEntry
-  id: GrimblyRuleE3
-  name: guide-entry-deltav-rule-e3
-  text: "/ServerInfo/Guidebook/Grimbly/Rules/CommunityRules/E3_Streaming.xml"
-  ruleEntry: true
-
-- type: guideEntry
   id: GrimblyRule1
-  name: guide-entry-deltav-rule-1
-  text: "/ServerInfo/Guidebook/Grimbly/Rules/GameRules/1_ServerExpectations.xml"
+  name: guide-entry-grimbly-rule-1
+  text: "/ServerInfo/Guidebook/Grimbly/Rules/1_No_ERP.xml"
   ruleEntry: true
 
 - type: guideEntry
   id: GrimblyRule2
-  name: guide-entry-deltav-rule-2
-  text: "/ServerInfo/Guidebook/Grimbly/Rules/GameRules/2_Metagaming.xml"
+  name: guide-entry-grimbly-rule-2
+  text: "/ServerInfo/Guidebook/Grimbly/Rules/2_Server.xml"
   ruleEntry: true
 
 - type: guideEntry
   id: GrimblyRule3
-  name: guide-entry-deltav-rule-3
-  text: "/ServerInfo/Guidebook/Grimbly/Rules/GameRules/3_NewLife.xml"
+  name: guide-entry-grimbly-rule-3
+  text: "/ServerInfo/Guidebook/Grimbly/Rules/3_Chat.xml"
   ruleEntry: true
 
 - type: guideEntry
   id: GrimblyRule4
-  name: guide-entry-deltav-rule-4
-  text: "/ServerInfo/Guidebook/Grimbly/Rules/GameRules/4_NamingConventions.xml"
+  name: guide-entry-grimbly-rule-4
+  text: "/ServerInfo/Guidebook/Grimbly/Rules/4_Metagaming.xml"
   ruleEntry: true
 
 - type: guideEntry
   id: GrimblyRule5
-  name: guide-entry-deltav-rule-5
-  text: "/ServerInfo/Guidebook/Grimbly/Rules/GameRules/5_RoleplayGuidelines.xml"
+  name: guide-entry-grimbly-rule-5
+  text: "/ServerInfo/Guidebook/Grimbly/Rules/5_Summons.xml"
   ruleEntry: true
 
 - type: guideEntry
   id: GrimblyRule6
-  name: guide-entry-deltav-rule-6
-  text: "/ServerInfo/Guidebook/Grimbly/Rules/GameRules/6_Powergaming.xml"
+  name: guide-entry-grimbly-rule-6
+  text: "/ServerInfo/Guidebook/Grimbly/Rules/6_Naming.xml"
   ruleEntry: true
 
 - type: guideEntry
   id: GrimblyRule7
-  name: guide-entry-deltav-rule-7
-  text: "/ServerInfo/Guidebook/Grimbly/Rules/GameRules/7_EOR.xml"
+  name: guide-entry-grimbly-rule-7
+  text: "/ServerInfo/Guidebook/Grimbly/Rules/7_RPGuidelines.xml"
   ruleEntry: true
 
 - type: guideEntry
-  id: GrimblyRuleC1
-  name: guide-entry-deltav-rule-c1
-  text: "/ServerInfo/Guidebook/Grimbly/Rules/RoleRules/C1_CommandSecurityJustice.xml"
+  id: GrimblyRule8
+  name: guide-entry-grimbly-rule-8
+  text: "/ServerInfo/Guidebook/Grimbly/Rules/8_Escalation.xml"
   ruleEntry: true
 
 - type: guideEntry
-  id: GrimblyRuleC2
-  name: guide-entry-deltav-rule-c2
-  text: "/ServerInfo/Guidebook/Grimbly/Rules/RoleRules/C2_PrisonerRule.xml"
+  id: GrimblyRule9
+  name: guide-entry-grimbly-rule-9
+  text: "/ServerInfo/Guidebook/Grimbly/Rules/9_AntagonistGuidelines.xml"
+  ruleEntry: true
+  
+- type: guideEntry
+  id: GrimblyRule10
+  name: guide-entry-grimbly-rule-10
+  text: "/ServerInfo/Guidebook/Grimbly/Rules/10_Psionics.xml"
   ruleEntry: true
 
 - type: guideEntry
-  id: GrimblyRuleC3
-  name: guide-entry-deltav-rule-c3
-  text: "/ServerInfo/Guidebook/Grimbly/Rules/RoleRules/C3_Antags.xml"
+  id: GrimblyRule11
+  name: guide-entry-grimbly-rule-11
+  text: "/ServerInfo/Guidebook/Grimbly/Rules/11_Powergaming.xml"
+  ruleEntry: true
+
+- type: guideEntry
+  id: GrimblyRule12
+  name: guide-entry-grimbly-rule-12
+  text: "/ServerInfo/Guidebook/Grimbly/Rules/12_Sec_Command.xml"
+  ruleEntry: true
+
+- type: guideEntry
+  id: GrimblyRule13
+  name: guide-entry-grimbly-rule-13
+  text: "/ServerInfo/Guidebook/Grimbly/Rules/13_Sec_Escalation.xml"
+  ruleEntry: true
+
+- type: guideEntry
+  id: GrimblyRule14
+  name: guide-entry-grimbly-rule-14
+  text: "/ServerInfo/Guidebook/Grimbly/Rules/14_SecPrisoners.xml"
   ruleEntry: true
