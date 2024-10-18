@@ -1,12 +1,12 @@
 <Document>
-  [color=#fcff00]# Rule 13: Security Escalation[/color]
+  # Rule 13: Security Escalation
     - Security (and Command where applicable) should try to remain non-lethal and effect arrests. 
 
     - Security/Command will be expected to answer for use of lethal force. 
     
     - Security/Command will be expected to effect arrests on criminals and prevent them from dying while in custody, even if lethal force is used.
 
-  [color=#ff6e00]## In the following special circumstances, lethal force may be used by Security:[/color]
+  ## In the following special circumstances, lethal force may be used by Security:
     - Lethal force is used against you (ex: firearms, lasers, disabling/stunning weapons with intent to kill, deadly melee weapons)
 
     - Suspect is equipped with dangerous equipment only used by enemy agents/antagonists and is not cuffed nor surrendering (ex: Bloodred Hardsuit, China Lake, C-20R, etc.).
