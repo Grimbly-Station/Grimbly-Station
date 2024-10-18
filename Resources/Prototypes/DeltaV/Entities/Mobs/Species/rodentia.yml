@@ -82,9 +82,9 @@
     animation: WeaponArcBite
     damage:
       types:
-        Blunt: 2
-        Slash: 3
-        Structural: 1
+        slash: 2
+        piercing: 3
+        Structural: 11 # barely enough to chew into lockers. 107 bites to chew through a normal wall
   - type: Damageable
     damageModifierSet: Rodentia
   - type: Butcherable
@@ -116,8 +116,6 @@
     mouthProto: CheekStorage
     openStorageAction: ActionOpenMouthStorage
     spitDamageThreshold: 3
-  - type: CrawlUnderObjects # Remove this once crawling goes under tables
-    actionProto: ActionToggleSneakMode
 - type: entity
   save: false
   name: Rodentia Dummy
