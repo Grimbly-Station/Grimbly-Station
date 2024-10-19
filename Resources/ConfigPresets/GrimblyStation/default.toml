@@ -1,0 +1,29 @@
+[game]
+hostname           = "Grimbly Station"
+desc               = "A server without the bullshit, for all the newer and veteran players that want a fun MRP experience."
+soft_max_players   = 50
+lobbyenabled       = true
+lobbyduration      = 240
+
+[shuttle]
+emergency_early_launch_allowed = true
+
+[hub]
+tags = "lang:en-US,region:am_n_e,rp:med,no_tag_infer"
+
+[infolinks]
+discord    = "https://discord.com/invite/sbxtvuUkn7"
+github     = "https://github.com/Grimbly-Station/Grimbly-Station"
+patreon    = "https://grimbly.net/patreon"
+
+[server]
+rules_file   = "Rules.txt"
+rules_header = "ui-rules-header"
+
+[ooc]
+enable_during_round = false
+
+[vote]
+restart_required_ratio = 0.7
+preset_enabled = false
+map_enabled = true
