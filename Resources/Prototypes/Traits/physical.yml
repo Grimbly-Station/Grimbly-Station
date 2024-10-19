@@ -241,6 +241,7 @@
       inverted: true
       species:
         - Felinid # Felinids already have this feature by default.
+        - Rodentia # Rodentia already have this feature by default.
     - !type:CharacterHeightRequirement
       max: 150
     - !type:CharacterWidthRequirement
