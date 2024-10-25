@@ -153158,7 +153158,6 @@ entities:
       solutions:
         puddle:
           temperature: 293.15
-          canMix: False
           canReact: True
           maxVol: 1000
           name: null

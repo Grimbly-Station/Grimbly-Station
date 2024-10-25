@@ -6,6 +6,17 @@
   description: job-description-cmo
   playTimeTracker: JobChiefMedicalOfficer
   antagAdvantage: 6 # DeltaV - Reduced TC: Head of Staff
+  requirements: #Grimbly - zelez merge conflict resolution - readd playtime here TBD
+    - !type:CharacterLogicOrRequirement
+      requirements:
+        - !type:CharacterSpeciesRequirement
+          inverted: true
+          species:
+            - Shadowkin
+        - !type:CharacterTraitRequirement
+          traits:
+            - ShadowkinBlackeye
+
   weight: 10
   startingGear: CMOGear
   icon: "JobIconChiefMedicalOfficer"
