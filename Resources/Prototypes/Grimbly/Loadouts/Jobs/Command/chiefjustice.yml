@@ -220,7 +220,7 @@
     - ClothingUniformJumpsuitChiefJustice
 
 - type: loadout
-  id:LoadoutChiefJusticeJumpskirt
+  id: LoadoutChiefJusticeJumpskirt
   category: JobsCommandChiefJustice
   cost: 0
   exclusive: true
