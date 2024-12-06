@@ -234,7 +234,7 @@
     - ClothingUniformJumpskirtChiefJustice
 
 - type: loadout
-  id: LoadoutCommandCapJumpsuitFormal
+  id: LoadoutChiefJusticeJumpsuitFormal
   category: JobsCommandChiefJustice
   cost: 0
   exclusive: true
