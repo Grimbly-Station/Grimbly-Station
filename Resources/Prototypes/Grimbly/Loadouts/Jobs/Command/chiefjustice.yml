@@ -1,0 +1,262 @@
+# Magistrate / Chief Justice
+# Backpacks
+- type: loadout
+  id: LoadoutChiefJusticeBackpacks
+  category: JobsCommandChiefJustice
+  cost: 0
+  exclusive: true
+  items:
+    - ClothingBackpackFilled
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutChiefJusticeBackpacks
+    - !type:CharacterJobRequirement
+      jobs:
+        - ChiefJustice
+
+- type: loadout
+  id: LoadoutBackpackSatchelFilled
+  category: JobsCommandChiefJustice
+  cost: 0
+  exclusive: true
+  items:
+    - ClothingBackpackSatchelFilled
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutChiefJusticeBackpacks
+    - !type:CharacterJobRequirement
+      jobs:
+        - ChiefJustice
+
+- type: loadout
+  id: LoadoutBackpackDuffelFilled
+  category: JobsCommandChiefJustice
+  cost: 0
+  exclusive: true
+  items:
+    - ClothingBackpackDuffelFilled
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutChiefJusticeBackpacks
+    - !type:CharacterJobRequirement
+      jobs:
+        - ChiefJustice
+# Belt
+
+# Ears
+
+# Equipment
+
+# Eyes
+- type: loadout
+  id: LoadoutChiefJusticeEyesSunglasses
+  category: JobsCommandChiefJustice
+  cost: 0
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutChiefJusticeEyes
+    - !type:CharacterJobRequirement
+      jobs:
+        - ChiefJustice
+  items:
+    - ClothingEyesGlassesSunglasses
+
+# Gloves
+- type: loadout
+  id: LoadoutChiefJusticeGlovesWhite
+  category: JobsCommandChiefJustice
+  cost: 0
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutChiefJusticeGloves
+    - !type:CharacterJobRequirement
+      jobs:
+        - ChiefJustice
+  items:
+    - ClothingHandsGlovesColorWhite
+
+- type: loadout
+  id: LoadoutChiefJusticeGlovesInspection
+  category: JobsCommandChiefJustice
+  cost: 0
+  exclusive: true
+  customColorTint: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutChiefJusticeGloves
+    - !type:CharacterJobRequirement
+      jobs:
+        - ChiefJustice
+  items:
+    - ClothingHandsGlovesInspection
+
+# Head
+- type: loadout
+  id: LoadoutCJToque
+  category: JobsCommandChiefJustice
+  cost: 0
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutChiefJusticeHead
+    - !type:CharacterJobRequirement
+      jobs:
+        - ChiefJustice
+  items:
+    - ClothingHeadHatCJToque
+
+- type: loadout
+  id: LLoadoutCJWig
+  category: JobsCommandChiefJustice
+  cost: 0
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutChiefJusticeHead
+    - !type:CharacterJobRequirement
+      jobs:
+        - ChiefJustice
+  items:
+    - ClothingHeadHatPwig
+
+
+
+
+# Outer
+- type: loadout
+  id: LoadoutChiefJusticeRobe
+  category: JobsCommandChiefJustice
+  cost: 0
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutChiefJusticeOuter
+    - !type:CharacterJobRequirement
+      jobs:
+        - ChiefJustice
+  items:
+    - ClothingOuterChiefJustice
+
+- type: loadout
+  id: LoadoutJudgeRobe
+  category: JobsCommandChiefJustice
+  cost: 0
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutChiefJusticeOuter
+    - !type:CharacterJobRequirement
+      jobs:
+        - ChiefJustice
+  items:
+    - ClothingOuterRobesJudge
+
+# Shoes
+- type: loadout
+  id: LoadoutChiefJusticeShoesLaceup
+  category: JobsCommandChiefJustice
+  cost: 0
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutChiefJusticeShoes
+    - !type:CharacterJobRequirement
+      jobs:
+        - ChiefJustice
+  items:
+    - ClothingShoesBootsLaceup
+
+- type: loadout
+  id: LoadoutChiefJusticeShoesLeather
+  category: JobsCommandChiefJustice
+  cost: 0
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutChiefJusticeShoes
+    - !type:CharacterJobRequirement
+      jobs:
+        - ChiefJustice
+  items:
+    - ClothingShoesLeather
+
+- type: loadout
+  id: LoadoutChiefJusticeShoesWinter
+  category: JobsCommandChiefJustice
+  cost: 0
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutChiefJusticeShoes
+    - !type:CharacterJobRequirement
+      jobs:
+        - ChiefJustice
+  items:
+    - ClothingShoesBootsWinterCap
+
+- type: loadout
+  id: LoadoutChiefJusticeShoesCombat
+  category: JobsCommandChiefJustice
+  cost: 0
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutChiefJusticeShoes
+    - !type:CharacterJobRequirement
+      jobs:
+        - ChiefJustice
+  items:
+    - ClothingShoesBootsCombatFilled
+
+# Uniforms
+- type: loadout
+  id: LoadoutChiefJusticeJumpsuit
+  category: JobsCommandChiefJustice
+  cost: 0
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutChiefJusticeUniforms
+    - !type:CharacterJobRequirement
+      jobs:
+        - ChiefJustice
+  items:
+    - ClothingUniformJumpsuitChiefJustice
+
+- type: loadout
+  id:LoadoutChiefJusticeJumpskirt
+  category: JobsCommandChiefJustice
+  cost: 0
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutChiefJusticeUniforms
+    - !type:CharacterJobRequirement
+      jobs:
+        - ChiefJustice
+  items:
+    - ClothingUniformJumpskirtChiefJustice
+
+- type: loadout
+  id: LoadoutCommandCapJumpsuitFormal
+  category: JobsCommandChiefJustice
+  cost: 0
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutChiefJusticeUniforms
+    - !type:CharacterJobRequirement
+      jobs:
+        - ChiefJustice
+  items:
+    - ClothingUniformJumpsuitChiefJusticeFormal
+
+- type: loadout
+  id: LoadoutChiefJusticeJumpsuitWhite
+  category: JobsCommandChiefJustice
+  cost: 0
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutChiefJusticeUniforms
+    - !type:CharacterJobRequirement
+      jobs:
+        - ChiefJustice
+  items:
+    - ClothingUniformJumpsuitChiefJusticeWhite

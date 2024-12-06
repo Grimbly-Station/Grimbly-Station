@@ -51,6 +51,7 @@
     - JobsCommandAUncategorized
     - JobsCommandCaptain
     - JobsCommandHeadOfPersonnel
+    - JobsCommandChiefJustice
 
 - type: loadoutCategory
   id: JobsCommandAUncategorized

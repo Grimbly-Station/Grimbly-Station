@@ -1,0 +1,83 @@
+- type: characterItemGroup
+  id: LoadoutChiefJusticeBackpacks
+  maxItems: 1
+  items:
+    - type: loadout
+      id: LoadoutBackpackChiefJusticeFilled
+    - type: loadout
+      id: LoadoutBackpackSatchelChiefJusticeFilled
+    - type: loadout
+      id: LoadoutBackpackDuffelChiefJusticeFilled
+
+
+#- type: characterItemGroup
+#  id: LoadoutCaptainEars
+#  maxItems: 1
+#  items:
+
+#- type: characterItemGroup
+#  id: LoadoutCaptainEquipment
+#  maxItems: 1
+#  items:
+
+
+
+- type: characterItemGroup
+  id: LoadoutChiefJusticeEyes
+  maxItems: 1
+  items:
+    - type: loadout
+      id: LoadoutChiefJusticeEyesSunglasses
+
+- type: characterItemGroup
+  id: LoadoutChiefJusticeGloves
+  maxItems: 1
+  items:
+    - type: loadout
+      id: LoadoutChiefJusticeGlovesWhite
+    - type: loadout
+      id: LoadoutChiefJusticeGlovesInspection
+
+- type: characterItemGroup
+  id: LoadoutChiefJusticeHead
+  maxItems: 1
+  items:
+    - type: loadout
+      id: LoadoutCJToque
+    - type: loadout
+      id: LoadoutCJWig
+
+- type: characterItemGroup
+  id: LoadoutJudgeOuter
+  maxItems: 1
+  items:
+    - type: loadout
+      id: LoadoutChiefJusticeRobe
+    - type: loadout
+      id: LoadoutJudgeRobe
+
+- type: characterItemGroup
+  id: LoadoutChiefJusticeShoes
+  maxItems: 1
+  items:
+    - type: loadout
+      id: LoadoutChiefJusticeShoesLaceup
+    - type: loadout
+      id: LoadoutChiefJusticeShoesLeather
+    - type: loadout
+      id: LoadoutChiefJusticeShoesWinter
+    - type: loadout
+      id: LoadoutChiefJusticeShoesCombat
+
+- type: characterItemGroup
+  id: LoadoutChiefJusticeUniforms
+  maxItems: 1
+  items:
+    - type: loadout
+      id: LoadoutChiefJusticeJumpsuit
+    - type: loadout
+      id: LoadoutChiefJusticeJumpskirt
+    - type: loadout
+      id: LoadoutCommandCapJumpsuitFormal
+    - type: loadout
+      id: LoadoutChiefJusticeJumpsuitWhite
