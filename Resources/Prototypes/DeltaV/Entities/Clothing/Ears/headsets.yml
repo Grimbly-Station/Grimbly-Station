@@ -42,8 +42,8 @@
 - type: entity
   parent: ClothingHeadset
   id: ClothingHeadsetJustice
-  name: justice headset
-  description: This is used by the justice department.
+  name: legal headset #Grimbly
+  description: This is used by the legal department.
   components:
   - type: ContainerFill
     containers:

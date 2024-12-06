@@ -18,7 +18,7 @@
       - EncryptionKey
 
 - type: entity
-  name: justice encryption key box
+  name: legal encryption key box #Grimbly
   parent: BoxEncryptionKeyPassenger
   id: BoxEncryptionKeyJustice
   description: A box of spare encryption keys.
