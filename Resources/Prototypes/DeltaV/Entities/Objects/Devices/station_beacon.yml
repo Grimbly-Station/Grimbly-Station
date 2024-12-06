@@ -147,7 +147,7 @@
 - type: entity
   parent: DefaultStationBeaconJustice
   id: DefaultStationBeaconChiefJustice
-  suffix: Chief Justice
+  suffix: Magistrate #Grimbly
   components:
   - type: NavMapBeacon
     text: station-beacon-chiefjustice

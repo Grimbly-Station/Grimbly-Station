@@ -127,7 +127,7 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterChiefJustice
-  name: chief justice's robes
+  name: magistrate's robes #Grimbly
   description: Heavy black robes with magenta and gold trim. It smells old.
   components:
   - type: Sprite

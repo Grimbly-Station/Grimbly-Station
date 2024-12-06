@@ -1,7 +1,7 @@
 - type: entity
   id: LockerChiefJustice
   parent: LockerBaseSecure
-  name: chief justice's locker
+  name: magistrate's locker #Grimbly
   components:
   - type: Appearance
   - type: EntityStorageVisuals

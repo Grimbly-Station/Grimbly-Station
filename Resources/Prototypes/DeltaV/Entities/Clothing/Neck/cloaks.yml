@@ -35,7 +35,7 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckCloakCJ
-  name: chief justice's cloak
+  name: magistrate's cloak #Grimbly
   description: A hefty cloak adorned with a modest insignia and grand fur trim.
   components:
   - type: Sprite

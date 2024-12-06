@@ -481,7 +481,7 @@
 - type: entity
   parent: IDCardStandard
   id: ChiefJusticeIDCard
-  name: chief justice ID card
+  name: magistrate ID card #Grimbly
   components:
     - type: PresetIdCard
       job: ChiefJustice

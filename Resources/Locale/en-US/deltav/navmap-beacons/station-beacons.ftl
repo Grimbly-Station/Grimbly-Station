@@ -32,5 +32,5 @@ station-beacon-park = Park
 station-beacon-corpsman = Corpsman
 
 station-beacon-justice = Justice
-station-beacon-chiefjustice = Chief Justice
+station-beacon-chiefjustice = Magistrate
 station-beacon-prosecutor = Prosecutor

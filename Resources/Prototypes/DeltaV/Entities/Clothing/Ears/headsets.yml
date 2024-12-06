@@ -61,8 +61,8 @@
 - type: entity
   parent: ClothingHeadset
   id: ClothingHeadsetAltJustice
-  name: chief justice's headset
-  description: The headset used by the chief justice.
+  name: magistrate's headset
+  description: The headset used by the magistrate. #Grimbly
   components:
   - type: ContainerFill
     containers:
