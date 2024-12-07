@@ -9,7 +9,7 @@
     - ClothingBackpackFilled
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutChiefJusticeBackpacks
+      group: LoadoutChiefJusticeBackpacksFilled
     - !type:CharacterJobRequirement
       jobs:
         - ChiefJustice
@@ -23,7 +23,7 @@
     - ClothingBackpackSatchelFilled
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutChiefJusticeBackpacks
+      group: LoadoutChiefJusticeBackpacksFilled
     - !type:CharacterJobRequirement
       jobs:
         - ChiefJustice
@@ -37,7 +37,7 @@
     - ClothingBackpackDuffelFilled
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutChiefJusticeBackpacks
+      group: LoadoutChiefJusticeBackpacksFilled
     - !type:CharacterJobRequirement
       jobs:
         - ChiefJustice

@@ -9,7 +9,8 @@
   supervisors: job-supervisors-cj  # Delta V - Change supervisor to chief justice
   access:
   - Service
-  - Lawyer
+  - Lawyer 
+  - Justice #Grimbly
   - Maintenance
 
 - type: startingGear

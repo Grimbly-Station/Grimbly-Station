@@ -16,6 +16,7 @@
   - Security
   - Maintenance
   - External
+  - Lawyer #Grimbly
   special:
   - !type:AddImplantSpecial
     implants: [ MindShieldImplant ]
@@ -29,7 +30,7 @@
     jumpsuit: ClothingUniformJumpsuitChiefJustice
     back: ClothingBackpackFilled # TODO- make Justice department bags
     shoes: ClothingShoesLeather
-    head: ClothingHeadHatCJToque
+    #head: ClothingHeadHatCJToque
     #outerClothing: ClothingOuterChiefJustice
     id: ChiefJusticePDA
     ears: ClothingHeadsetAltJustice

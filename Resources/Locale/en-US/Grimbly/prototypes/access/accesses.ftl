@@ -1,0 +1,1 @@
+id-card-access-level-cj = Magistrate
