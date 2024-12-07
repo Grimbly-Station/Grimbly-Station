@@ -80,7 +80,7 @@
 
 # Head
 - type: loadout
-  id: LoadoutCJToque
+  id: LoadoutChiefJusticeHeadToque
   category: JobsCommandChiefJustice
   cost: 0
   requirements:
@@ -93,7 +93,7 @@
     - ClothingHeadHatCJToque
 
 - type: loadout
-  id: LoadoutCJWig
+  id: LoadoutChiefJusticeHeadWig
   category: JobsCommandChiefJustice
   cost: 0
   requirements:

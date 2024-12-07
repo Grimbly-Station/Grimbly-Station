@@ -36,9 +36,9 @@
   maxItems: 1
   items:
     - type: loadout
-      id: LoadoutCJToque
+      id: LoadoutChiefJusticeHeadToque
     - type: loadout
-      id: LoadoutCJWig
+      id: LoadoutChiefJusticeHeadWig
 
 - type: characterItemGroup
   id: LoadoutChiefJusticeOuter
