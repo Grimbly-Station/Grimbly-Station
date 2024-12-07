@@ -29,11 +29,11 @@
     jumpsuit: ClothingUniformJumpsuitChiefJustice
     back: ClothingBackpackFilled # TODO- make Justice department bags
     shoes: ClothingShoesLeather
-    head: ClothingHeadHatCJToque
-    outerClothing: ClothingOuterChiefJustice
+    #head: ClothingHeadHatCJToque
+    #outerClothing: ClothingOuterChiefJustice
     id: ChiefJusticePDA
     ears: ClothingHeadsetAltJustice
-    gloves: ClothingHandsGlovesColorWhite
+    #gloves: ClothingHandsGlovesColorWhite
     # Todo - pocket1: Gavel
   innerClothingSkirt: ClothingUniformJumpskirtChiefJustice
   satchel: ClothingBackpackSatchelFilled # TODO- make Justice departmebt bags

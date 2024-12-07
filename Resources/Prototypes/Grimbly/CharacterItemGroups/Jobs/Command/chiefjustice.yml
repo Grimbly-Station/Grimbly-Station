@@ -10,24 +10,17 @@
       id: LoadoutBackpackDuffelChiefJusticeFilled
 
 
-#- type: characterItemGroup
-#  id: LoadoutCaptainEars
-#  maxItems: 1
-#  items:
+- type: characterItemGroup
+  id: LoadoutChiefJusticeNeck
+  maxItems: 1
+  items:
+  - type: loadout
+    id LoadoutChiefJusticeNeckCloak
 
 #- type: characterItemGroup
 #  id: LoadoutCaptainEquipment
 #  maxItems: 1
 #  items:
-
-
-
-- type: characterItemGroup
-  id: LoadoutChiefJusticeEyes
-  maxItems: 1
-  items:
-    - type: loadout
-      id: LoadoutChiefJusticeEyesSunglasses
 
 - type: characterItemGroup
   id: LoadoutChiefJusticeGloves
@@ -64,10 +57,6 @@
       id: LoadoutChiefJusticeShoesLaceup
     - type: loadout
       id: LoadoutChiefJusticeShoesLeather
-    - type: loadout
-      id: LoadoutChiefJusticeShoesWinter
-    - type: loadout
-      id: LoadoutChiefJusticeShoesCombat
 
 - type: characterItemGroup
   id: LoadoutChiefJusticeUniforms

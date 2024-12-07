@@ -48,18 +48,6 @@
 # Equipment
 
 # Eyes
-- type: loadout
-  id: LoadoutChiefJusticeEyesSunglasses
-  category: JobsCommandChiefJustice
-  cost: 0
-  requirements:
-    - !type:CharacterItemGroupRequirement
-      group: LoadoutChiefJusticeEyes
-    - !type:CharacterJobRequirement
-      jobs:
-        - ChiefJustice
-  items:
-    - ClothingEyesGlassesSunglasses
 
 # Gloves
 - type: loadout
@@ -105,7 +93,7 @@
     - ClothingHeadHatCJToque
 
 - type: loadout
-  id: LLoadoutCJWig
+  id: LoadoutCJWig
   category: JobsCommandChiefJustice
   cost: 0
   requirements:
@@ -118,6 +106,19 @@
     - ClothingHeadHatPwig
 
 
+# Neck
+- type: loadout
+  id: LoadoutChiefJusticeNeckCloak
+  category: JobsCommandChiefJustice
+  cost: 0
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutChiefJusticeNeck
+    - !type:CharacterJobRequirement
+      jobs:
+        - ChiefJustice
+  items:
+    - ClothingNeckCloakCJ
 
 
 # Outer
@@ -175,34 +176,6 @@
         - ChiefJustice
   items:
     - ClothingShoesLeather
-
-- type: loadout
-  id: LoadoutChiefJusticeShoesWinter
-  category: JobsCommandChiefJustice
-  cost: 0
-  exclusive: true
-  requirements:
-    - !type:CharacterItemGroupRequirement
-      group: LoadoutChiefJusticeShoes
-    - !type:CharacterJobRequirement
-      jobs:
-        - ChiefJustice
-  items:
-    - ClothingShoesBootsWinterCap
-
-- type: loadout
-  id: LoadoutChiefJusticeShoesCombat
-  category: JobsCommandChiefJustice
-  cost: 0
-  exclusive: true
-  requirements:
-    - !type:CharacterItemGroupRequirement
-      group: LoadoutChiefJusticeShoes
-    - !type:CharacterJobRequirement
-      jobs:
-        - ChiefJustice
-  items:
-    - ClothingShoesBootsCombatFilled
 
 # Uniforms
 - type: loadout
