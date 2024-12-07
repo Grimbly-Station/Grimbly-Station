@@ -51,7 +51,7 @@
     - JobsCommandAUncategorized
     - JobsCommandCaptain
     - JobsCommandHeadOfPersonnel
-    - JobsCommandChiefJustice
+    - JobsCommandChiefJustice #Grimbly
 
 - type: loadoutCategory
   id: JobsCommandAUncategorized
@@ -62,7 +62,7 @@
 - type: loadoutCategory
   id: JobsCommandHeadOfPersonnel
 
-- type: loadoutCategory
+- type: loadoutCategory #Grimbly
   id: JobsCommandChiefJustice
 
 # Engineering
