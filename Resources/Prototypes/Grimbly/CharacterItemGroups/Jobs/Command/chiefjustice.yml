@@ -15,7 +15,7 @@
   maxItems: 1
   items:
   - type: loadout
-    id LoadoutChiefJusticeNeckCloak
+    id: LoadoutChiefJusticeNeckCloak
 
 #- type: characterItemGroup
 #  id: LoadoutCaptainEquipment
