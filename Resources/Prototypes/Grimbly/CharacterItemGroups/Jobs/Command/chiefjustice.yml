@@ -48,7 +48,7 @@
       id: LoadoutCJWig
 
 - type: characterItemGroup
-  id: LoadoutJudgeOuter
+  id: LoadoutChiefJusticeOuter
   maxItems: 1
   items:
     - type: loadout
