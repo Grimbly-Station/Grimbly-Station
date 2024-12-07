@@ -17,8 +17,7 @@ github     = "https://github.com/Grimbly-Station/Grimbly-Station"
 patreon    = "https://grimbly.net/patreon"
 
 [server]
-rules_file   = "Rules.txt"
-rules_header = "ui-rules-header"
+rules_file   = "DefaultRuleset"
 
 [ooc]
 enable_during_round = false
