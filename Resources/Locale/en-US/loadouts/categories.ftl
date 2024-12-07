@@ -16,6 +16,7 @@ loadout-category-JobsAUncategorized = Uncategorized
 loadout-category-JobsCommand = Command
 loadout-category-JobsCommandAUncategorized = All Command
 loadout-category-JobsCommandCaptain = Captain
+loadout-category-JobsCommandChiefJustice = Magistrate
 loadout-category-JobsCommandHeadOfPersonnel = Head of Personnel
 
 # Engineering
