@@ -1,7 +1,7 @@
 # Magistrate / Chief Justice
 # Backpacks
 - type: loadout
-  id: LoadoutChiefJusticeBackpacks
+  id: LoadoutBackpackChiefJusticeFilled
   category: JobsCommandChiefJustice
   cost: 0
   exclusive: true
@@ -15,7 +15,7 @@
         - ChiefJustice
 
 - type: loadout
-  id: LoadoutBackpackSatchelFilled
+  id: LoadoutBackpackSatchelChiefJusticeFilled
   category: JobsCommandChiefJustice
   cost: 0
   exclusive: true
@@ -29,7 +29,7 @@
         - ChiefJustice
 
 - type: loadout
-  id: LoadoutBackpackDuffelFilled
+  id: LoadoutBackpackDuffelChiefJusticeFilled
   category: JobsCommandChiefJustice
   cost: 0
   exclusive: true

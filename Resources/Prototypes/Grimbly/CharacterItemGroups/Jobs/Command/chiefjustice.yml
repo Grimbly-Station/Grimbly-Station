@@ -1,5 +1,5 @@
 - type: characterItemGroup
-  id: LoadoutChiefJusticeBackpacks
+  id: LoadoutChiefJusticeBackpacksFilled
   maxItems: 1
   items:
     - type: loadout
