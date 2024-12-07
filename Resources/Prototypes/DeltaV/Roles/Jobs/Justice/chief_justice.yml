@@ -29,7 +29,7 @@
     jumpsuit: ClothingUniformJumpsuitChiefJustice
     back: ClothingBackpackFilled # TODO- make Justice department bags
     shoes: ClothingShoesLeather
-    #head: ClothingHeadHatCJToque
+    head: ClothingHeadHatCJToque
     #outerClothing: ClothingOuterChiefJustice
     id: ChiefJusticePDA
     ears: ClothingHeadsetAltJustice
