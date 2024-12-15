@@ -247,7 +247,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitChiefJustice
-  name: chief justice's jumpsuit
+  name: magistrate's jumpsuit
   description: A fancy black jumpsuit with a lace cravat to make it even more fancy. Proper judicial attire.
   components:
   - type: Sprite
@@ -258,7 +258,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitChiefJusticeFormal
-  name: chief justice's formal jumpsuit
+  name: magistrate's formal jumpsuit
   description: A fancy double-breasted suit with golden accoutrements. Sharp and authoritative.
   components:
   - type: Sprite
@@ -269,7 +269,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitChiefJusticeWhite
-  name: chief justice's white jumpsuit
+  name: magistrate's white jumpsuit #Grimbly
   description: A modest, white office shirt with hard-earned rank epaulets.
   components:
   - type: Sprite

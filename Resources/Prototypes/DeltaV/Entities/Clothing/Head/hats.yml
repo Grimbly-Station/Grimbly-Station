@@ -196,7 +196,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatCJToque
-  name: chief justice's toque
+  name: magistrate's toque #Grimbly
   description: A standard-issue judicial hat. Wigs are old-fashioned anyway.
   components:
   - type: Sprite

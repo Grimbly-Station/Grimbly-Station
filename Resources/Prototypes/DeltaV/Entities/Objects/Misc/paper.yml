@@ -2,7 +2,7 @@
   name: station warrant
   parent: Paper
   id: PaperStationWarrant
-  description: 'A paper warrant issued by the justice department.'
+  description: 'A paper warrant issued by the legal department.' #Grimbly
   components:
   - type: Sprite
     sprite: Objects/Misc/bureaucracy.rsi

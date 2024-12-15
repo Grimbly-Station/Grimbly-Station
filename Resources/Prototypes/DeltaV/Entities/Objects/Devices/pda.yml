@@ -40,7 +40,7 @@
 - type: entity
   parent: BasePDA
   id: ChiefJusticePDA
-  name: chief justice PDA
+  name: magistrate PDA #Grimbly
   description: Whosoever bears this PDA is the law.
   components:
   - type: Sprite

@@ -139,7 +139,7 @@
 - type: entity
   parent: DefaultStationBeacon
   id: DefaultStationBeaconJustice
-  suffix: Justice
+  suffix: Legal #Grimbly
   components:
   - type: NavMapBeacon
     text: station-beacon-justice
@@ -147,7 +147,7 @@
 - type: entity
   parent: DefaultStationBeaconJustice
   id: DefaultStationBeaconChiefJustice
-  suffix: Chief Justice
+  suffix: Magistrate #Grimbly
   components:
   - type: NavMapBeacon
     text: station-beacon-chiefjustice

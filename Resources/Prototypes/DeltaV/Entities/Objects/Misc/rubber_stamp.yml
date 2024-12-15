@@ -43,7 +43,7 @@
     stealGroup: RubberStampNotary
 
 - type: entity
-  name: chief justice stamp
+  name: magistrate stamp #Grimbly
   parent: RubberStampBase
   id: RubberStampChiefJustice
   components:

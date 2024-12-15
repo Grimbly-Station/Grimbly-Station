@@ -97,13 +97,13 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpskirtChiefJustice
-  name: chief justice's jumpskirt
+  name: magistrate's jumpskirt #Grimbly
   description: A fancy black jumpskirt with a lace cravat to make it even more fancy. Proper judicial attire.
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Uniforms/Jumpskirt/cj.rsi
   - type: Clothing
-    sprite: DeltaV/Clothing/Uniform/Jumpskirt/cj.rsi
+    sprite: DeltaV/Clothing/Uniforms/Jumpskirt/cj.rsi
     
 - type: entity
   parent: ClothingUniformBase

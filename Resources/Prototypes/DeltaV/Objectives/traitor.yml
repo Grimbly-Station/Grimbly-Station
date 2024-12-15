@@ -22,14 +22,14 @@
     verifyMapExistence: true
     # owner: job-name-hop
 
-- type: entity # Clerk steal objective.
-  categories: [ HideSpawnMenu ]
-  parent: BaseTraitorStealObjective
-  id: ClerkNotaryStealObjective
-  components:
-  - type: NotJobRequirement
-    job: Clerk
-  - type: StealCondition
-    stealGroup: RubberStampNotary
-    verifyMapExistence: true
-    owner: job-name-clerk
+#- type: entity # Clerk steal objective.
+#  categories: [ HideSpawnMenu ]
+#  parent: BaseTraitorStealObjective
+#  id: ClerkNotaryStealObjective
+#  components:
+#  - type: NotJobRequirement
+#    job: Clerk
+#  - type: StealCondition
+#    stealGroup: RubberStampNotary
+#    verifyMapExistence: true
+#    owner: job-name-clerk

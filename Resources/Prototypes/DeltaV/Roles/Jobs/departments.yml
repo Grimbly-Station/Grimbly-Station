@@ -4,7 +4,7 @@
   color: "#701442"
   roles:
   - ChiefJustice
-  - Clerk
+  #- Clerk Grimbly
   - Prosecutor
   - Lawyer
 

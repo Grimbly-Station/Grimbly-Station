@@ -80,6 +80,23 @@ character-item-group-LoadoutHeadOfPersonnelOuter = Head of Personnel Outerwear
 character-item-group-LoadoutHeadOfPersonnelShoes = Head of Personnel Shoes
 character-item-group-LoadoutHeadOfPersonnelUniforms = Head of Personnel Uniforms
 
+# Command - Magistrate
+character-item-group-LoadoutChiefJusticeBackpacks = Magistrate Backpacks
+character-item-group-LoadoutChiefJusticeBelt = Magistrate's Belt
+character-item-group-LoadoutChiefJusticeEars = Magistrate Ears
+character-item-group-LoadoutChiefJusticeEquipment = Magistrate Equipment
+character-item-group-LoadoutChiefJusticeTrinkets = Magistrate's Trinkets
+character-item-group-LoadoutChiefJusticeWeapon = Magistrate's Personal Weapon
+character-item-group-LoadoutChiefJusticeEyes = Magistrate's Eyewear
+character-item-group-LoadoutChiefJusticeGloves = Magistrate's Gloves
+character-item-group-LoadoutChiefJusticeHead = Magistrate's Headgear
+character-item-group-LoadoutChiefJusticeId = Magistrate's Id
+character-item-group-LoadoutChiefJusticeNeck = Magistrate's Neckwear
+character-item-group-LoadoutChiefJusticeMask = Magistrate's Masks
+character-item-group-LoadoutChiefJusticeOuter = Magistrate's Outerwear
+character-item-group-LoadoutChiefJusticeShoes = Magistrate's Shoes
+character-item-group-LoadoutChiefJusticeUniforms = Magistrate's Uniforms
+
 # Engineering
 character-item-group-LoadoutEngineeringBackpacks = Engineering Backpacks
 character-item-group-LoadoutEngineeringBelt = Engineering Belt

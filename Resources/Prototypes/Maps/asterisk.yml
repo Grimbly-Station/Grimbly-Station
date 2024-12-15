@@ -67,3 +67,5 @@
             CargoTechnician: [ 2, 4 ]
           #civilian
             Passenger: [ -1, -1 ]
+          #legal
+            ChiefJustice: [ 1, 1 ]

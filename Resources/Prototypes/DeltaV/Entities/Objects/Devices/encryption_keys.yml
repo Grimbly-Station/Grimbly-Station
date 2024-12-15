@@ -1,8 +1,8 @@
 - type: entity
   parent: EncryptionKey
   id: EncryptionKeyJustice
-  name: justice encryption key
-  description: An encryption key used by the justice department.
+  name: legal encryption key #Grimbly
+  description: An encryption key used by the legal department.
   components:
   - type: EncryptionKey
     channels:
