@@ -11,9 +11,8 @@
     sprite: Objects/Weapons/Melee/pickaxe.rsi
     state: pickaxe
   - type: MeleeWeapon
-    # Grimbly #47, Reverting The Nyanocombat 2 Rework On Drills
-    attackRate: 0.7
-    range: 1.25
+    attackRate: 1.17
+    range: 1.5
     wideAnimationRotation: -135
     soundHit:
       path: "/Audio/Weapons/smash.ogg"
@@ -28,6 +27,8 @@
     heavyStaminaCost: 0
     maxTargets: 3
     angle: 100
+  - type: DamageOtherOnHit
+    staminaCost: 5
   - type: Wieldable
   - type: IncreaseDamageOnWield
     damage:
@@ -76,6 +77,10 @@
     heavyStaminaCost: 0
     maxTargets: 3
     angle: 20
+  - type: DamageOtherOnHit
+    staminaCost: 8
+  - type: ThrowingAngle
+    angle: 270
 
   - type: ReverseEngineering # Nyano
     difficulty: 2
